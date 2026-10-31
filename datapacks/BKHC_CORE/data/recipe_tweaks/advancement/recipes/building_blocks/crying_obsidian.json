@@ -1,0 +1,35 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:crying_obsidian"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ghast_tear",
+			  "crying_obsidian"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:crying_obsidian"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_items",
+      "has_the_recipe"
+    ]
+  ]
+}

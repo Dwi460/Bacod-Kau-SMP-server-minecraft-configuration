@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "cherry_planks"
+  },
+  "result": {
+    "id": "cherry_stairs",
+    "count": 4
+  }
+}

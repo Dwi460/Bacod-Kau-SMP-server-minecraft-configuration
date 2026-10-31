@@ -1,0 +1,310 @@
+Settings:
+  # Whether to unlock the Premium Pass for players with the 'excellentquests.battlepass.premium' permission.
+  GivePremiumByPermission: false
+Leveling:
+  # Leveling settings for the Battle Pass.
+  Progression:
+    InitialXP: 250
+    XP_Factor: 1.00669
+    Max_Level: 105
+Levels:
+  '3':
+    Default_Rewards: bp_cash_low
+    Premium_Rewards: ''
+  '5':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '6':
+    Default_Rewards: bp_cash_low
+    Premium_Rewards: ''
+  '9':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '10':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '11':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '12':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '13':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '14':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '15':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '16':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '17':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '18':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '19':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '20':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '21':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '22':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '23':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '24':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '25':
+    Default_Rewards: bp_reward_mid
+    Premium_Rewards: ''
+  '26':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '27':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '28':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '29':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '30':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '31':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '32':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '33':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '34':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '35':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '36':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '37':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '38':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '39':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '40':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '41':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '42':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '43':
+    Default_Rewards: bp_reward_good
+    Premium_Rewards: ''
+  '44':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '45':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '46':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '47':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '48':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '49':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '50':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '51':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '52':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '53':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '54':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '55':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '56':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '57':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '58':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '59':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '60':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '61':
+    Default_Rewards: bp_reward_better
+    Premium_Rewards: ''
+  '62':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '63':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '64':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '65':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '66':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '67':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '68':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '69':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '70':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '71':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '72':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '73':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '74':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '75':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '76':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '77':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '78':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '79':
+    Default_Rewards: bp_reward_high
+    Premium_Rewards: ''
+  '80':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '81':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '82':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '83':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '84':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '85':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '86':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '87':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '88':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '89':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '90':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '91':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '92':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '93':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '94':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '95':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '96':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '97':
+    Default_Rewards: bp_reward_elite
+    Premium_Rewards: ''
+  '98':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '99':
+    Default_Rewards: bp_reward_master
+    Premium_Rewards: ''
+  '100':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '101':
+    Default_Rewards: bp_reward_master
+    Premium_Rewards: ''
+  '102':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '103':
+    Default_Rewards: bp_reward_master
+    Premium_Rewards: ''
+  '104':
+    Default_Rewards: ''
+    Premium_Rewards: ''
+  '105':
+    Default_Rewards: bp_reward_final
+    Premium_Rewards: ''

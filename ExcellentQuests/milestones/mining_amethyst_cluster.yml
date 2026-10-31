@@ -1,0 +1,14 @@
+Type: break_block
+Category: mining
+Name: <lang:"block.minecraft.amethyst_cluster">
+Icon:
+  Material: minecraft:amethyst_cluster
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:amethyst_cluster: 10 25 50 100 250 500 1000 2500 5000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

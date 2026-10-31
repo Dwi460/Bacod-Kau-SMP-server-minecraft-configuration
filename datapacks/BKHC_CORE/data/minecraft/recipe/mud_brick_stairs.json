@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "mud_bricks"
+  },
+  "result": {
+    "id": "mud_brick_stairs",
+    "count": 4
+  }
+}

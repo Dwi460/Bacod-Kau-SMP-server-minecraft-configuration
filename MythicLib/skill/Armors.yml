@@ -1,0 +1,600 @@
+BANISH:
+  name: Banish
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Banish
+
+BANISH_U:
+  name: Banish U
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Banish_U
+
+DOOMSLAYER:
+  name: Doomslayer
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Doomslayer
+
+FIRELORD_U:
+  name: Firelord U
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Firelord_U
+
+ICE_REAPER:
+  name: Ice Reaper
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Ice_Reaper
+
+NECROMANCY:
+  name: Necromancy
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Necromancy
+
+REPOSITION:
+  name: Reposition
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Reposition
+
+STARBORN_INITIATE:
+  name: Starborn Initiate
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Starborn_Initiate
+STARBORN:
+  name: Starborn
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Starborn
+STARBORN_CONVERT:
+  name: Starborn Convert
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Starborn_Convert
+
+BLOODTHIRST_INITIATE:
+  name: Bloodthirst Initiate
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Bloodthirst_Initiate
+BLOODTHIRST:
+  name: Bloodthirst
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Bloodthirst
+BLOODTHIRST_ACTIVATE:
+  name: Bloodthirst Activate
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Bloodthirst_Activate
+
+TRADEOFF:
+  name: Tradeoff
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Tradeoff
+
+WARDEN_BLESSING_UPGRADED:
+  name: Warden Blessing Upgraded
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Warden_Blessing_Upgraded
+
+RADIATION:
+  name: Radiation
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Radiation
+
+SOUL_HARVESTER:
+  name: Soul Harvester
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Soul_Harvester
+
+SOUL_HARVESTER_ON_HIT:
+  name: Soul Harvester On Hit
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Soul_Harvester-On_Hit
+
+ARCANIC_ADAPT:
+  name: Arcanic Adapt
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Arcanic_Adapt
+
+ARCANIC_ADAPT_ON_HIT:
+  name: Arcanic Adapt On Hit
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Arcanic_Adapt-On_Hit
+
+ARCANIC_ADAPT_ON_DAMAGED:
+  name: Arcanic Adapt On Damaged
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Arcanic_Adapt-On_Damaged
+
+LORD_OF_THE_NIGHT:
+  name: Lord Of The Night
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Lord_Of_The_Night
+
+NURTURE:
+  name: Nurture
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Nurture
+
+NATURE_FORCE:
+  name: Nature Force
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Nature_Force
+
+BERSERK:
+  name: Berserk
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Berserk
+
+GREED:
+  name: Greed
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Greed
+
+DIVINE_INTERVENTION:
+  name: Divine Intervention
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Divine_Intervention
+
+BLAZING:
+  name: Blazing
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Blazing
+
+HOWL:
+  name: Howl
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Howl
+
+FROSTBURN:
+  name: Frostburn
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Frostburn
+
+DARK_MATTER:
+  name: Dark Matter
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Dark_Matter

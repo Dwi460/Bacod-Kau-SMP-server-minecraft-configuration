@@ -1,0 +1,20 @@
+Type: craft_item
+Name: Ender Eyes
+Description:
+- <gray>Craft Ender Eye to get reward!</gray>
+Icon:
+  Material: minecraft:ender_eye
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:ender_eye: 8;15 5.0 15.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

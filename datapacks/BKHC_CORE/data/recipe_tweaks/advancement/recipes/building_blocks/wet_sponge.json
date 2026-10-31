@@ -1,0 +1,64 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:wet_sponge_1",
+	  "recipe_tweaks:wet_sponge_4",
+	  "recipe_tweaks:wet_sponge_8"
+    ]
+  },
+  "criteria": {
+    "has_water_bucket": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "water_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "has_sponge": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sponge",
+			  "wet_sponge"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe_1": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:wet_sponge_1"
+      }
+    },
+    "has_the_recipe_4": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:wet_sponge_4"
+      }
+    },
+    "has_the_recipe_8": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:wet_sponge_8"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water_bucket",
+      "has_sponge",
+      "has_the_recipe_1",
+	  "has_the_recipe_4",
+	  "has_the_recipe_8"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+Sudden_Strike:
+  CancelIfNoTargets: true
+  Skills:
+  - teleport{spreadh=1;spreadv=0} @target
+  - skill:Stun{duration=100} @target
+
+  - sound{s=entity.enderman.teleport} @self
+  - command{c="mythiclib statmod <caster.name> WEAPON_DAMAGE 25 100"} @self

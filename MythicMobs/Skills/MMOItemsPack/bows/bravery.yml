@@ -1,0 +1,6 @@
+Close_Call:
+  TargetConditions:
+   - distance{d=<7} true
+  Skills:
+  - multiplydamage{amount="1 + 0.5"}
+  - sound{s=entity.experience_orb.pickup} @self

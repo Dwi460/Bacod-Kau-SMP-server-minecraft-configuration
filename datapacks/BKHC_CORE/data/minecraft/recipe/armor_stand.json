@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "///",
+    " / ",
+    "/_/"
+  ],
+  "key": {
+    "/": "stick",
+    "_": "#recipe_tweaks:armor_stand_slabs"
+  },
+  "result": {
+    "id": "armor_stand"
+  }
+}

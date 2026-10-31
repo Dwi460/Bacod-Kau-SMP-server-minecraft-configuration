@@ -1,0 +1,20 @@
+Type: cook_item
+Name: Drying Sponges
+Description:
+- <gray>Dry sponges in furnace to get reward!</gray>
+Icon:
+  Material: minecraft:wet_sponge
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:wet_sponge: 15;25 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

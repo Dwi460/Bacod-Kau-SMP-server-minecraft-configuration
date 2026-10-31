@@ -1,0 +1,14 @@
+Type: break_block
+Category: mining
+Name: <lang:"block.minecraft.budding_amethyst">
+Icon:
+  Material: minecraft:budding_amethyst
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:budding_amethyst: 1 2 5 10 20 35 50 75 100
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

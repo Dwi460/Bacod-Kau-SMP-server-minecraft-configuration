@@ -1,0 +1,35 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:chainmail_leggings"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iron_chain",
+			  "chainmail_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:chainmail_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_items",
+      "has_the_recipe"
+    ]
+  ]
+}

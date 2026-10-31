@@ -1,0 +1,35 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:small_dripleaf"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_dripleaf",
+			  "small_dripleaf"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:small_dripleaf"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_items",
+      "has_the_recipe"
+    ]
+  ]
+}

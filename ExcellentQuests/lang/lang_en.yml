@@ -1,0 +1,211 @@
+BattlePassMode:
+  FREE: Free
+  PREMIUM: Premium
+Command:
+  ArgumentName:
+    Milestone: milestone
+    Quest: quest
+    Duration: duration
+  BattlePass:
+    Name: Battle Pass
+    Desc: View Battle Pass.
+    Start:
+      Desc: Start a new season.
+    AddLevel:
+      Desc: Add BattlePass levels.
+    RemoveLevel:
+      Desc: Remove BattlePass levels.
+    SetLevel:
+      Desc: Set BattlePass levels.
+    AddXP:
+      Desc: Add BattlePass XP.
+    RemoveXP:
+      Desc: Remove BattlePass XP.
+    SetXP:
+      Desc: Set BattlePass XP.
+  Quests:
+    Name: Quests
+    Desc: View daily quests.
+    Refresh:
+      Desc: Refresh player's quests.
+  Milestones:
+    Name: Milestones
+    Desc: View milestones.
+    Reset:
+      Desc: Reset a player's milestone.
+  Syntax:
+    InvalidMilestone: <gray><soft_red>%input%</soft_red> is not a valid milestone!</gray>
+    InvalidQuest: <gray><soft_red>%input%</soft_red> is not a valid quest!</gray>
+BattlePass:
+  Season:
+    Cancel:
+      Nothing: <gray>There is no active or scheduled season to cancel.</gray>
+    Cancelled: <gray>Successfully cancelled the <yellow>%season_name%</yellow> season.</gray>
+    Schedule:
+      Already: <gray>There is already an active or scheduled season. You need to cancel it first.</gray>
+    Launched:
+    - '[prefix="false"]'
+    - ' '
+    - <green><b>SEASON <white>%season_name%</white> JUST LAUNCHED!</b></green>
+    - '<dark_gray>»</dark_gray> <gray>Duration: </gray><green>%season_timeleft%</green>'
+    - '<dark_gray>»</dark_gray> <gray>End Date: </gray><green>%season_end_date%</green>'
+    - ' '
+    Finished:
+    - '[prefix="false"]'
+    - ' '
+    - <red><b>SEASON <white>%season_name%</white> IS OVER!</b></red>
+    - '<dark_gray>»</dark_gray> <gray>Launch Date: </gray><red>%season_start_date%</red>'
+    - '<dark_gray>»</dark_gray> <gray>End Date: </gray><red>%season_end_date%</red>'
+    - ' '
+  Level:
+    Added: <gray>Added <soft_green>%amount%</soft_green> level(s) to <soft_green>%player_name%</soft_green>'s Battle Pass.</gray>
+    Removed: <gray>Removed <soft_red>%amount%</soft_red> level(s) from <soft_red>%player_name%</soft_red>'s Battle Pass.</gray>
+    Set: <gray>Set <soft_yellow>%amount%</soft_yellow> level for <soft_yellow>%player_name%</soft_yellow>'s Battle Pass.</gray>
+    Up:
+    - '[sound="minecraft:entity.player.levelup;0.8;1.0",title_times="20:60:20",type="title"]'
+    - <green>↑ <b><u>LEVEL UP</u></b> ↑</green>
+    - <gray>Your Battle Pass level raised to <green>%battle_pass_level%</green>!</gray>
+    Downgrade:
+    - '[sound="minecraft:entity.iron_golem.death;0.8;1.0",title_times="20:60:20",type="title"]'
+    - <red>↓ <b><u>LEVEL DOWNGRADE</u></b> ↓</red>
+    - <gray>Your Battle Pass level decreased to <red>%battle_pass_level%</red>!</gray>
+  XP:
+    Added: <gray>Added <soft_green>%amount%</soft_green> XP to <soft_green>%player_name%</soft_green>'s Battle Pass.</gray>
+    Removed: <gray>Removed <soft_red>%amount%</soft_red> XP from <soft_red>%player_name%</soft_red>'s Battle Pass.</gray>
+    Set: <gray>Set <soft_yellow>%amount%</soft_yellow> XP for <soft_yellow>%player_name%</soft_yellow>'s Battle Pass.</gray>
+  NoActiveSeason: <gray>There is no active season.</gray>
+Quests:
+  Locked: <gray>Quests are not available currently.</gray>
+  RefreshedFor: <gray>Refreshed quests for <yellow>%player_name%</yellow>.</gray>
+  Refreshed:
+  - '[prefix="false"]'
+  - ' '
+  - <yellow><b>NEW QUESTS AVAILABLE!</b></yellow>
+  - <dark_gray>»</dark_gray> <gray>You have <yellow>%amount%</yellow> new daily quests available.</gray>
+  - <dark_gray>»</dark_gray> <gray>Click <click:run_command:"/quests"><yellow><b>HERE</b></yellow></click> to view them!</gray>
+  - ' '
+  Quest:
+    TimeOut:
+    - '[prefix="false"]'
+    - ' '
+    - <soft_red><b>QUEST FAILED!</b></soft_red>
+    - <dark_gray>»</dark_gray> <gray>You failed to complete the <soft_red>%quest_name%</soft_red> quest in <soft_red>%quest_completion_time%</soft_red>!</gray>
+    - ' '
+    Accepted:
+    - '[prefix="false"]'
+    - ' '
+    - <yellow><b>QUEST ACCEPTED!</b></yellow>
+    - <dark_gray>»</dark_gray> <gray>Complete the <yellow>%quest_name%</yellow> quest in <yellow>%quest_completion_time%</yellow> to get rewards!</gray>
+    - ' '
+    Completed:
+      XPOnly:
+      - '[prefix="false"]'
+      - ' '
+      - <green><b>QUEST COMPLETED!</b></green>
+      - <dark_gray>»</dark_gray> <gray>You completed the <green>%quest_name%</green> quest!</gray>
+      - '<dark_gray>»</dark_gray> <gray>Battle Pass XP: <green>%xp%</green></gray>'
+      - ' '
+      XPRewards:
+      - '[prefix="false"]'
+      - ' '
+      - <green><b>QUEST COMPLETED!</b></green>
+      - <dark_gray>»</dark_gray> <gray>You completed the <green>%quest_name%</green> quest!</gray>
+      - '<dark_gray>»</dark_gray> <gray>Battle Pass XP: <green>%xp%</green></gray>'
+      - '<dark_gray>»</dark_gray> <gray>Reward(s): <green>%rewards%</green></gray>'
+      - ' '
+Milestones:
+  ResetFor: <gray>Successfully reset <yellow>%milestone_name%</yellow> milestone progress for <yellow>%player_name%</yellow>!</gray>
+  Milestone:
+    Completed:
+    - '[prefix="false"]'
+    - ' '
+    - <green><b>MILESTONE COMPLETED!</b></green>
+    - <dark_gray>»</dark_gray> <gray>You completed <white>Level %level%</white> of the <green>%milestone_name%</green> milestone!</gray>
+    - '<dark_gray>»</dark_gray> <gray>Reward(s): <green>%rewards%</green></gray>'
+    - ' '
+UI:
+  Milestones:
+    CategoryInfo:
+      Name: <yellow>%milestone_category_name%</yellow><dark_gray> ┃ </dark_gray><gold>Milestone</gold>
+      Lore:
+      - '%milestone_category_description%'
+      - '%empty-if-above%'
+      - '<dark_gray>•</dark_gray><white> Total Milestones: </white><yellow>%total%</yellow>'
+      - '<dark_gray>•</dark_gray><white> Levels Completed: </white><yellow>%levels%</yellow>'
+      - '<dark_gray>•</dark_gray><white> Milestones Completed: </white><yellow>%completed%</yellow>'
+      - ''
+      - <yellow>→ <u>Click to view!</u></yellow>
+    MilestoneInfo:
+      Name: <gold>%milestone_name%</gold>
+      Lore:
+      - '%milestone_description%'
+      - '%empty-if-above%'
+      - <gold>Progress:</gold>
+      - '<dark_gray>»</dark_gray> <gray>Level: <white>%level%</white>/<white>%milestone_levels%</white></gray>'
+      - <dark_gray>» %progress_bar% (<white>%progress%%</white>)</dark_gray>
+      - '%objectives%'
+      - ''
+      - <gold>Rewards:</gold>
+      - '%rewards%'
+      - ''
+      - <gold>→ <u>Click for details!</u></gold>
+    MilestoneObjective: <dark_gray>» <white>%name%:</white> <soft_yellow>%currrent%</soft_yellow>/<soft_yellow>%required%</soft_yellow></dark_gray>
+  Quest:
+    Available:
+      Name: <gold>%quest_name%</gold><gray> • </gray><white>Available</white>
+      Lore:
+      - '%quest_description%'
+      - '%empty-if-above%'
+      - <gold>⏳ Completion Time:</gold> <white>%quest_completion_time%</white>
+      - ''
+      - <gold>Objectives:</gold>
+      - '%objectives%'
+      - ''
+      - <gold>Rewards:</gold>
+      - '%battle_pass_rewards%'
+      - '%rewards%'
+      - ''
+      - <gold>→ <u>Click to accept!</u></gold>
+    InProgress:
+      Name: <gold>%quest_name%</gold><gray> • </gray><yellow>In Progress</yellow>
+      Lore:
+      - '%quest_description%'
+      - '%empty-if-above%'
+      - <red>⏳ Timeleft:</red> <white>%timeleft%</white>
+      - ''
+      - <gold>Progress:</gold>
+      - <dark_gray>» %progress_bar% (<white>%progress%%</white>)</dark_gray>
+      - '%objectives%'
+      - ''
+      - <gold>Rewards:</gold>
+      - '%battle_pass_rewards%'
+      - '%rewards%'
+    Completed:
+      Name: <gold>%quest_name%</gold><gray> • </gray><green>Completed</green>
+      Lore:
+      - '%quest_description%'
+      - '%empty-if-above%'
+      - <gold>Progress:</gold>
+      - <dark_gray>» %progress_bar% (<white>%progress%%</white>)</dark_gray>
+      - '%objectives%'
+      - ''
+      - <gold>Rewards:</gold>
+      - '%battle_pass_rewards%'
+      - '%rewards%'
+    Failed:
+      Name: <gold>%quest_name%</gold><gray> • </gray><red>Failed</red>
+      Lore:
+      - '%quest_description%'
+      - '%empty-if-above%'
+      - <gold>Progress:</gold>
+      - <dark_gray>» %progress_bar% (<white>%progress%%</white>)</dark_gray>
+      - '%objectives%'
+      - ''
+      - <gold>Rewards:</gold>
+      - '%battle_pass_rewards%'
+      - '%rewards%'
+  Entry:
+    Reward:
+      Custom: <dark_gray>┃ <white>%name%</white></dark_gray>
+      BattlePass:
+        XP: '<dark_gray>┃ <white>Battle Pass XP: </white><yellow>%xp%</yellow></dark_gray>'

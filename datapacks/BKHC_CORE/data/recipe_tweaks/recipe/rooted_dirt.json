@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " # ",
+    "#O#",
+    " # "
+  ],
+  "key": {
+    "O": "dirt",
+    "#": "hanging_roots"
+  },
+  "result": {
+    "id": "rooted_dirt"
+  }
+}

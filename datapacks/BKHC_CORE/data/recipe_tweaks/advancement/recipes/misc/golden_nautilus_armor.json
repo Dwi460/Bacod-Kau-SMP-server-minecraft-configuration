@@ -1,0 +1,35 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:golden_nautilus_armor"
+    ]
+  },
+  "criteria": {
+    "has_gold": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gold_ingot",
+			  "golden_nautilus_armor"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:golden_nautilus_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gold",
+      "has_the_recipe"
+    ]
+  ]
+}

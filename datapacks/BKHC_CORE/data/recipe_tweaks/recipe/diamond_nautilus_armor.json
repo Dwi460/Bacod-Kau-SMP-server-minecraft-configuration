@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " XX",
+    "  X",
+    "XXX"
+  ],
+  "key": {
+    "X": "diamond"
+  },
+  "result": {
+    "id": "diamond_nautilus_armor"
+  }
+}

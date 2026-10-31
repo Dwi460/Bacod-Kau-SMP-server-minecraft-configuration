@@ -1,0 +1,6 @@
+Nurture:
+  Skills:
+  - sound{s=entity.experience_orb.pickup} @self
+  - heal{amount="5"} @PlayersNearOrigin{r=3}
+  - heal{amount="5"} @self
+  - effect:particlering{particle=totem;radius=3;points=32;amount=2;y=0.2} @self

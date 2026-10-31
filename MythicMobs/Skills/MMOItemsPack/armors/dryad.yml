@@ -1,0 +1,7 @@
+Nature_Force:
+  Skills:
+  - sound{s=entity.experience_orb.pickup} @self
+  - healpercent{m=0.02} @PlayersNearOrigin{r=3}
+  - healpercent{m=0.02} @self
+  - potion{type=SLOW;duration=60;level=10;p=false;i=false} @EntitiesNearOrigin{r=3;ignore=players}
+  - effect:particlering{particle=totem;radius=3;points=32;amount=2;y=0.2} @self

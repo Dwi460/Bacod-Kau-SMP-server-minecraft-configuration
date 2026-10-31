@@ -1,0 +1,14 @@
+Type: break_block
+Category: mining
+Name: <lang:"block.minecraft.gold_ore">
+Icon:
+  Material: minecraft:gold_ore
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:gold_ore: 25 50 100 250 500 1000 2000 5000 10000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

@@ -1,0 +1,129 @@
+General:
+  # Sets date time format.
+  DateTimeFormat: dd/MM/yyyy HH:mm
+Features:
+  BattlePass:
+    # Enables the Battle Pass feature.
+    Enabled: true
+    # Command aliases for the Battle Pass feature.
+    # [*] Server reboot is highly recommended when changed.
+    Aliases: battlepass,bp
+  Quests:
+    # Enables the Daily Quests feature.
+    Enabled: true
+    # Command aliases for the Daily Quests feature.
+    # [*] Server reboot is highly recommended when changed.
+    Aliases: quests
+  Milestones:
+    # Enables the milestones feature.
+    Enabled: true
+    # Command aliases for the Milestones feature.
+    # [*] Server reboot is highly recommended when changed.
+    Aliases: milestones
+Integrations:
+  # List here plugin names that that you want to disable integrations for.
+  Disabled:
+  - PluginName
+  - AnotherPlugin
+Milestones:
+  # Controls whether milestone's progress will be reset for every next level.
+  ResetProgress: false
+  Categories:
+    mining:
+      Name: Mining
+      Description:
+      - <gray>%player_name%, Destroyer of Worlds.</gray>
+      - <gray>Complete milestones by breaking specific blocks.</gray>
+      Icon:
+        Material: minecraft:iron_pickaxe
+        Lore: []
+    fishing:
+      Name: Fishing
+      Description:
+      - <gray>It takes some patience, we know...</gray>
+      - <gray>Complete milestones by fishing different fish.</gray>
+      Icon:
+        Material: minecraft:fishing_rod
+        Lore: []
+    farming:
+      Name: Farming
+      Description:
+      - <gray>Ever played Farmville?</gray>
+      - <gray>Complete milestones by farming crops.</gray>
+      Icon:
+        Material: minecraft:iron_hoe
+        Lore: []
+    excavation:
+      Name: Excavation
+      Description:
+      - <gray>Dig through soil, sand, gravel, clay, and snow.</gray>
+      - <gray>Complete milestones by breaking shovel-friendly blocks.</gray>
+      Icon:
+        Material: minecraft:iron_shovel
+        Lore: []
+    lumber:
+      Name: Lumber
+      Description:
+      - <gray>Gather wood from every tree and stem type.</gray>
+      - <gray>Complete milestones by cutting logs and wood blocks.</gray>
+      Icon:
+        Material: minecraft:iron_axe
+        Lore: []
+Quests:
+  # When set on 'true', daily quests are only available during the Battle Pass season.
+  BattlePassMode: true
+  # Controls whether players must accept a quest to start progress in it.
+  AcceptionRequired: true
+  # Controls whether quests's completion time will be linked with the quests refresh time.
+  AutoCompletionTime: false
+  # Amount of randomly generated daily quests for players based on their rank/permissions.
+  AmountPerRank:
+    # Available values: RANK, PERMISSION
+    # ==================== RANK MODE ====================
+    # Get value by player's permission group. All keys in 'Values' list will represent permission group names.
+    # If player has none of specified groups, the 'Default_Value' setting will be used then
+    #   Values:
+    #     vip: 1 # -> Player must be in 'vip' permission group.
+    #     gold: 2 # -> Player must be in 'gold' permission group.
+    #     emerald: 3 # -> Player must be in 'emerald' permission group.
+    #
+    # ==================== PERMISSION MODE ====================
+    # Get value by player's permissions. All keys in 'Values' list will represent postfixes for the 'Permission_Prefix' setting (see below).
+    # If player has none of specified permissions, the 'Default_Value' setting will be used then
+    #   Permission_Prefix: 'example.prefix.'
+    #   Values:
+    #     vip: 1 # -> Player must have 'example.prefix.vip' permission.
+    #     gold: 2 # -> Player must have 'example.prefix.gold' permission.
+    #     emerald: 3 # -> Player must have 'example.prefix.emerald' permission.
+    Mode: RANK
+    Default_Value: 3.0
+    Values:
+      vip: 4.0
+      premium: 5.0
+    # Sets permission prefix for the 'PERMISSION' mode.
+    Permission_Prefix: example.prefix.
+AntiAbuse:
+  # Whether to count blocks placed by players for block related quests and milestones.
+  CountPlayerBlocks: true
+  # Whether to count mobs spawned artifically for mob related quests and milestones.
+  CountArtificallySpawnedMobs: false
+  # List of spawn reasons considered artifical.
+  # https://jd.papermc.io/paper/1.21.8/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+  ArtificalMobSpawns:
+  - BUILD_SNOWMAN
+  - EGG
+  - BUILD_IRONGOLEM
+  - TRIAL_SPAWNER
+  - DISPENSE_EGG
+  - SPAWNER
+  - SPAWNER_EGG
+  # Whether to count quests/milestones progress for players in vehicles (minecarts, boats, etc.).
+  CountInVehicles: true
+  # Whether to count quests/milestones progress for automated brewing, cooking and smelting.
+  CountAutoCooking: true
+UI:
+  ProgressBar:
+    Length: 15
+    Char: ■
+    FillColor: '#32E632'
+    EmptyColor: '#464646'

@@ -1,0 +1,16 @@
+Celestial_Aid:
+  Skills:
+  - projectile{bulletType=ITEM;material=NETHER_STAR;onTick=Celestial_Aid-Tick;onEnd=Celestial_Aid-Hit;v=60;i=1;hR=1;vR=1;type=meteor;hfs=7.5;g=0.4} @targetlocation{xoffset=0}
+Celestial_Aid-Tick:
+  Skills:
+  - effect:particles{p=fireworks_spark;amount=2.5;hs=0.2;vs=0.2}
+  - effect:particleorbital{p=redstone;color=#F8C8DC;a=5;points=10;an=1;y=1.75;in=1;r=1;ticks=20}
+  - effect:particleorbital{p=redstone;color=#FDFD96;a=5;points=10;an=1;y=1.75;in=1;r=1;reverse=true;ticks=20}
+Celestial_Aid-Hit:
+  Skills:
+  - effect:particles{p=hugeexplosion;amount=1;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=end_rod;amount=100;hs=1;vs=1} @origin
+  - effect:particles{p=redstone;color=#F8C8DC;a=100;hs=1.25;vs=1.25} @origin
+  - effect:particles{p=redstone;color=#FDFD96;a=100;hs=1.25;vs=1.25} @origin
+  - sound{s=entity.generic.explode} @origin
+  - mmodamage{a=350;types=MAGIC,SKILL;pk=true} @ENO{r=3;ignore=players}

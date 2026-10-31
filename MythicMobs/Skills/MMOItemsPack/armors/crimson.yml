@@ -1,0 +1,26 @@
+Bloodthirst_Initiate:
+  Conditions:
+  - variableisset{var=caster.bloodthirst} false
+  Skills:
+  - setvariable{var=caster.bloodthirst;value=0}
+
+Bloodthirst:
+  Conditions:
+  - variableInRange{var=caster.bloodthirst;value=<5}
+  Skills:
+  - variableAdd{var=caster.bloodthirst;amount=1}
+  - delay 1
+  - actionmessage{m="<#AEC6CF>ʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ <GRADIENT:#dc143c:#880808><caster.var.bloodthirst> Bloodthirst"} @self
+
+Bloodthirst_Activate:
+  Conditions:
+  - variableInRange{var=caster.bloodthirst;value=>0}
+  - crouching false
+  Skills:
+  - healpercent{m=0.01} @self
+  - effect:particles{p=redstone;color=#dc143c;amount=25;hs=0.5;vs=0.5} @self
+  - effect:particles{p=redstone;color=#880808;amount=25;hs=0.5;vs=0.5} @self
+  - sound{s=entity.mooshroom.convert} @self
+  - variableSubtract{var=caster.bloodthirst;amount=1}
+  - delay 1
+  - actionmessage{m="<#AEC6CF>ʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ <GRADIENT:#dc143c:#880808><caster.var.bloodthirst> Bloodthirst"} @self

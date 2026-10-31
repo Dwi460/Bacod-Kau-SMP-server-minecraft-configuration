@@ -1,0 +1,17 @@
+Ice_Reaper:
+  Skills:
+  - summon{type=ICE_REVENANT;amount=1} @target
+
+Icy_Reaper-Tick:
+  Skills:
+  - mmodamage{a=10;types=DOT,ON-HIT;pk=true} @EntitiesInRadius{r=3;ignore=players,animals}
+  - potion{type=SLOW;duration=20;level=1;p=false;i=false} @EntitiesInRadius{r=3;ignore=players,animals}
+  - effect:particlesphere{particle=reddust;color=#d3fafb;amount=200;radius=3} @self
+
+Icy_Reaper-Explode:
+  Skills:
+  - effect:particlesphere{particle=block_crack;material=ICE;amount=200;radius=2} @self
+  - effect:particlesphere{particle=block_crack;material=ICE;amount=100;radius=1} @self
+  - sound{s=block.glass.break} @self
+  - prison{material=ICE;duration=60;breakable=true} @EntitiesInRadius{r=3;ignore=players,animals}
+  - remove @self

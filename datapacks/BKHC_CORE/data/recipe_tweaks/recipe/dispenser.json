@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "group": "dispenser",
+  "pattern": [
+    " #S",
+    "#XS",
+    " #S"
+  ],
+  "key": {
+    "#": "stick",
+    "S": "string",
+    "X": "dropper"
+  },
+  "result": {
+    "id": "dispenser"
+  }
+}

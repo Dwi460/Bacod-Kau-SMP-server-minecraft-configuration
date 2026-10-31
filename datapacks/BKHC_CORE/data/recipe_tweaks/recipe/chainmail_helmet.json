@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "key": {
+    "C": "iron_chain"
+  },
+  "result": {
+    "id": "chainmail_helmet",
+    "components": {
+      "rarity": "common"
+    }
+  }
+}

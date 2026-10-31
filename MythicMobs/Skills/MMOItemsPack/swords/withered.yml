@@ -1,0 +1,5 @@
+Wither_Slayer:
+  TargetConditions:
+  - entitytype{t=WITHER} true
+  Skills:
+  - multiplydamage{amount="1 + 3"}

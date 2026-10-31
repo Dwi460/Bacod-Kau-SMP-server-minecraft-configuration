@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "Q": "quartz",
+    "R": "redstone",
+    "#": "#stone_crafting_materials"
+  },
+  "result": {
+    "id": "observer"
+  }
+}

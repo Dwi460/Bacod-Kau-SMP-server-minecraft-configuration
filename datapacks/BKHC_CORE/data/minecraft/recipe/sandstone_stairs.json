@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": [
+	"sandstone",
+	"chiseled_sandstone",
+	"cut_sandstone"
+    ]
+  },
+  "result": {
+    "id": "sandstone_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+Bloodburst:
+  Skills:
+  - mmodamage{amount="<caster.mhp>*10"} @EntitiesNearOrigin{r=3;ignore=players}
+  - mmodamage{amount="<caster.mhp>*0.1";pk=true} @self
+  - sound{s=ambient.underwater.enter} @targetlocation
+  - effect:particlesphere{particle=redstone;color=#C0606E;amount=500;radius=2} @self
+  - delay 3
+  - effect:particlesphere{particle=redstone;color=#9E3040;amount=400;radius=3} @self
+  - delay 3
+  - effect:particlesphere{particle=redstone;color=#63111D;amount=300;radius=4} @self

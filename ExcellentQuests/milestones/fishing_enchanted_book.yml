@@ -1,0 +1,14 @@
+Type: fish_item
+Category: fishing
+Name: Enchanted Book (including Mending)
+Icon:
+  Material: minecraft:enchanted_book
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:enchanted_book: 1 2 4 8 12 20 30 50 75
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

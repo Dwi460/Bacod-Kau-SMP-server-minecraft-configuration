@@ -1,0 +1,20 @@
+#GENERAL SKILLS:
+Cleanse:
+  Skills:
+  - auraremove{aura=ANY}
+
+Stun:
+  Skills:
+  - stun{d=<skill.duration>;stopai=true}
+  - effect:particleorbital{p=cloud;a=1;points=15;y=1.75;in=2;r=1;ticks=<skill.duration>;oy=1}
+
+Execution:
+  Skills:
+  - effect:particles{particle=block_crack;material=REDSTONE_BLOCK;amount=100;hS=0.5;vS=0.5;y=1}
+  - effect:particlesphere{particle=redstone;color=#C0606E;amount=50;radius=1;y=1}
+  - delay 2
+  - effect:particlesphere{particle=redstone;color=#9E3040;amount=50;radius=1.25;y=1}
+  - delay 2
+  - effect:particlesphere{particle=redstone;color=#63111D;amount=50;radius=1.5;y=1}
+  - sound{s=block.anvil.land}
+  - mmodamage{amount="999999999";pk=true}

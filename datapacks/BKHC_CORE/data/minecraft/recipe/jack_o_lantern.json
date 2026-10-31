@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+	"carved_pumpkin",
+	"torch"
+  ],
+  "result": {
+    "id": "jack_o_lantern"
+  }
+}

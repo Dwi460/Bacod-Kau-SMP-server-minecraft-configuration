@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CB",
+    "BC"
+  ],
+  "key": {
+    "C": "coal",
+    "B": "bone_meal"
+  },
+  "result": {
+    "id": "calcite"
+  }
+}

@@ -1,0 +1,16 @@
+Icy_Fury:
+  Skills:
+  - effect:particlering{particle=reddust;color=#d3fafb;amount=40;radius=5;;points=32} @self
+  - effect:particlering{particle=block_crack;material=ICE;amount=40;radius=2;p=32} @self
+  - effect:particlering{particle=reddust;color=#d3fafb;amount=40;radius=2;} @self
+  - sound{s=block.glass.break} @self
+  - effect:particlering{particle=block_crack;material=ICE;amount=40;radius=3;p=32} @self
+  - effect:particlering{particle=reddust;color=#d3fafb;amount=40;radius=3} @self
+  - sound{s=block.glass.break} @self
+  - effect:particlering{particle=block_crack;material=ICE;amount=40;radius=4;p=32} @self
+  - effect:particlering{particle=reddust;color=#d3fafb;amount=40;radius=4} @self
+  - sound{s=block.glass.break} @self
+  - effect:particlering{particle=block_crack;material=ICE;amount=40;radius=5;p=32} @self
+  - effect:particlering{particle=reddust;color=#d3fafb;amount=40;radius=5} @self
+  - mmodamage{a=35;types=MAGIC,SKILL;pk=true} @EntitiesInRadius{r=3;ignore=players,animals}
+  - potion{type=SLOW;duration=100;level=9;p=false;i=false} @EntitiesInRadius{r=3;ignore=players,animals}

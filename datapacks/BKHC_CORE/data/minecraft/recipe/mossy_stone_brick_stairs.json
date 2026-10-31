@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "mossy_stone_bricks"
+  },
+  "result": {
+    "id": "mossy_stone_brick_stairs",
+    "count": 4
+  }
+}

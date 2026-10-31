@@ -1,0 +1,14 @@
+Type: break_block
+Category: mining
+Name: <lang:"block.minecraft.iron_ore">
+Icon:
+  Material: minecraft:iron_ore
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:iron_ore: 25 50 100 250 500 1000 2000 5000 10000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

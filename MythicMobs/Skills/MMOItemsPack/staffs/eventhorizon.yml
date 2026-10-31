@@ -1,0 +1,58 @@
+Comet:
+  Skills:
+  - projectile{onTick=Comet-Tick;onEnd=Comet-Hit;i=1;hR=1;vR=1;type=meteor;hfs=12;g=0.6} @targetlocation{xoffset=0} ?variableInRange{var=caster.darkmatter;value=<100}
+  
+  - projectile{onTick=Supernova-Tick;onEnd=Supernova-Hit;i=1;hR=1;vR=1;type=meteor;hfs=12;g=0.6} @targetlocation{xoffset=0} ?variableInRange{var=caster.darkmatter;value=>99}
+  - variablesubtract{var=caster.darkmatter;amount=100} @self ?variableInRange{var=caster.darkmatter;value=>99}
+Comet-Tick:
+  Skills:
+  - effect:particleorbital{p=redstone;color=#ffa500;a=5;points=10;an=1;y=1.75;in=1;r=1;ticks=20} @Origin
+  - effect:particleorbital{p=redstone;color=#ffff00;a=5;points=10;an=1;y=1.75;in=1;r=1.25;reverse=true;ticks=20} @origin
+  - effect:particleorbital{p=redstone;color=#008000;a=5;points=10;an=1;y=1.75;in=1;r=1.5;ticks=20} @Origin
+  - effect:particleorbital{p=redstone;color=#0000ff;a=5;points=10;an=1;y=1.75;in=1;r=1.75;reverse=true;ticks=20} @origin
+  - effect:particleorbital{p=redstone;color=#0000ff;a=5;points=10;an=1;y=1.75;in=1;r=2;ticks=20} @Origin
+  - effect:particleorbital{p=redstone;color=#4b0082;a=5;points=10;an=1;y=1.75;in=1;r=2.5;reverse=true;ticks=20} @origin
+  - effect:particleorbital{p=redstone;color=#ee82ee;a=5;points=10;an=1;y=1.75;in=1;r=2.25;ticks=20} @Origin
+  - effect:particles{p=warped_spore;amount=5;hs=0} @origin
+Comet-Hit:
+  Skills:
+  - effect:particle{particle=explosion_huge;amount=1;hS=0;vS=0} @origin
+  - effect:particle{particle=smoke_normal;amount=200;hS=1;vS=1} @origin
+  - mmodamage{amount=5000;types=SKILL} @EntitiesNearOrigin{r=3;ignore=players}
+  - sound{s=entity.generic.explode} @origin
+Supernova-Tick:
+  Skills:
+  - effect:particlering{particle=reddust;color=#ffffba;amount=1;radius=2;points=32} @origin
+  - effect:particlering{particle=reddust;color=#ffb3ba;amount=1;radius=2.5;points=32} @origin
+  - effect:particlering{particle=reddust;color=#ffdfba;amount=1;radius=3;points=32} @origin
+  - effect:particlering{particle=reddust;color=#baffc9;amount=1;radius=3.5;points=32} @origin
+  - effect:particlering{particle=reddust;color=#bae1ff;amount=1;radius=4;points=32} @origin
+  - effect:particleorbital{p=redstone;color=#ffa500;a=1;points=10;an=1;y=1.75;in=1;r=1;ticks=20} @Origin
+  - effect:particleorbital{p=redstone;color=#ffff00;a=1;points=10;an=1;y=1.75;in=1;r=1.25;reverse=true;ticks=20} @origin
+  - effect:particleorbital{p=redstone;color=#008000;a=1;points=10;an=1;y=1.75;in=1;r=1.5;ticks=20} @Origin
+  - effect:particleorbital{p=redstone;color=#0000ff;a=1;points=10;an=1;y=1.75;in=1;r=1.75;reverse=true;ticks=20} @origin
+  - effect:particleorbital{p=redstone;color=#0000ff;a=1;points=10;an=1;y=1.75;in=1;r=2;ticks=20} @Origin
+  - effect:particleorbital{p=redstone;color=#4b0082;a=1;points=10;an=1;y=1.75;in=1;r=2.5;reverse=true;ticks=20} @origin
+  - effect:particleorbital{p=redstone;color=#ee82ee;a=1;points=10;an=1;y=1.75;in=1;r=2.25;ticks=20} @Origin
+  - effect:particles{p=warped_spore;amount=5;hs=0} @origin
+Supernova-Hit:
+  Skills:
+  - mmodamage{amount=25000;types=SKILL} @EntitiesNearOrigin{r=10;ignore=players}
+  - skill:Stun{duration=60} @EntitiesNearOrigin{r=10;ignore=players}
+  - effect:particle{particle=explosion_huge;amount=5;hS=0;vS=0} @origin
+  - effect:particle{particle=smoke_normal;amount=200;hS=1;vS=1} @origin
+  - sound{s=entity.generic.explode} @origin
+  - effect:particlering{particle=smoke_large;amount=5;radius=2;points=32;y=0.2} @origin
+  - effect:particlering{particle=cloud;amount=5;radius=3;points=32;y=0.2} @origin
+  - delay 2
+  - effect:particlering{particle=smoke_large;amount=5;radius=4;points=32;y=0.2} @origin
+  - effect:particlering{particle=cloud;amount=5;radius=5;points=32;y=0.2} @origin
+  - delay 2
+  - effect:particlering{particle=smoke_large;amount=5;radius=6;points=32;y=0.2} @origin
+  - effect:particlering{particle=cloud;amount=5;radius=7;points=64;y=0.2} @origin
+  - delay 2
+  - effect:particlering{particle=smoke_large;amount=5;radius=8;points=32;y=0.2} @origin
+  - effect:particlering{particle=cloud;amount=5;radius=9;points=64;y=0.2} @origin
+  - delay 2
+  - effect:particlering{particle=cloud;amount=5;radius=10;points=64;y=0.2} @origin
+  - delay 2

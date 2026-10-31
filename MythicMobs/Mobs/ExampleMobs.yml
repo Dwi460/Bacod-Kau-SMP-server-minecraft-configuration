@@ -1,0 +1,20 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+Dummy:
+  Type: WITHER_SKELETON
+  Display: '&cDummy &f- &c<caster.hp><&heart>'
+  Health: 9999
+  Damage: 1
+  BossBar:
+    Enabled: false
+    Title: '&cNightcrawler &f- &c<caster.hp><&heart>'
+    Range: 20
+    Color: WHITE
+    Style: SOLID
+  Options:
+    knockbackresistance: 1
+    AlwaysShowName: true
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged

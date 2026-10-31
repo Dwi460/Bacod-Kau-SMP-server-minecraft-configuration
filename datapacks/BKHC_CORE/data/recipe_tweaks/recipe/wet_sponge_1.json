@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "category": "building",
+  "group": "wet_sponge",
+  "ingredients": [
+    "sponge",
+	"water_bucket"
+  ],
+  "result": {
+    "id": "wet_sponge",
+    "count": 1
+  }
+}

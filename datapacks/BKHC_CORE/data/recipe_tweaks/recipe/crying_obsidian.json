@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " # ",
+    "#O#",
+    " # "
+  ],
+  "key": {
+    "O": "obsidian",
+    "#": "ghast_tear"
+  },
+  "result": {
+    "id": "crying_obsidian"
+  }
+}

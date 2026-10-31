@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "bamboo_planks"
+  },
+  "result": {
+    "id": "bamboo_stairs",
+    "count": 4
+  }
+}

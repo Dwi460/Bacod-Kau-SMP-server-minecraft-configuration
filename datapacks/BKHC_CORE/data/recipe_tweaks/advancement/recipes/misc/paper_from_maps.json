@@ -1,0 +1,34 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:paper_from_maps"
+    ]
+  },
+  "criteria": {
+    "has_map": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+			  "filled_map"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:paper_from_maps"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_map",
+      "has_the_recipe"
+    ]
+  ]
+}

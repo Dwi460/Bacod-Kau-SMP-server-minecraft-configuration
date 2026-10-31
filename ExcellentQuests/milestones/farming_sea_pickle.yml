@@ -1,0 +1,14 @@
+Type: block_loot
+Category: farming
+Name: Sea Pickle
+Icon:
+  Material: minecraft:sea_pickle
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:sea_pickle: 100 250 500 1000 2000 4000 7500 10000 20000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

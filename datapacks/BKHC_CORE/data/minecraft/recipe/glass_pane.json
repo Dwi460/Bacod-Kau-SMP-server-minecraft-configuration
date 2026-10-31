@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "glass"
+  },
+  "result": {
+    "id": "glass_pane",
+    "count": 12
+  }
+}

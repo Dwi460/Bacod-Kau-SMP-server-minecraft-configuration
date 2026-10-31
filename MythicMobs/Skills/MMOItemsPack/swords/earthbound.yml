@@ -1,0 +1,19 @@
+Leap_Of_Faith:
+  Skills:
+  - onDamaged{auraName=Leap_Of_Faith;duration=60;multiplier=0} @self
+  - sound{s=nature_uproar;soundcategory=RECORDS} @self
+  - velocity{m=set;x=0;y=1;z=0} @self
+  - delay 13
+  - velocity{m=set;x=0;y=-2;z=0} @self
+  - delay 5
+  - effect:particles{p=explosion_large;amount=10;hs=1;y=0.3} @self
+  - effect:particlering{particle=block_crack;material=DIRT;amount=40;radius=1;p=64} @self
+  - effect:particlering{particle=block_crack;material=DIRT;amount=40;radius=2;p=64;delay=2} @self
+  - effect:particlering{particle=block_crack;material=DIRT;amount=40;radius=3;p=64;delay=4} @self
+  - effect:particlering{particle=block_crack;material=DIRT;amount=40;radius=4;p=64;delay=6} @self
+  - sound{s=block.grass.break} @self
+  - sound{s=entity.generic.explode} @self
+  - mmodamage{amount=1000;types=SKILL,PHYSICAL} @EntitiesNearOrigin{r=4;ignore=players}
+  - onDamaged{auraName=LEAPOFFAITH;duration=200;multiplier=1.25} @EntitiesNearOrigin{r=4;ignore=players}
+  - velocity{m=set;x=0;y=1;z=0} @EntitiesNearOrigin{r=4;ignore=players}
+  - potion{type=SLOW;duration=200;level=9;p=false} @EntitiesNearOrigin{r=4;ignore=players}

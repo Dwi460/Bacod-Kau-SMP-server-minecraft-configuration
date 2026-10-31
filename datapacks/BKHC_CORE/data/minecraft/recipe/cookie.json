@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+  "wheat",
+  "cocoa_beans",
+  "wheat"
+  ],
+  "result": {
+    "id": "cookie",
+    "count": 8
+  }
+}

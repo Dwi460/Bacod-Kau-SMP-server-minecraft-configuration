@@ -1,0 +1,620 @@
+IGNETTO_ALLOY:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Ignetto Alloy'
+    tier: EPIC
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjY2YxYTFhNmY0YjE4MDU0YmY0ZWM2NmJjZDM3OWYxMjE1YjA2ZjM3NTk4YmE3OWUwZGUyMDkyODIzZmI1In19fQ==
+      uuid: dfbccc60-52ab-46af-910d-8c9c83a37c78
+    lore:
+    - '&7&oEverburning...'
+    custom-model-data: 1001
+    crafting:
+      smithing: {}
+WARDEN_HEART:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Warden Heart'
+    tier: EPIC
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTgyZDM2Yjk3M2U1N2U0YzBmZTI4YzM3MWE3ZjExZmMwNGEyYTM0MmE4OGE3ZTVlNWQ4M2VkYmNhYjYxNzcwZSJ9fX0=
+      uuid: dfbccc60-52ab-46af-910d-8c9c83a37c78
+    lore:
+    - '&7&oGuard...'
+    custom-model-data: 1002
+DIVINE_GEODE:
+  base:
+    material: Paper
+    name: '<#FFC0CB>Divine Geode'
+    tier: EPIC
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3OTRhNzVlODc3ZmM0OGJiNzcyZDU5ZWJmNmUwNzZkMWIwYTU0ZTlmMmJkMzE3ZjFhMTIyNDk5N2RlZWIzNyJ9fX0
+      uuid: dfbccc60-52ab-46af-910d-8c9c83a37c78
+    lore:
+    - '&7&oBeaming...'
+    custom-model-data: 1003
+WITHERED_ROSE:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Withered Rose'
+    tier: EPIC
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3OTRhNzVlODc3ZmM0OGJiNzcyZDU5ZWJmNmUwNzZkMWIwYTU0ZTlmMmJkMzE3ZjFhMTIyNDk5N2RlZWIzNyJ9fX0
+      uuid: dfbccc60-52ab-46af-910d-8c9c83a37c78
+    lore:
+    - '&7&oDeath...'
+    custom-model-data: 1004
+WITCH_BLOOD:
+  base:
+    material: PAPER
+    custom-model-data: 1005
+    name: '<#FFC0CB>Witch Blood'
+    tier: EPIC
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7&oInfused with magical power'
+    - '&7&owitch''s blood is used to'
+    - '&7&oimbue weapons with mystical'
+    - '&7&oproperties'
+HEXIM_NECKLACE:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Hexim Necklace'
+    custom-model-data: 1006
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade Apocalypse'
+    - '&7armor or convert upgraded'
+    - '&7Apocalypse armor into &dHexim'
+    - '&7armor in smithing table.'
+    tier: LEGENDARY
+MORTOS_BELT:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Mortos Belt'
+    custom-model-data: 1007
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade Apocalypse'
+    - '&7armor or convert upgraded'
+    - '&7Apocalypse armor into the'
+    - '&3Mortos&7 armor via smithing'
+    - '&7table.'
+    tier: LEGENDARY
+CAELETUS_RING:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Caeletus Ring'
+    custom-model-data: 1008
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade Apocalypse'
+    - '&7armor or convert upgraded'
+    - '&7Apocalypse armor into the'
+    - '&6Caeletus&7 armor via smithing'
+    - '&7table.'
+    tier: LEGENDARY
+QUINERUS_CLOAK:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Quinerus Cloak'
+    custom-model-data: 1009
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade Apocalypse'
+    - '&7armor or convert upgraded'
+    - '&7Apocalypse armor into the'
+    - '&4Quinerus&7 armor via smithing'
+    - '&7table.'
+    tier: LEGENDARY
+MYTHRIL_INGOT:
+  base:
+    material: PAPER
+    custom-model-data: 1011
+    name: '<#FFC0CB>Mythril Ingot'
+    lore:
+    - '&7&oThought to be fictitious, this'
+    - '&7&opriceless metal is ingrained'
+    - '&7&ointo the deepest part of'
+    - '&7&oHyronia.'
+    tier: EPIC
+ORICHALCUM_INGOT:
+  base:
+    material: PAPER
+    custom-model-data: 1012
+    name: '<#FFC0CB>Orichalcum Ingot'
+    tier: EPIC
+    lore:
+    - '&7&oBest known for its special'
+    - '&7&oaffinity for magic'
+TITANIUM_INGOT:
+  base:
+    material: PAPER
+    custom-model-data: 1010
+    name: '<#E7D27C>Titanium Ingot'
+    lore:
+    - '&7One of its most special and'
+    - '&7unique properties belongs to'
+    - '&7its hardness.'
+    tier: LEGENDARY
+UNCANNY_OBELISK:
+  base:
+    material: PAPER
+    custom-model-data: 1013
+    name: '<#E7D27C>Uncanny Obelisk'
+    lore:
+    - '&7&oImprisons the essence of'
+    - '&7&othe four gods.'
+    tier: LEGENDARY
+NIGHTMARE_FUEL:
+  base:
+    material: PAPER
+    custom-model-data: 1015
+    name: '<#E7D27C>Nightmare Fuel'
+    lore:
+    - '&7Being near this induces'
+    - '&7petrifying nightmares.'
+    tier: LEGENDARY
+NIGHTMARE_BAR:
+  base:
+    material: PAPER
+    name: '<#915ace>Nightmare Bar'
+    custom-model-data: 1016
+    tier: MYTHIC
+    lore:
+    - '&7The scientists have no ideas'
+    - '&7how this metal is able to form'
+    - '&7Perhaps, a magical force is'
+    - '&7keeping it together.'
+EXO_STONE:
+  base:
+    material: PAPER
+    custom-model-data: 1014
+    name: '<#E7D27C>Exo Stone'
+    lore:
+    - '&7The legendary element made'
+    - '&7from three fabled metals.'
+    tier: LEGENDARY
+BROKEN_HANDLE:
+  base:
+    material: PAPER
+    custom-model-data: 1017
+    name: '<#FFC0CB>Broken Handle'
+    lore:
+    - '&7The remain of once a'
+    - '&7powerful weapon.'
+    tier: EPIC
+BROKEN_STAFF:
+  base:
+    material: PAPER
+    custom-model-data: 1019
+    name: '<#FFC0CB>Broken Staff'
+    lore:
+    - '&7The remain of once a'
+    - '&7powerful weapon.'
+    tier: EPIC
+BROKEN_BOW:
+  base:
+    material: PAPER
+    custom-model-data: 1018
+    lore:
+    - '&7The remain of once a'
+    - '&7powerful weapon.'
+    tier: EPIC
+    name: '<#FFC0CB>Broken Bow'
+RED_CANDYCANE:
+  base:
+    material: PAPER
+    custom-model-data: 1020
+    name: '<#AEC6CF>Red Candycane'
+    lore:
+    - '&7A common sweet loved by'
+    - '&7Hyronians, used to trade'
+    - '&7exclusive items, equipments'
+    - '&7and weapons with &cSanta'
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    tier: RARE
+BLUE_CANDYCANE:
+  base:
+    material: PAPER
+    custom-model-data: 1021
+    name: '<#FFC0CB>Blue Candycane'
+    lore:
+    - '&7A rarer sweet loved by'
+    - '&7Hyronians, used to trade'
+    - '&7exclusive items, equipments'
+    - '&7and weapons with &cSanta'
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    tier: EPIC
+SHARD_OF_TRUE_ICE:
+  base:
+    material: PAPER
+    custom-model-data: 1022
+    name: '<#E7D27C>Shard of True Ice'
+    lore:
+    - '&7A small shard of the mythic'
+    - '<#b3fafb>True Ice&7, especially sought'
+    - '&7after by &cSanta&7!'
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    tier: LEGENDARY
+URANIUM_DEBRIS:
+  base:
+    material: PAPER
+    custom-model-data: 1023
+    name: '<#FFC0CB>Uranium Debris'
+    lore:
+    - '&7A piece of hyper-radioactive'
+    - '&7metal. Holding this makes you'
+    - '&7sick.'
+    tier: EPIC
+URANIUM:
+  base:
+    material: PAPER
+    custom-model-data: 1024
+    name: '<#E7D27C>Uranium'
+    lore:
+    - '&7It''s leaking green mist'
+    tier: LEGENDARY
+IRIDIUM_SHARD:
+  base:
+    material: PAPER
+    custom-model-data: 1025
+    name: '<#FFC0CB>Iridium Shard'
+    lore:
+    - '&7It''s giving off strange'
+    - '&7glow.'
+    tier: EPIC
+IRIDIUM_CRYSTAL:
+  base:
+    material: PAPER
+    custom-model-data: 1026
+    name: '<#E7D27C>Iridium Crystal'
+    lore:
+    - '&7An otherworldly crystal from'
+    - '&7from the heavens.'
+    tier: LEGENDARY
+ENDERCORE:
+  base:
+    material: PAPER
+    custom-model-data: 1028
+    name: '<#915ace>Endercore'
+    lore:
+    - '&7Can be combined in smithing'
+    - '&7table with these items, imbuing'
+    - '&7them with immense &5draconic'
+    - '&5power&7, amplifying their power'
+    - ''
+    - '<#DA70D6> Hellfire Armor'
+    - '<#DA70D6> Warden Armor'
+    - '<#DA70D6> Apollo Armor'
+    - '<#DA70D6> Death Armor'
+    tier: MYTHIC
+DRAGON_SCALE:
+  base:
+    material: PAPER
+    custom-model-data: 1027
+    name: '<#E7D27C>Dragon''s Scale'
+    lore:
+    - '&7A mythical piece of flesh'
+    - '&7from the Ender Dragon,'
+    - '&7being one of the most'
+    - '&7resillient material in the'
+    - '&7world.'
+    tier: LEGENDARY
+VOID_GEM:
+  base:
+    material: PAPER
+    custom-model-data: 1029
+    name: '<#E7D27C>Void Gem'
+    lore:
+    - '&7An extremely volatile gem'
+    - '&7containing the primordial'
+    - '&7energy of <#770737>The Void&7.'
+    tier: LEGENDARY
+NULL_CELL:
+  base:
+    material: PAPER
+    custom-model-data: 1030
+    name: '<#E7D27C>Null Cell'
+    lore:
+    - '&7Contains cell that cannot'
+    - '&7be identified.'
+    tier: LEGENDARY
+BLOOM_DOOM:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Bloom Doom'
+    custom-model-data: 1031
+    tier: EPIC
+    lore:
+    - '&7A flower only blooms'
+    - '&7when &cchaos&7 and &ddeath'
+    - '&7meet.'
+VOID_STONE:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Void Stone'
+    custom-model-data: 1032
+    lore:
+    - '&7A pebble originated from'
+    - '&7the void, holding numerous'
+    - '&7anomalous properties.'
+    tier: EPIC
+
+BLACK_POWDER:
+  base:
+    material: PAPER
+    name: '<#77DD77>Black Powder'
+    custom-model-data: 1033
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: COMMON
+DETACHED_EYE:
+  base:
+    material: PAPER
+    name: '<#77DD77>Detached Eye'
+    custom-model-data: 1034
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: COMMON
+PRISMATIC_FRUIT:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Prismatic Fruit'
+    custom-model-data: 1035
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: EPIC
+SILVER_LEAF:
+  base:
+    material: PAPER
+    name: '<#77DD77>Silver Leaf'
+    custom-model-data: 1036
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: COMMON
+SLIMY_MUCUS:
+  base:
+    material: PAPER
+    name: '<#77DD77>Slimy Mucus'
+    custom-model-data: 1037
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: COMMON
+TEAL_MUSHROOM:
+  base:
+    material: PAPER
+    name: '<#77DD77>Teal Mushroom'
+    custom-model-data: 1038
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: COMMON
+BOMBERRY:
+  base:
+    material: PAPER
+    name: '<#AEC6CF>Bomberry'
+    custom-model-data: 1039
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: RARE
+ENIGMA_BACTERIA:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Enigma Bacteria'
+    custom-model-data: 1040
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: LEGENDARY
+MUTATED_FRUIT:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Mutated Fruit'
+    custom-model-data: 1041
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: LEGENDARY
+PINK_MUSHROOM:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Pink Mushroom'
+    custom-model-data: 1042
+    lore:
+    - '&7A potent ingredient mostly'
+    - '&7used in &aalchemy&7.'
+    tier: LEGENDARY
+
+BROKEN_HEXTECH:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Broken Hextech'
+    custom-model-data: 1043
+    lore:
+    - '&7A broken piece of the'
+    - '&7hex technology.'
+    tier: EPIC
+HEXTECH_CRYSTAL:
+  base:
+    material: PAPER
+    name: '<#915ace>Hextech Crystal'
+    custom-model-data: 1044
+    lore:
+    - '&7A perfectly preserved hex-'
+    - '&7tech crystal, used to power'
+    - '&7both magic and technology.'
+    tier: MYTHIC
+DARK_CLAW:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Dark Claw'
+    custom-model-data: 1045
+    lore:
+    - '&7A claw of an unknown'
+    - '&7dark species'
+    tier: EPIC
+IRRADIATED_METAL:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Irradiated Metal'
+    custom-model-data: 1046
+    lore:
+    - '&7A metal inflicted with a large'
+    - '&7amount of radiation.'
+    tier: LEGENDARY
+MOSS_STONE:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Moss Stone'
+    custom-model-data: 1047
+    lore:
+    - '&7A piece of stone overrun'
+    - '&7by mutated moss.'
+    tier: EPIC
+ROTTING_TISSUE:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Rotting Tissue'
+    custom-model-data: 1048
+    lore:
+    - '&7A smelly, infected'
+    - '&7piece of the undead.'
+    tier: EPIC
+RUSTED_IRON:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>Rusted Iron'
+    custom-model-data: 1049
+    lore:
+    - '&7Iron exposed to the air'
+    - '&7of the &2waste&7.'
+    tier: EPIC
+OMNI_BLUEPRINT:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Omni-Blueprint'
+    custom-model-data: 1050
+    lore:
+    - '&7A hextech blueprint that can'
+    - '&7change its contents to its'
+    - '&7owner''s will'
+    tier: LEGENDARY
+
+
+ADVENTURER_BADGE:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Adventurer Badge'
+    custom-model-data: 1051
+    lore:
+    - '&7A token of gratitude from'
+    - '&7the &6guild&7.'
+    tier: LEGENDARY
+SILVER_COIN:
+  base:
+    material: PAPER
+    name: '<#E7D27C>Silver Coin'
+    custom-model-data: 1052
+    lore:
+    - '&7A coin forged out of'
+    - '&7pure &fhyron&7.'
+    tier: LEGENDARY
+
+PURE_DIAMOND:
+  base:
+    material: PAPER
+    name: '<#AEC6CF>Pure Diamond'
+    custom-model-data: 1053
+    lore:
+    - '&7A diamond containing'
+    - '&7no impurities.'
+    tier: RARE
+PERFECT_EMERALD:
+  base:
+    material: PAPER
+    name: '<#AEC6CF>Perfect Emerald'
+    custom-model-data: 1054
+    lore:
+    - '&7A valuable forged out'
+    - '&7of valuables'
+    tier: RARE
+TRUE_BLACK:
+  base:
+    material: PAPER
+    name: '<#FFC0CB>True Black'
+    custom-model-data: 1055
+    lore:
+    - '&7The darkest material'
+    - '&7known to mankind.'
+    - ''
+    - '&8Rarely drops from'
+    - '&8mining Obsidian.'
+    tier: EPIC
+LOST_SOUL:
+  base:
+    material: PAPER
+    name: '<#AEC6CF>Lost Soul'
+    custom-model-data: 1056
+    lore:
+    - '&7Soul claimed by Ravenna''s'
+    - '&7corrupted magic.'
+    tier: RARE

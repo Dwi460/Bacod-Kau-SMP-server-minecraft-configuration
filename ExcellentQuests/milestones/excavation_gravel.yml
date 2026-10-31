@@ -1,0 +1,14 @@
+Type: break_block
+Category: excavation
+Name: <lang:"block.minecraft.gravel">
+Icon:
+  Material: minecraft:gravel
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:gravel: 1000 2000 3000 5000 7500 10000 12500 15000 20000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

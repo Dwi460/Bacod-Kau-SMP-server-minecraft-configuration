@@ -1,0 +1,18 @@
+Type: block_loot
+Name: Pitcher Plant Harvest
+Description:
+- <gray>Harvest pitcher plants for your collection!</gray>
+Icon:
+  Material: minecraft:pitcher_plant
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:pitcher_plant: 8;16 5.0 8.0
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+CompletionTime: 21600

@@ -1,0 +1,28 @@
+Starborn_Initiate:
+  Conditions:
+  - variableisset{var=caster.starpower} false
+  Skills:
+  - setvariable{var=caster.starpower;value=0}
+Starborn:
+  Conditions:
+  - variableInRange{var=caster.starpower;value=<5}
+  - crouching false
+  Skills:
+  - variableAdd{var=caster.starpower;amount=1}
+  - delay 1
+  - actionmessage{m="<#AEC6CF>ʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ <gradient:#F8C8DC:#FDFD96><caster.var.starpower> Starpower"} @self
+Starborn_Convert:
+  Conditions:
+  - variableInRange{var=caster.starpower;value=>0}
+  - crouching true
+  TargetConditions:
+  - faction{faction=Boss} false
+  Skills:
+  - summon{type=STARBORNE} @target
+  - effect:particles{p=redstone;color=#F8C8DC;amount=300;hs=0.5;vs=1} @target
+  - effect:particles{p=redstone;color=#FDFD96;amount=300;hs=0.5;vs=1} @target
+  - mmodamage{a=999999} @target
+  - sound{s=entity.illusioner.mirror_move} @target
+  - variableSubtract{var=caster.starpower;amount=1}
+  - delay 1
+  - actionmessage{m="<#AEC6CF>ʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ <gradient:#F8C8DC:#FDFD96><caster.var.starpower> Starpower"} @self

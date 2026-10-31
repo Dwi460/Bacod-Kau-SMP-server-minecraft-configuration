@@ -1,0 +1,10 @@
+{
+  "type": "smelting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.15,
+  "ingredient": "tall_grass",
+  "result": {
+    "id": "tall_dry_grass"
+  }
+}

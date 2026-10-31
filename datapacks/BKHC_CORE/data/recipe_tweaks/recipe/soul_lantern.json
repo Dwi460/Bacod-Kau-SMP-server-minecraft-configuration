@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "group": "soul_lantern",
+  "ingredients": [
+	"lantern",
+	"#soul_fire_base_blocks"
+  ],
+  "result": {
+    "id": "soul_lantern"
+  }
+}

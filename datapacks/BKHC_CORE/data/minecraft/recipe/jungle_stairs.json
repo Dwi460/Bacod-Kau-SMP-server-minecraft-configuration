@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "jungle_planks"
+  },
+  "result": {
+    "id": "jungle_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,14 @@
+Type: break_block
+Category: mining
+Name: <lang:"block.minecraft.deepslate">
+Icon:
+  Material: minecraft:deepslate
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:deepslate: 500 1250 2000 3500 5000 7500 10000 12500 15000 # [LV1] [LV2] [LV3] ... [LV999]
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

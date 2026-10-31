@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "@@",
+    "##"
+  ],
+  "key": {
+    "#": "#planks",
+    "@": "flint"
+  },
+  "result": {
+    "id": "fletching_table"
+  }
+}

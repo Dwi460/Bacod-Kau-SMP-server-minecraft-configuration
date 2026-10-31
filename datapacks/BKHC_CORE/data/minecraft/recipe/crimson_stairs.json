@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "crimson_planks"
+  },
+  "result": {
+    "id": "crimson_stairs",
+    "count": 4
+  }
+}

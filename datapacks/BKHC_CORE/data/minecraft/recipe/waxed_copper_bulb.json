@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "group": "waxed_copper_bulb",
+  "key": {
+    "B": "blaze_rod",
+    "C": "waxed_copper_block",
+    "R": "redstone"
+  },
+  "pattern": [
+    " C ",
+    "CBC",
+    " R "
+  ],
+  "result": {
+    "count": 4,
+    "id": "waxed_copper_bulb"
+  }
+}

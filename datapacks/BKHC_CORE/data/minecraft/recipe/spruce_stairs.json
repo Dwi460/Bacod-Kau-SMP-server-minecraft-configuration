@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "spruce_planks"
+  },
+  "result": {
+    "id": "spruce_stairs",
+    "count": 4
+  }
+}

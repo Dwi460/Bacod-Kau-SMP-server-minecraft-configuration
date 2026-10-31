@@ -1,0 +1,157 @@
+ACID_SPRAY:
+  name: Acid Spray
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Acid_Spray
+
+DOOMSDAY:
+  name: Doomsday
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Doomsday
+
+CELESTIAL_AID:
+  name: Celestial Aid
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Celestial_Aid
+
+COMET:
+  name: Comet
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Comet
+
+BLOODBURST:
+  name: Bloodburst
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Bloodburst
+
+DARK_RITUAL:
+  name: Dark Ritual
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Dark_Ritual
+OVERLOADEDSPHERE:
+  name: Overloaded Sphere
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:OverloadedSphere
+ICY_FURY:
+  name: Ice Fury
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Icy_Fury

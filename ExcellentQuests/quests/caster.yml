@@ -1,0 +1,23 @@
+Type: cook_item
+Name: Caster
+Description:
+- <gray>Smelt ores to ingots to get reward!</gray>
+Icon:
+  Material: minecraft:gold_ore
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:copper_ore: 150;200 5.0 1.25 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:iron_ore: 130;180 5.0 1.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:gold_ore: 80;120 5.0 2.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:ancient_debris: 5;15 5.0 17.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

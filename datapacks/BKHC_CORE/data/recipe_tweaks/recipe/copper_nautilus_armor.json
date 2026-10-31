@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " XX",
+    "  X",
+    "XXX"
+  ],
+  "key": {
+    "X": "copper_ingot"
+  },
+  "result": {
+    "id": "copper_nautilus_armor"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+	"pale_oak_log",
+	"resin_block"
+  ],
+  "result": {
+    "id": "creaking_heart"
+  }
+}

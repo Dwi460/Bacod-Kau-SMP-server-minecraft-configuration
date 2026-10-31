@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "resin_bricks"
+  },
+  "result": {
+    "id": "resin_brick_stairs",
+    "count": 4
+  }
+}

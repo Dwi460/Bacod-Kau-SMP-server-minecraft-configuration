@@ -1,0 +1,10 @@
+#discord
+$<br> <#8198FB><bold>Discord
+$   <p:text-color>Tetap terbarui dengan semua <p:primary-color>berita</p> terbaru,
+$   <p:text-color>berbincang dengan <p:primary-color>komunitas</p>, dan ikuti <p:primary-color>pengumuman</p> kami!
+$<br>   <click:open_url:'https://<p:discord>'><#8198FB>[➥ Bergabung ke discord]</click><br>
+#store
+$<br> <p:primary-color><bold>Toko
+$   <p:text-color>Dukung server, lihat toko kami
+$   <p:text-color>dan beli <p:secondary-color>peringkat berikutnya</p>>!
+$<br>   <click:open_url:'https://<p:store>'><p:primary-color>[➥ Kunjungi toko]</p></click><br>

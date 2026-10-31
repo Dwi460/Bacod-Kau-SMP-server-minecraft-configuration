@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "polished_deepslate"
+  },
+  "result": {
+    "id": "polished_deepslate_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": [
+	"chiseled_quartz_block",
+	"quartz_block",
+	"quartz_pillar"
+    ]
+  },
+  "result": {
+    "id": "quartz_stairs",
+    "count": 4
+  }
+}

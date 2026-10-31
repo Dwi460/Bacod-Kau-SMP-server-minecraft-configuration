@@ -1,0 +1,36 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "armor_stand"
+    ]
+  },
+  "criteria": {
+    "has_slabs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "smooth_stone_slab",
+			  "polished_deepslate_slab",
+			  "polished_blackstone_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "armor_stand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_slabs",
+      "has_the_recipe"
+    ]
+  ]
+}

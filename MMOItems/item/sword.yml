@@ -1,0 +1,831 @@
+# RARE SWORD
+
+MYTHRIL_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1006
+    name: <#AEC6CF>Mythril Greatsword
+    attack-damage: 12.0
+    attack-speed: 2.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 40.0
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+    tooltip-style: rare
+
+ORICHALCUM_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1007
+    name: <#AEC6CF>Orichalcum Sword
+    attack-damage: 11.0
+    attack-speed: 8.0
+    critical-strike-chance: 17.5
+    critical-strike-power: 35.0
+    unstackable: true
+    movement-speed: 0.01
+    tooltip-style: rare
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+
+WINDBLADE:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1013
+    name: <#AEC6CF>Wind Blade
+    attack-damage: 10.0
+    attack-speed: 12.0
+    critical-strike-chance: 17.5
+    critical-strike-power: 30.0
+    unstackable: true
+    movement-speed: 0.03
+    tooltip-style: rare
+    lore:
+    - '&fా ᴛʀᴇᴀᴅ &f᎙'
+    - '&7Becomes &bsteady&7, multiplying'
+    - '&7your &f᎒ <#c7c4bf>Movement Speed &7by'
+    - '&7<#ADD8E6>2x &7for &b5 seconds&7.'
+    - '&8 | &f<#AEC6CF>⌚30s &b✎15 &8|'
+    ability:
+      ability1:
+        type: TREAD
+        mode: RIGHT_CLICK
+        cooldown: 30.0
+        mana: 15.0
+
+FLESH_FLAYER:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1014
+    name: <#AEC6CF>Flesh Flayer
+    attack-damage: 13.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 25.0
+    unstackable: true
+    movement-speed: 0.01
+    tooltip-style: rare
+    lore:
+    - '&fి ᴜɴᴅᴇᴀᴅ ꜱʟᴀʏᴇʀ &f᎙'
+    - '&7Damage against &9Undead Mob'
+    - '&8(zombies, skeletons, etc...) &7is'
+    - '&7increased by &c50%'
+    ability:
+      ability1:
+        type: UNDEAD_SLAYER
+        mode: ATTACK
+
+FURY_KATANA:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1015
+    name: <#AEC6CF>Fury Katana
+    attack-damage: 11.0
+    critical-strike-chance: 10.0
+    critical-strike-power: 45.0
+    unstackable: true
+    movement-speed: 0.01
+    tooltip-style: rare
+    lore:
+    - '&fీ ꜱʟᴀꜱʜ &f᎙'
+    - '&7Unleashes a flurry of slash'
+    - '&7to target enemy, dealing &c50'
+    - '&7damage.'
+    - '&8 | &f<#AEC6CF>⌚10s &b✎35 &8|'
+    ability:
+      ability1:
+        type: COMBO_ATTACK
+        mode: RIGHT_CLICK
+        damage: 50.0
+        count: 3.0
+        cooldown: 10.0
+        mana: 35.0
+
+# EPIC SWORD
+
+
+TITANIUM_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1008
+    name: <#FFC0CB>Titanium Blade
+    attack-damage: 15.0
+    defense: 50
+    critical-strike-chance: 25.0
+    critical-strike-power: 45.0
+    unstackable: true
+    tooltip-style: epic
+    knockback-resistance: 0.1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+
+EVERBURN:
+  base:
+    material: IRON_SWORD
+    tooltip-style: epic
+    attack-damage: 22.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 35.0
+    name: <#FFC0CB>Everburn
+    lore:
+    - '&fｮ ɪɴᴄɪɴᴇʀᴀᴛᴇ &f᎙'
+    - '&7Casts bolts of living flames'
+    - '&7onto target, exploding upon'
+    - '&7impact dealing&f 30&7 damage,'
+    - '&7and igniting them for &f3s'
+    - '&8 | &f<#AEC6CF>⌚1s &b✎35 &8|'
+    ability:
+      ability1:
+        type: FIRE_STORM
+        mode: RIGHT_CLICK
+        damage: 30.0
+        ignite: 3.0
+        cooldown: 1.0
+        mana: 35.0
+    gem-sockets: []
+    max-durability: 3064.0
+    durability-bar: true
+    disable-attack-passive: true
+    custom-model-data: 1009
+    crafting:
+      smithing:
+        '1':
+          input: v NETHERITE_SWORD 1.0..|m MATERIAL IGNETTO_ALLOY 1.0..
+          enchantments: MAXIMUM
+SECURUS:
+  base:
+    material: IRON_SWORD
+    name: <#FFC0CB>Securus
+    tooltip-style: epic
+    attack-damage: 17.0
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    defense: 30.0
+    durability-bar: true
+    disable-attack-passive: true
+    damage-reduction: 5.0
+    max-durability: 3562.0
+    lore:
+    - '&fｯ ᴇᴠᴀᴅᴇ &f᎙'
+    - '&7You become &f᎛ <#eca42c>invulnerable'
+    - '&7to all damage for <#1a748c>5 sec&7 or'
+    - '&7until you attack again.'
+    - '&8 | &f<#AEC6CF>⌚20s &b✎30 &8|'
+    ability:
+      ability1:
+        type: EVADE
+        mode: RIGHT_CLICK
+        duration: 5.0
+        mana: 30.0
+        cooldown: 20.0
+    custom-model-data: 1010
+    crafting:
+      smithing:
+        '1':
+          input: v NETHERITE_SWORD 1.0..|m MATERIAL WARDEN_HEART 1.0..
+
+HEMOSLAYER:
+  base:
+    material: IRON_SWORD
+    tooltip-style: epic
+    name: <#FFC0CB>Hemoslayer
+    attack-damage: 30.0
+    critical-strike-chance: 25.0
+    critical-strike-power: 45.0
+    lore:
+    - '&fヅ ᴅᴇᴇᴘ ᴡᴏᴜɴᴅ'
+    - '&7Attacking enemies deals a'
+    - '&7second blow, dealing &c25'
+    - '&7base damage, scaling with'
+    - '&7target''s &cmissing health&7.'
+    - '&8 | &f<#AEC6CF>⌚1s &8|'
+    ability:
+      ability1:
+        type: DEEP_WOUND
+        damage: 25.0
+        cooldown: 1.0
+        mode: ATTACK
+        extra: 100.0
+    gem-sockets: []
+    durability-bar: true
+    disable-attack-passive: true
+    custom-model-data: 1001
+
+PALADIN_HAMMER:
+  base:
+    material: IRON_SWORD
+    tooltip-style: epic
+    name: <#FFC0CB>Paladin Hammer
+    attack-damage: 30.0
+    defense: 40.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 25.0
+    lore:
+    - '&fు ꜱᴍᴀꜱʜ &f᎙'
+    - '&7Deals &c35&7 damage to targets'
+    - '&7around you, &6knocking&7 them'
+    - '&7back.'
+    - '&8 | &f<#AEC6CF>⌚15s &b✎35 &8|'
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 35.0
+        cooldown: 15.0
+        radius: 3.0
+        knockback: 2.0
+        mana: 35.0
+        mode: RIGHT_CLICK
+    gem-sockets: []
+    max-durability: 5000.0
+    durability-bar: true
+    disable-attack-passive: true
+    custom-model-data: 1016
+
+JUSTICE:
+  base:
+    material: IRON_SWORD
+    tooltip-style: epic
+    name: <#FFC0CB>Justice
+    attack-damage: 20.0
+    defense: 60.0
+    damage-reduction: 5.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 10.0
+    lore:
+    - '&f丰 ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱ'
+    - '&7Your attacks are modified to'
+    - '&7deal <#cfcfc4>10% &fᎎ <#cfcfc4>Defense&7 as'
+    - '&7bonus damage.'
+    ability:
+      ability1:
+        type: SIMULTANEOUS
+        mode: ATTACK
+    gem-sockets: []
+    max-durability: 5000.0
+    durability-bar: true
+    disable-attack-passive: true
+    custom-model-data: 1030
+
+# LEGENDARY SWORD
+
+
+ARK_OF_THE_COSMOS:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1002
+    name: <#E7D27C>Ark of the Cosmos
+    tooltip-style: legendary
+    attack-damage: 50.0
+    attack-speed: 2.0
+    critical-strike-chance: -50.0
+    critical-strike-power: 500.0
+    unbreakable: true
+    lore:
+    - '&fテ ᴄᴏꜱᴍɪᴄ ᴀɪᴅ &f᎙'
+    - '&7Summons three comets which'
+    - '&7fall from the sky, exploding'
+    - '&7upon contact dealing &c500&7'
+    - '&7damage to nearby enemies.'
+    - '&73 &dCosmic Terrors&7 will spawn'
+    - '&7on impact, attacking nearby'
+    - '&7enemies.'
+    - '&8 | &f<#AEC6CF>⌚40s &b✎200 &8|'
+    ability:
+      ability1:
+        type: COSMIC_ALLY
+        mode: RIGHT_CLICK
+        mana: 200.0
+        cooldown: 40.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+
+ABSOLUTE_ZERO:
+  base:
+    material: IRON_SWORD
+    name: <#E7D27C>Absolute Zero
+    lore:
+    - '&fぁ ɪᴄᴇ ꜱᴘɪᴋᴇꜱ &f᎙'
+    - '&7Summons ice spikes from'
+    - '&7the ground, which attack'
+    - '&7enemies above, dealing &c100'
+    - '&7damage and &9⚓ root&7 them'
+    - '&7for &93s&7.'
+    - '&8 | &f<#AEC6CF>⌚5s &b✎30 &8|'
+    custom-model-data: 1003
+    attack-speed: 5.0
+    critical-strike-chance: 23.0
+    critical-strike-power: 45.0
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: ICE_SPIKES
+        mode: RIGHT_CLICK
+        damage: 100.0
+        mana: 50.0
+        slow: 9.0
+        cooldown: 5.0
+    attack-damage: 20.0
+    tooltip-style: legendary
+
+HEMOPHOBIA:
+  base:
+    material: IRON_SWORD
+    name: <#E7D27C>Hemophobia
+    attack-damage: 35.0
+    critical-strike-chance: 30.0
+    critical-strike-power: 40.0
+    tooltip-style: legendary
+    movement-speed: 0.04
+    lore:
+    - '&fూ ʙʟᴏᴏᴅ ꜰᴏʀ ʙʟᴏᴏᴅ &f᎙'
+    - '&7Sacrifice &c15%❤&7 for &c+15%&f᎓'
+    - <#FF5733>Weapon Damage&7. This stacks,
+    - '&7and lasts for &65s&7.'
+    - '&8 | &f<#AEC6CF>⌚1s &8|'
+    custom-model-data: 1017
+    ability:
+      ability1:
+        type: BLOOD_FOR_BLOOD
+        mode: RIGHT_CLICK
+        cooldown: 1.0
+
+FEARMONGER:
+  base:
+    material: IRON_SWORD
+    name: <#E7D27C>Fearmonger
+    attack-damage: 25.0
+    defense: 30
+    critical-strike-chance: 20.0
+    critical-strike-power: 25.0
+    tooltip-style: legendary
+    movement-speed: 0.03
+    lore:
+    - '&fౄ ɪɴᴛɪᴍɪᴅᴀᴛᴇ &f᎙'
+    - '&7Fears nearby targets which'
+    - '&7slows and weakens them.'
+    - '&7Weakened enemies take &c10%'
+    - '&7more damage for 5s.'
+    - '&8 | &f<#AEC6CF>⌚30s &b✎100 &8|'
+    custom-model-data: 1018
+    ability:
+      ability1:
+        type: INTIMIDATE
+        mode: RIGHT_CLICK
+        cooldown: 30.0
+        mana: 100.0
+    parry-rating: 5.0
+
+DEATHBRINGER:
+  base:
+    material: IRON_SWORD
+    name: <#E7D27C>Deathbringer
+    attack-damage: 100.0
+    critical-strike-chance: 25.0
+    critical-strike-power: 35.0
+    tooltip-style: legendary
+    movement-speed: 0.02
+    lore:
+    - '&f౅ ᴅᴇᴀᴛʜ ᴍᴀʀᴋ &f᎙'
+    - '&7Marks a target for 5 sec,'
+    - '&7slowing it. The mark will deal'
+    - '&7damage constantly, for a'
+    - '&7total of &c300 &7damage.'
+    - '&8 | &f<#AEC6CF>⌚60s &b✎100 &8|'
+    custom-model-data: 1019
+    ability:
+      ability1:
+        type: DEATH_MARK
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+        damage: 300
+        amplifier: 1.0
+        duration: 5.0
+    mana-cost: 15.0
+
+EXECUTIONER_BLADE:
+  base:
+    material: IRON_SWORD
+    name: <#E7D27C>Executioner's Blade
+    attack-damage: 60.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 30.0
+    tooltip-style: legendary
+    movement-speed: 0.02
+    lore:
+    - '&fె ᴇxᴇᴄᴜᴛᴇ'
+    - '&7Damaging an enemy while it'
+    - '&7is below &c5% health&7 instantly'
+    - '&7&4&lEXECUTE&7 them, granting you'
+    - '&7a &610% bonus damage&7 buff.'
+    custom-model-data: 1020
+    ability:
+      ability1:
+        type: EXECUTE
+        mode: ATTACK
+
+SHADOW:
+  base:
+    material: IRON_SWORD
+    name: <#E7D27C>Shadow
+    attack-damage: 40.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 100.0
+    tooltip-style: legendary
+    movement-speed: 0.02
+    lore:
+    - '&fే ꜱᴜᴅᴅᴇɴ ꜱᴛʀɪᴋᴇ'
+    - '&7Blinks to the target, &f᎜ <#a41ca4>stuns'
+    - '&7them and gains a &c25% damage'
+    - '&7buff.'
+    - '&8 | &f<#AEC6CF>⌚35s &8|'
+    custom-model-data: 1021
+    ability:
+      ability1:
+        type: SUDDEN_STRIKE
+        mode: RIGHT_CLICK
+        cooldown: 35.0
+
+# MYTHIC SWORD
+
+
+CALAMITY:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>The Calamity
+    custom-model-data: 1005
+    attack-damage: 36.0
+    critical-strike-chance: -1000.0
+    critical-strike-power: 200.0
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&fヰ ᴅᴇᴀᴛʜ ʀᴀʏ &f᎙'
+    - '&7Charges for &33s&7 then shoots'
+    - '&7a death ray, dealing &c1000&7 &7x'
+    - '&7<#FBE7C6>100% &fᎌ <#FBE7C6>Crit Damage'
+    - '&8 | &f<#AEC6CF>⌚45s &b✎160 &8|'
+    ability:
+      ability1:
+        type: CALAMITOUS_RAY
+        mode: RIGHT_CLICK
+        cooldown: 45.0
+        mana: 160.0
+    upgrade:
+      template: damned
+      reference: damned
+      max: 5
+
+
+
+WITHERED:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>Withered
+    custom-model-data: 1029
+    attack-damage: 40.0
+    critical-strike-chance: 50.0
+    critical-strike-power: 150.0
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&f丱 ᴡɪᴛʜᴇʀ ꜱʟᴀʏᴇʀ'
+    - '&7Your attacks against &5Wither'
+    - '&7is modified to deal &c+300%'
+    - '&7damage.'
+    ability:
+      ability1:
+        type: WITHER_SLAYER
+        mode: ATTACK
+    gem-sockets:
+    - '&9Precision'
+    - '&9Precision'
+
+
+
+DAEDALUS:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>The Daedalus
+    custom-model-data: 1011
+    attack-damage: 100.0
+    critical-strike-chance: -50.0
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&f串 ꜱᴛᴇʟʟᴀʀ ꜱᴛʀɪᴋᴇ &f᎙'
+    - '&7Charges your weapon with'
+    - '&7celestial energy, boosting'
+    - '&7your next attack damage by'
+    - <#F8C8DC>500%&7. Boosted attack also
+    - '&f᎜ <#a41ca4>stuns&7 target for <#F8C8DC>3s'
+    - '&8 | &f<#AEC6CF>⌚60s &8|'
+    attack-speed: 2.0
+    ability:
+      ability1:
+        type: STELLAR_STRIKE
+        mode: RIGHT_CLICK
+        cooldown: 60.0
+    disable-attack-passive: true
+    gem-sockets:
+    - '&3Time'
+
+
+
+REMEMBERENCE:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>Rememberence
+    custom-model-data: 1022
+    attack-damage: 100.0
+    critical-strike-chance: -50.0
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&fై ᴍᴜꜱᴄʟᴇ ᴍᴇᴍᴏʀʏ &f᎙'
+    - '&7Stores your current &fᎏ <#D22B2B>HP&7.'
+    - '&7After &c5s&7, you are set to the'
+    - '&7stored &fᎏ <#D22B2B>Health'
+    - '&8 | &f<#AEC6CF>⌚120s &b✎160 &8|'
+    gem-sockets: []
+    attack-speed: 2.0
+    ability:
+      ability1:
+        type: MUSCLE_MEMORY
+        mode: RIGHT_CLICK
+        mana: 160.0
+        cooldown: 60.0
+    disable-attack-passive: true
+
+
+SILVERLIGHT:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>Silverlight
+    custom-model-data: 1023
+    attack-damage: 27.0
+    knockback-resistance: 0.3
+    defense: 50
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&f౉ ʀᴇꜱᴘɪᴛᴇ &f᎙'
+    - '&7Blesses allies around you,'
+    - '&7bestowing &f᎛ <#eca42c>invulnerability'
+    - '&7for &65s&7. When it ends, heals'
+    - '&7for &c10%❤&7.'
+    - '&8 | &f<#AEC6CF>⌚300s &b✎300 &8|'
+    gem-sockets: []
+    attack-speed: 2.0
+    ability:
+      ability1:
+        type: RESPITE
+        mode: RIGHT_CLICK
+        cooldown: 300.0
+        mana: 300.0
+    disable-attack-passive: true
+
+
+SUB_ZERO:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>Sub-Zero
+    custom-model-data: 1024
+    attack-damage: 27.0
+    knockback-resistance: 0.3
+    defense: 50
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&fొ ꜰʀᴏᴢᴇɴ ᴛᴏᴍʙ &f᎙'
+    - '&7Emtombs yourself with ice,'
+    - '&7turning &f᎛ <#eca42c>invulnerable&7 for'
+    - '&7the duration. Dark ice then'
+    - '&7spreads outwards, dealing'
+    - '&c250&7 damage and &f᎜ <#a41ca4>stunning'
+    - '&7them for &53s'
+    - ''
+    - '&8 | &f<#AEC6CF>⌚80s &b✎200 &8|'
+    ability:
+      ability1:
+        type: FROZEN_TOMB
+        mode: RIGHT_CLICK
+        mana: 200.0
+        cooldown: 80.0
+    attack-speed: 2.0
+    disable-attack-passive: true
+    gem-sockets:
+    - '&9Precision'
+
+
+COBRA:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>Cobra
+    custom-model-data: 1012
+    attack-damage: 30.0
+    critical-strike-chance: 100.0
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&fస ᴄᴏʙʀᴀ ᴄᴜʀꜱᴇ &f᎙'
+    - '&7Emits a deadly toxic aura,'
+    - '&7dealing <#E0FF66>150❤/s&7 to nearby'
+    - '&7enemies. Gain <#ADD8E6>+100 ☁Speed'
+    - '&7and &f+100 🛡Defense&7 while'
+    - '&7active.'
+    - '&8 | &f<#AEC6CF>⌚30s &8|'
+    ability:
+      ability1:
+        type: COBRA_CURSE
+        mode: RIGHT_CLICK
+        cooldown: 30.0
+    gem-sockets:
+    - '&3Time'
+
+DUSKSHADOW:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>Duskshadow
+    custom-model-data: 1025
+    attack-damage: 30.0
+    critical-strike-chance: 100.0
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&fో ᴀʟʟ ꜰᴏʀ ᴜꜱ &f᎙'
+    - '&7Reduces nearby allies'' taken'
+    - '&7damage by <#FFFF00>30%&7 and reflects'
+    - '&7<#A020F0>35%&7 of that damage towards'
+    - '&7yourself. &8(lasts for 6s)'
+    - '&8 | &f<#AEC6CF>⌚60s &8|'
+    ability:
+      ability1:
+        type: HUMAN_SHIELD
+        mode: RIGHT_CLICK
+        reduction: 30.0
+        redirect: 35.0
+        duration: 6.0
+        low: 10.0
+        cooldown: 60.0
+    gem-sockets:
+    - '&cVitality'
+
+EARTHBOUND:
+  base:
+    material: IRON_SWORD
+    name: <#915ace>Earthbound
+    custom-model-data: 1026
+    attack-damage: 30.0
+    critical-strike-chance: 100.0
+    tooltip-style: mythic
+    unbreakable: true
+    lore:
+    - '&fౌ ʟᴇᴀᴘ ᴏꜰ ꜰᴀɪᴛʜ &f᎙'
+    - '&7You turn &6immune&7 to damage'
+    - '&7then <#7da27e>leap upwards&7 before'
+    - '&7&4striking&7 the ground below.'
+    - '&7Targets hit take &c1.000&7 dmg'
+    - '&7and are <#6F473B>crumbled&7.'
+    - '&7'
+    - '<#6F473B>Crumbled&7: Takes &c15%&7 extra'
+    - '&7damage and is &crooted&7.'
+    - '&8 | &f<#AEC6CF>⌚120s &8|'
+    ability:
+      ability1:
+        type: LEAP_OF_FAITH
+        mode: RIGHT_CLICK
+        cooldown: 120.0
+    parry-rating: 15.0
+    gem-sockets:
+    - '&cVitality'
+    - '&9Precision'
+
+# GODLIKE SWORD
+
+
+THE_GUILLOTINE:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1027
+    attack-damage: 150.0
+    attack-speed: 2.0
+    critical-strike-chance: -100.0
+    tooltip-style: godlike
+    unbreakable: true
+    name: <#cb8592>The Guillotine
+    lore:
+    - '&f్ ʜᴇᴍᴏʀʀʜᴀɢᴇ &f᎙'
+    - '&7Your attacks cause targets'
+    - '&7to <#DC143C>bleed&7, dealing&c 100&7 damage'
+    - '&7per second. Inflicted with 5'
+    - '&7stacks marks them as <GRADIENT:#DC143C:#FFD700>Guilty!'
+    - ''
+    - '&f౎ ᴊᴜꜱᴛɪᴄᴇ ꜱᴇʀᴠᴇᴅ &f᎙'
+    - '&7You &dblink&7 to the target&7, then'
+    - '&7strike them down with godlike'
+    - '&7force, dealing &c1.000&7 damage.'
+    - '&7If the target is <GRADIENT:#DC143C:#FFD700>Guilty!<GRAY>, they'
+    - '&7are immediately &4&lEXECUTED&7.'
+    - '&8 | &f<#AEC6CF>⌚120s &b✎300 &8|'
+    ability:
+      ability1:
+        type: HEMMORHAGE
+        mode: ATTACK
+      ability2:
+        type: JUSTICE_SERVED
+        mode: RIGHT_CLICK
+        cooldown: 120.0
+        mana: 300.0
+    gem-sockets:
+    - '&9Precision'
+    - '&9Precision'
+    lifesteal: 0.5
+
+LAST_BREATH:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 1028
+    attack-damage: 100.0
+    attack-speed: 12.0
+    critical-strike-chance: -100.0
+    tooltip-style: godlike
+    unbreakable: true
+    name: <#cb8592>Last Breath
+    lore:
+    - '&f丯 ᴜʟᴛɪᴍᴀᴛᴜᴍ &f᎙'
+    - '&7You &dblink&7 to the target. You'
+    - '&7then rapidly knock them up'
+    - '&7in the air, unleashing rapid'
+    - '&7slashes that deal &c500 &7DMG'
+    - '&7each. The slashes always'
+    - '&4&lCRIT&7. You ultimately knock it'
+    - '&7down, dealing &c&l10x&7 of your &fᎈ'
+    - <#AEC6CF>Attack Damage&7. You are &f᎛
+    - <#eca42c>invulnerable&7 while casting.
+    - '&8 | &f<#AEC6CF>⌚120s &b✎300 &8|'
+    ability:
+      ability2:
+        type: ULTIMATUM
+        mode: RIGHT_CLICK
+        cooldown: 120.0
+    critical-strike-power: 350.0
+    lifesteal: 0.5
+    gem-sockets:
+    - '&9Precision'
+    - '&9Precision'
+TEST:
+  base:
+    material: DIAMOND_SWORD
+    attack-damage:
+      min: 5.0
+      max: 9.0
+    attack-speed:
+      min: 1.0
+      max: 2.2
+    upgrade:
+      workbench: false
+    item-damage:
+      min: 1.0
+      max: 251.0
+    max-item-damage:
+      min: 1.0
+      max: 250.0
+    tooltip-style: common
+    required-level: 35.0
+MACE:
+  base:
+    material: MACE
+    attack-damage: 8.0
+    attack-speed: 0.2
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    required-level: 100.0
+    entity-interaction-range: 3.5
+    fall-damage-multiplier: 1.3
+    jump-strength: 0.5
+    scale: 0.5
+    movement-efficiency: -0.1
+    sounds:
+      on-attack:
+        sound: item.mace.smash_ground_heavy
+        volume: 1.0
+        pitch: 1.0

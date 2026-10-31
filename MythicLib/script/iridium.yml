@@ -1,0 +1,43 @@
+Chance_Dictator:
+  public: true
+  mechanics:
+    chance_dictator_1:
+      type: dispatch_command
+      from_console: true
+      format: mmotempstat <caster.name> CRITICAL_STRIKE_POWER %math_0:_{mythiclib_stat_CRITICAL_STRIKE_CHANCE}*3%
+        100
+      target:
+        type: caster
+    chance_dictator_2:
+      type: dispatch_command
+      from_console: true
+      format: mmotempstat <caster.name> CRITICAL_STRIKE_CHANCE -%mythiclib_stat_CRITICAL_STRIKE_CHANCE%
+        100
+      target:
+        type: caster
+    chance_dictator_3:
+      type: delay
+      amount: 10
+    chance_dictator_4:
+      type: dispatch_command
+      from_console: true
+      format: mmotempstat <caster.name> CRITICAL_STRIKE_CHANCE 10 100
+      target:
+        type: caster
+  name: Chance Dictator
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0

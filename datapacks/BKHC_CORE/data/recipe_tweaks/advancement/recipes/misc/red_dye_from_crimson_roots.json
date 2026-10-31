@@ -1,0 +1,34 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:red_dye_from_crimson_roots"
+    ]
+  },
+  "criteria": {
+    "has_crimson_roots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "crimson_roots"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:red_dye_from_crimson_roots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_roots",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+Dragon_Slayer:
+  TargetConditions:
+  - entitytype{t=ENDER_DRAGON} true
+  Skills:
+  - multiplydamage{amount="1 + 2.5"}

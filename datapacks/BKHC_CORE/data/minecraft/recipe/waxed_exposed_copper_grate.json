@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "waxed_exposed_copper_grate",
+  "key": {
+    "M": "waxed_exposed_copper"
+  },
+  "pattern": [
+    " M ",
+    "M M",
+    " M "
+  ],
+  "result": {
+    "count": 4,
+    "id": "waxed_exposed_copper_grate"
+  }
+}

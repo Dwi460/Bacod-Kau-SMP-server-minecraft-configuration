@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "group": "cyan_dye",
+  "ingredients": [
+    "twisting_vines"
+  ],
+  "result": {
+    "id": "cyan_dye"
+  }
+}

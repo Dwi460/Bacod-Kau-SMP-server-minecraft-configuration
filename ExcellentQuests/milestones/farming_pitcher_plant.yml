@@ -1,0 +1,14 @@
+Type: block_loot
+Category: farming
+Name: Pitcher Plant
+Icon:
+  Material: minecraft:pitcher_plant
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:pitcher_plant: 10 25 50 100 200 400 750 1000 2000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

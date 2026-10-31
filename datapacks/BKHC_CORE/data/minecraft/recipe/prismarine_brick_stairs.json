@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "prismarine_bricks"
+  },
+  "result": {
+    "id": "prismarine_brick_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,20 @@
+Type: craft_item
+Name: A True Pirate
+Description:
+- <gray>Craft spyglass to get reward!</gray>
+Icon:
+  Material: minecraft:spyglass
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:spyglass: 15;20 5.0 6.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

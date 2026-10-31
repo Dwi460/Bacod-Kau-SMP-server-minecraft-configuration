@@ -1,0 +1,14 @@
+CUSTOM_MYLUCK:
+  # The name will be used in the edition GUI and also for the stat id
+  # Format: "MyLuck" will be replaced with "custom-myluck"
+  name: MyLuck
+  
+  # Allowed stats type:
+  # - double (numbers)
+  # - text (Will not work as placeholder. You have get this value from ntb tag of the item with your custom plugin)
+  type: double
+  
+  # The lore must be a list of strings
+  lore:
+  - 'This is a test line #1'
+  - 'This is a test line #2'

@@ -1,0 +1,219 @@
+####################################################################################################
+# MythicLib Configuration File
+####################################################################################################
+
+# DO NOT TOUCH
+config-version: 4
+
+# Edit general plugin number formatting here.
+# Restart your server when changing this so that MMOItems and MMOCore update as well
+number-format:
+  decimal-separator: .
+
+# Defines how defense behaves. The formula should return the
+# final amount of damage dealt, given the following inputs:
+# - damage dealt #damage#
+# - player defense #defense#
+defense-application: '#damage# * (1 - (#defense# / (#defense# + 100)))'
+
+# Allows to scale health up/down to a specific amount so extra health does not fill up the screen.
+# (DIUBAH KE FALSE): Dalam mode Hardcore+, pemain harus melihat jumlah HP asli mereka secara penuh 
+# agar skala bahaya dan kerusakan jantung terasa nyata dan transparan tanpa disembunyikan.
+health-scale:
+  enabled: false
+  scale: 20
+  delay: 0
+
+# Set to false to prevent players from dealing damage to other
+# players using abilities OR custom weapons like staffs or muskets.
+player-ability-damage: true
+
+critical-strikes:
+  weapon:
+    # Diturunkan sedikit dari 1.5 ke 1.25 agar damage crit tidak terlalu instan membunuh (menjaga balance PvP)
+    coefficient: 1.25
+    cooldown: 0
+    max-chance: 100
+  skill:
+    coefficient: 1.25
+    cooldown: 0
+    max-chance: 100
+
+# Default and max. values of armor stats.
+mitigation:
+  
+  message:
+    action-bar: true
+    parry: '&cYou just parried #damage# damage.'
+    block: '&cYou just blocked #damage# damage.'
+    dodge: '&cYou just dodged #damage# damage.'
+  
+  block:
+    power:
+      default: 25.0
+      max: 75.0
+    rating-max: 80.0
+    cooldown:
+      base: 5.0
+      min: 1.0
+  
+  dodge:
+    knockback:
+      enabled: true
+      force: 1.0
+    rating-max: 80.0
+    cooldown:
+      base: 5.0
+      min: 1.0
+  
+  parry:
+    knockback:
+      enabled: true
+      force: 1.0
+    rating-max: 80.0
+    cooldown:
+      base: 8.0
+      min: 2.0
+
+# Displays in-game damage or heal indicators.
+game-indicators:
+  
+  damage:
+    enabled: true
+    decimal-format: 0.#
+    format: '{icon} {value}'
+    custom-font:
+      enabled: false
+      normal:
+        '0': ᜀ
+        '1': ᜁ
+        '2': ᜂ
+        '3': ᜃ
+        '4': ᜄ
+        '5': ᜅ
+        '6': ᜆ
+        '7': ᜇ
+        '8': ᜈ
+        '9': ᜉ
+        dot: ᜊ
+        inter: ᜍ
+      crit:
+        '0': ᜐ
+        '1': ᜑ
+        '2': ᜒ
+        '3': ᜓ
+        '4': ᜔
+        '5': ᜕
+        '6': ᜖
+        '7': ᜗
+        '8': ᜘
+        '9': ᜙
+        dot: ᜋ
+        inter: ᜍ
+    icon:
+      weapon:
+        normal: '&c🗡<#ffb2ae>'
+        crit: '&4❁&c'
+      skill:
+        normal: '&d۞<#f9c8de>'
+        crit: '&fヸ&d&l'
+    split-holograms: true
+    radial-velocity: 1
+    gravity: 1
+    initial-upward-velocity: 1
+    entity-height-percent: 0.75
+    y-offset: 0.1
+  
+  regen:
+    enabled: false
+    decimal-format: 0.#
+    format: '&a+#'
+    radial-velocity: 1
+    gravity: 1
+    initial-upward-velocity: 1
+    entity-height-percent: 0.75
+    y-offset: 0.1
+
+fix-movement-speed: true
+
+damage-particles-cap:
+  max-per-tick: 10
+  enabled: true
+
+damage_types:
+  default:
+    melee_weapon:
+    - WEAPON
+    - PHYSICAL
+    melee_unarmed:
+    - UNARMED
+    - PHYSICAL
+    melee_default:
+    - PHYSICAL
+    bow:
+    - WEAPON
+    - PROJECTILE
+    - PHYSICAL
+    skills:
+    - SKILL
+    - MAGIC
+  
+  bukkit:
+    MAGIC:
+    - MAGIC
+    DRAGON_BREATH:
+    - MAGIC
+    POISON:
+    - MAGIC
+    - DOT
+    WITHER:
+    - MAGIC
+    - DOT
+    FIRE_TICK:
+    - PHYSICAL
+    - DOT
+    MELTING:
+    - PHYSICAL
+    - DOT
+    STARVATION:
+    - DOT
+    DRYOUT:
+    - DOT
+    FREEZE:
+    - DOT
+    FIRE:
+    - PHYSICAL
+    LAVA:
+    - PHYSICAL
+    HOT_FLOOR:
+    - PHYSICAL
+    SONIC_BOOM:
+    - PHYSICAL
+    LIGHTNING:
+    - PHYSICAL
+    FALL:
+    - PHYSICAL
+    THORNS:
+    - PHYSICAL
+    CONTACT:
+    - PHYSICAL
+    ENTITY_EXPLOSION:
+    - PHYSICAL
+    ENTITY_SWEEP_ATTACK:
+    - PHYSICAL
+    FALLING_BLOCK:
+    - PHYSICAL
+    FLY_INTO_WALL:
+    - PHYSICAL
+    BLOCK_EXPLOSION:
+    - PHYSICAL
+    SUFFOCATION:
+    - PHYSICAL
+    CRAMMING:
+    - PHYSICAL
+    DROWNING:
+    - PHYSICAL
+
+class-plugin: AURA_SKILLS
+level-plugin: AURA_SKILLS
+mana-plugin: AURA_SKILLS

@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  X",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": "diamond"
+  },
+  "result": {
+    "id": "diamond_horse_armor"
+  }
+}

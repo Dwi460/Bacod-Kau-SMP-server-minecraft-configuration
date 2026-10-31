@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "red_nether_bricks"
+  },
+  "result": {
+    "id": "red_nether_brick_stairs",
+    "count": 4
+  }
+}

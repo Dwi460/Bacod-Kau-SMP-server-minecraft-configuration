@@ -1,0 +1,37 @@
+Cosmic_Ally:
+  Skills:
+  - projectile{bulletType=BLOCK;material=CRYING_OBSIDIAN;bulletSpin=1;onTick=Cosmic_Ally-Tick;onEnd=Cosmic_Ally-Hit;i=1;hR=1;vR=1;type=meteor;hfs=12;g=0.6} @targetlocation{xoffset=5}
+  - projectile{bulletType=BLOCK;material=CRYING_OBSIDIAN;bulletSpin=1;onTick=Cosmic_Ally-Tick;onEnd=Cosmic_Ally-Hit;i=1;hR=1;vR=1;type=meteor;hfs=12;g=0.6} @targetlocation{xoffset=0}
+  - projectile{bulletType=BLOCK;material=CRYING_OBSIDIAN;bulletSpin=1;onTick=Cosmic_Ally-Tick;onEnd=Cosmic_Ally-Hit;i=1;hR=1;vR=1;type=meteor;hfs=12;g=0.6} @targetlocation{xoffset=-5}
+Cosmic_Ally-Tick:
+  Skills:
+  - effect:particles{p=redstone;color=#ff0000;amount=3;speed=0;hS=0.7;vS=0.7} @origin
+  - effect:particles{p=redstone;color=#ffa500;amount=3;speed=0;hS=0.7;vS=0.7} @origin
+  - effect:particles{p=redstone;color=#ffff00;amount=3;speed=0;hS=0.7;vS=0.7} @origin
+  - effect:particles{p=redstone;color=#008000;amount=3;speed=0;hS=0.7;vS=0.7} @origin
+  - effect:particles{p=redstone;color=#0000ff;amount=3;speed=0;hS=0.7;vS=0.7} @origin
+  - effect:particles{p=redstone;color=#4b0082;amount=3;speed=0;hS=0.7;vS=0.7} @origin
+  - effect:particles{p=redstone;color=#ee82ee;amount=3;speed=0;hS=0.7;vS=0.7} @origin
+  - effect:particles{p=largesmoke;amount=2;hs=0} @origin
+  - effect:particles{p=warped_spore;amount=5;hs=0} @origin
+Cosmic_Ally-Hit:
+  Skills:
+  - effect:particle{particle=explosion_huge;amount=1;hS=0;vS=0} @origin
+  - effect:particle{particle=smoke_normal;amount=200;hS=1;vS=1} @origin
+  - mmodamage{amount=500;types=SKILL} @EntitiesNearOrigin{r=3;ignore=players}
+  - sound{s=entity.generic.explode} @origin
+  - summon{type=COSMIC_TERROR;amount=1} @origin
+  
+Cosmic_Ally-Heal:
+  Skills:
+  - healpercent{m=0.01} @Owner
+Cosmic_Ally-Death:
+  Skills:
+  - effect:particles{p=redstone;color=#ff0000;amount=50;speed=0;hS=0.3;vS=0} @self
+  - effect:particles{p=redstone;color=#ffa500;amount=50;speed=0;hS=0.3;vS=0} @self
+  - effect:particles{p=redstone;color=#ffff00;amount=50;speed=0;hS=0.3;vS=0} @self
+  - effect:particles{p=redstone;color=#008000;amount=50;speed=0;hS=0.3;vS=0} @self
+  - effect:particles{p=redstone;color=#0000ff;amount=50;speed=0;hS=0.3;vS=0} @self
+  - effect:particles{p=redstone;color=#4b0082;amount=50;speed=0;hS=0.3;vS=0} @self
+  - effect:particles{p=redstone;color=#ee82ee;amount=50;speed=0;hS=0.3;vS=0} @self
+  - remove @self

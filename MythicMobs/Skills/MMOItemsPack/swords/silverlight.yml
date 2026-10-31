@@ -1,0 +1,18 @@
+Respite:
+  Skills:
+  - sound{s=block.beacon.power_select;p=1} @self
+  - onDamaged{auraName=Respite;duration=100;multiplier=0} @PlayersNearOrigin{r=4}
+  - onDamaged{auraName=Respite;duration=100;multiplier=0} @self
+  - effect:particlering{particle=redstone;color=#d4af37;radius=4;points=64;amount=20;y=2} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#fbf1de;radius=4;points=64;amount=20;y=1.5} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#d4af37;radius=4;points=64;amount=20;y=1} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#fbf1de;radius=4;points=64;amount=20;y=0.5} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#d4af37;radius=4;points=64;amount=20;y=0} @self
+  - delay 2
+  - delay 90
+  - healpercent{m=0.1} @self
+  - healpercent{m=0.1} @PlayersNearOrigin{r=4}

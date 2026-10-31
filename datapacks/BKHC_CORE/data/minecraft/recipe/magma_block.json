@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#M",
+    "M#"
+  ],
+  "key": {
+    "#": "#recipe_tweaks:magma_blocks",
+    "M": "magma_cream"
+  },
+  "result": {
+    "id": "magma_block"
+  }
+}

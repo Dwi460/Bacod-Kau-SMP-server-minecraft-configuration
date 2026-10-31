@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " C ",
+    "A#A",
+    " O "
+  ],
+  "key": {
+    "#": "spore_blossom",
+    "C": "moss_carpet",
+	"A": "flowering_azalea_leaves",
+	"O": "oxeye_daisy"
+  },
+  "result": {
+    "id": "spore_blossom",
+    "count": 2
+  }
+}

@@ -1,0 +1,28 @@
+Type: block_loot
+Name: Raw Ores
+Description:
+- <gray>Mine ore blocks to get reward!</gray>
+- '<dark_gray>Tip: Use the Silk Touch enchantment.</dark_gray>'
+Icon:
+  Material: minecraft:diamond_ore
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 3
+  List:
+    minecraft:coal_ore: 15;30 30.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:iron_ore: 12;24 15.0 5.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:copper_ore: 12;24 15.0 5.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:gold_ore: 10;20 10.0 8.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:redstone_ore: 12;24 10.0 5.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:lapis_ore: 12;24 10.0 5.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:diamond_ore: 7;14 5.0 10.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:emerald_ore: 3;9 5.0 15.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

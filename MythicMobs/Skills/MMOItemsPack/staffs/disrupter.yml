@@ -1,0 +1,20 @@
+OverloadedSphere:
+  Skills:
+  - totem{i=4;md=10;onTick=OverloadedSphere-Tick;onEnd=OverloadedSphere-Explode;yo=1.5} @targetlocation
+  - sound{s=block.enchantment_table.use} @targetlocation
+OverloadedSphere-Tick:
+  Skills:
+  - effect:particle{particle=lava;amount=2;hS=0} @origin
+  - effect:particlesphere{particle=redstone;color=#20B2AA;amount=30;radius=0.5} @origin
+  - effect:particlesphere{particle=redstone;color=#40826d;amount=30;radius=0.25} @origin
+  - effect:particlesphere{particle=redstone;color=#264348 ;amount=30;radius=0.75} @origin
+  - effect:particlering{particle=totem;radius=5;points=32;amount=1;hS=0;vS=0;y=-0.2} @origin
+OverloadedSphere-Explode:
+  Skills:
+  - effect:particles{particle=sonic_boom;amount=10;y=0.35} @origin
+  - delay 10
+  - effect:particles{p=hugeexplosion;amount=1;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particle{particle=sneeze;amount=100;hS=1;vS=1} @origin
+  - effect:particle{particle=smoke_large;amount=200;hS=1;vS=1} @origin{yOffset=-0.2}
+  - sound{s=entity.generic.explode} @origin
+  - mmodamage{amount=250;types=SKILL,MAGIC} @EntitiesNearOrigin{r=5;ignore=players}

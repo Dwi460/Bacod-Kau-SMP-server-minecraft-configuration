@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "polished_blackstone_bricks"
+  },
+  "result": {
+    "id": "polished_blackstone_brick_stairs",
+    "count": 4
+  }
+}

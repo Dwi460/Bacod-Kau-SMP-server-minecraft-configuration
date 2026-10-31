@@ -1,0 +1,36 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "blast_furnace"
+    ]
+  },
+  "criteria": {
+    "has_blocks": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "smooth_stone",
+			  "polished_blackstone",
+			  "polished_deepslate"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "blast_furnace"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blocks",
+      "has_the_recipe"
+    ]
+  ]
+}

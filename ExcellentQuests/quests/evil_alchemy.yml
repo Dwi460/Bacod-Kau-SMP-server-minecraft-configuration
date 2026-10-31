@@ -1,0 +1,25 @@
+Type: brewing
+Name: Evil Alchemy
+Description:
+- <gray>Brew potions of bad ingredients to get reward!</gray>
+Icon:
+  Material: minecraft:fermented_spider_eye
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:spider_eye: 10;20 5.0 10.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:fermented_spider_eye: 10;20 5.0 8.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:slime_block: 10;20 5.0 8.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:cobweb: 10;20 5.0 8.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:stone: 10;20 5.0 8.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:breeze_rod: 10;20 5.0 8.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

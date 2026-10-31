@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "copper_nugget"
+  },
+  "pattern": [
+    "N N",
+    " N ",
+    "N N"
+  ],
+  "result": {
+    "count": 1,
+    "id": "copper_chain"
+  }
+}

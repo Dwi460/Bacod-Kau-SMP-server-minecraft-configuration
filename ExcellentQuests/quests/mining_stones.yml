@@ -1,0 +1,23 @@
+Type: break_block
+Name: Mining Stones
+Description:
+- <gray>Mine those stones to get reward!</gray>
+Icon:
+  Material: minecraft:stone
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 2
+  List:
+    minecraft:stone: 300;500 40.0 0.3 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:granite: 200;300 20.0 0.35 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:andesite: 200;300 20.0 0.35 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:diorite: 200;300 20.0 0.35 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

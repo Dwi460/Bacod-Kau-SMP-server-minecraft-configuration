@@ -1,0 +1,687 @@
+Hellfire:
+    name: 'Hellfire'
+    bonuses:
+        '4':
+            ability-1:
+                type: HELLFIRE
+                cooldown: 3
+                mode: ATTACK
+            ability-2:
+                type: HELLFIRE_ATTACK
+                mode: ATTACK
+            fire-damage-reduction: 100
+    lore-tag:
+    - '&fｫ ꜰɪʀᴇʟᴏʀᴅ'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura each'
+    - '&7time you attack, setting local'
+    - '&7enemies on&6 fire&7.'
+    - '&8+ &7Deals &6+20%&7 damage to all'
+    - '&7enemies on fire.'
+
+Inferno:
+    name: 'Inferno'
+    bonuses:
+        '4':
+            ability-1:
+                type: HELLFIRE
+                cooldown: 3
+                mode: ATTACK
+            ability-2:
+                type: HELLFIRE_ATTACK_UPGRADED
+                mode: ATTACK
+            fire-damage-reduction: 100
+            ability-3:
+                type: FIRELORD_U
+                mode: RIGHT_CLICK 
+                cooldown: 30.0
+    lore-tag:
+    - '&fｫ ꜰɪʀᴇʟᴏʀᴅ <#9F2B68>&l⟰'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura each'
+    - '&7time you attack, setting local'
+    - '&7enemies on&6 fire&7.'
+    - '&8+ &7Deals &6+50%&7 damage to all'
+    - '&7enemies on fire.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Right-Click'
+    - '&7to combust all local &6burning'
+    - '&7targets, dealing &c200❤&7 and'
+    - '<#9F2B68>stun&7 them for <#9F2B68>3s'
+
+Warden:
+    name: 'Warden'
+    bonuses:
+        '4':
+            ability-1:
+                type: GRAND_HEAL
+                mode: TIMER
+                timer: 15.0
+                heal: 30.0
+                radius: 3.0
+    lore-tag: 
+    - '&fｪ ᴡᴀʀᴅᴇɴ''ꜱ ʙʟᴇꜱꜱɪɴɢ'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - '&7allies for &c10❤&7.'
+
+Overseer:
+    name: 'Overseer'
+    bonuses:
+        '4':
+            ability-1:
+                type: GRAND_HEAL
+                mode: TIMER
+                timer: 15.0
+                heal: 50.0
+                radius: 4.0
+            ability-2:
+                type: WARDEN_BLESSING_UPGRADED
+                mode: ATTACK 
+                cooldown: 10.0
+    lore-tag: 
+    - '&fｪ ᴡᴀʀᴅᴇɴ''ꜱ ʙʟᴇꜱꜱɪɴɢ <#9F2B68>&l⟰'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - '&7allies for &c10❤&7.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Attacking'
+    - '&acleanses &7all &cnegative effect'
+
+Apollo:
+    name: 'Apollo'
+    bonuses:
+        '4':
+            ability-1:
+                type: BANISH
+                mode: DAMAGED_BY_ENTITY
+                cooldown: 10
+    lore-tag: 
+    - '&fｭ ʙᴀɴɪꜱʜ'
+    - '&7Getting attacked unleashes'
+    - '&7a holy explosion, knocking'
+    - '&7nearby enemies back.'
+    - '&8 | &f<#AEC6CF>⌚10s &8|'
+
+Nirvana:
+    name: 'Nirvana'
+    bonuses:
+        '4':
+            ability-1:
+                type: BANISH_U
+                mode: DAMAGED_BY_ENTITY
+                cooldown: 10
+    lore-tag:
+    - '&fｭ ʙᴀɴɪꜱʜ <#9F2B68>&l⟰'
+    - '&7Getting attacked unleashes a'
+    - '&7holy explosion, knocking back'
+    - '&7nearby enemies.'
+    - '&8 | &f<#AEC6CF>⌚10s &8|'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Also <#9F2B68>stuns'
+    - '&7knocked-back enemies for <#9F2B68>2s'
+    - '&7and grants <#ADD8E6>+150 ☁Speed'
+
+Apocalypse:
+    name: 'Apocalypse'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+    lore-tag: 
+    - '&fｦ ᴅᴏᴏᴍꜱʟᴀʏᴇʀ'
+    - '&7Killing an enemy rips out its'
+    - '&7soul, which lingers for &c3s&7.'
+    - '&7It then explodes dealing &c50'
+    - '&7damage to nearby enemies.'
+    - '&7Also applies &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8 | &f<#AEC6CF>⌚3s &8|'
+
+Quinerus:
+    name: 'Quinerus'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+            ability-2:
+                type: TRADEOFF
+                mode: ATTACK
+                cooldown: 5.0
+    lore-tag: 
+    - '&fｦ ᴅᴏᴏᴍꜱʟᴀʏᴇʀ'
+    - '&7Killing an enemy rips out its'
+    - '&7soul, which lingers for &c3s&7.'
+    - '&7It then explodes dealing &c50'
+    - '&7damage to nearby enemies.'
+    - '&7Also applies &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8 | &f<#AEC6CF>⌚3s &8|'
+    - ''
+    - '&fｧ ꜰᴇᴀʀʟᴇꜱꜱ'
+    - '&7Engaging in combat buffs all'
+    - '&7of your offensive stats by &c'
+    - '&c20%&7, but you also lose every'
+    - '&7defensive stats by &c10%&7.'
+    - '&8Boost lasts for 5s.'
+
+Caeletus:
+    name: 'Caeletus'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+            ability-2:
+                type: REPOSITION
+                mode: ARROW_LAND
+                cooldown: 10.0
+    lore-tag: 
+    - '&fｦ ᴅᴏᴏᴍꜱʟᴀʏᴇʀ'
+    - '&7Killing an enemy rips out its'
+    - '&7soul, which lingers for &c3s&7.'
+    - '&7It then explodes dealing &c50'
+    - '&7damage to nearby enemies.'
+    - '&7Also applies &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8 | &f<#AEC6CF>⌚3s &8|'
+    - ''
+    - '&fｨ ᴛᴀᴄᴛɪᴄᴀʟ'
+    - '&7While sneaking, arrow which'
+    - '&7lands on the ground makes'
+    - '&7you &cteleport&7 to that spot.'
+    - '&8 | &f<#AEC6CF>⌚10s &8|'
+
+Mortos:
+    name: 'Mortos'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+            ability-2:
+                type: WEAKEN
+                mode: SHIFT_RIGHT_CLICK
+                duration: 5.0
+                ratio: 25.0
+                cooldown: 5.0
+    lore-tag: 
+    - '&fｦ ᴅᴏᴏᴍꜱʟᴀʏᴇʀ'
+    - '&7Killing an enemy rips out its'
+    - '&7soul, which lingers for &c3s&7.'
+    - '&7It then explodes dealing &c50'
+    - '&7damage to nearby enemies.'
+    - '&7Also applies &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8 | &f<#AEC6CF>⌚3s &8|'
+    - ''
+    - '&fｩ Frail Hex'
+    - '&7Shift+Right Click places a hex'
+    - '&7on an enemy, increasing all'
+    - '&7damage dealt on them by &c25%'
+    - '&7for &c5s'
+    - '&8 | &f<#AEC6CF>⌚20s &8|'
+
+Hexim:
+    name: 'Hexim'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+            ability-2:
+                type: NECROMANCY
+                mode: KILL_ENTITY
+                cooldown: 5.0
+    lore-tag: 
+    - '&fｦ ᴅᴏᴏᴍꜱʟᴀʏᴇʀ'
+    - '&7Killing an enemy rips out its'
+    - '&7soul, which lingers for &c3s&7.'
+    - '&7It then explodes dealing &c50'
+    - '&7damage to nearby enemies.'
+    - '&7Also applies &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8 | &f<#AEC6CF>⌚3s &8|'
+    - ''
+    - '&fｱ Necromancy'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8 | &f<#AEC6CF>⌚5s &8|'
+
+Mythril:
+    name: 'Mythril'
+    bonuses:
+        '4':
+            ability-1:
+                type: ADAPTIVE_FIRST
+                mode: ATTACK
+            ability-2:
+                type: ADAPTIVE_SECOND
+                mode: ATTACK
+            ability-3:
+                type: ADAPTIVE_THIRD
+                mode: ATTACK
+    lore-tag: 
+    - '&fヱ ᴀᴅᴀᴘᴛɪᴠᴇ'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus &6+15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7damage'
+    - '&7and heals for &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &62%❤&7'
+    
+Orichalcum:
+    name: 'Orichalcum'
+    bonuses:
+        '4':
+            ability-1:
+                type: ORICHALCUM
+                mode: ATTACK
+                cooldown: 10.0
+    lore-tag: 
+    - '&fロ ᴍʏꜱᴛɪᴄ ʙᴜʀꜱᴛ'
+    - '&7Dealing ability damage causes'
+    - '&7target to take &c50&7 bonus DMG.'
+    - '&8 | &f<#AEC6CF>⌚5s &8|'
+
+Titanium:
+    name: 'Titanium'
+    bonuses:
+        '4':
+            ability-1:
+                type: TITANIUM
+                mode: DAMAGED_BY_ENTITY
+                cooldown: 2.0
+    lore-tag: 
+    - '&fレ ʀᴇᴛʀɪʙᴜᴛɪᴏɴ'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+
+Permafrost:
+    name: 'Permafrost'
+    bonuses:
+        '4':
+            ability-1:
+                type: ICE_REAPER
+                mode: KILL_ENTITY
+                cooldown: 4.0
+    lore-tag: 
+    - '&fఽ Ice Reaper'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - '<#d3fafb>freezing&7 all nearby enemies.'
+    - ''
+    - '&f临 &82022 Chrismas exclusive!'
+
+Starborn:
+    name: 'Starborn'
+    bonuses:
+        '4':
+            ability-1:
+                type: STARBORN_INITIATE
+                mode: ATTACK
+            ability-2:
+                type: STARBORN
+                mode: ATTACK
+                cooldown: 15.0
+            ability-3:
+                type: STARBORN_CONVERT
+                mode: ATTACK
+                cooldown: 3.0
+    lore-tag: 
+    - '&f఻ ꜱᴛᴀʀʙᴏʀɴᴇ ᴄᴏɴᴠᴇʀꜱɪᴏɴ'
+    - '&7Each <#F8C8DC>15s&7, attacking grants 1'
+    - '&7stack of <#FDFD96>Starpower&7 &8(max 3)'
+    - '&3Shift + Attacking&7 will consume'
+    - '<#FDFD96>1 Starpower&7 to convert one'
+    - '&7monster into a <#F8C8DC>Starborn&7.'
+
+Crimson:
+    name: 'Crimson'
+    bonuses:
+        '4':
+            ability-1:
+                type: BLOODTHIRST_INITIATE
+                mode: ATTACK
+            ability-2:
+                type: BLOODTHIRST
+                mode: ATTACK
+                cooldown: 15.0
+            ability-3:
+                type: BLOODTHIRST_ACTIVATE
+                mode: ATTACK
+                cooldown: 3.0
+    lore-tag: 
+    - '&fవ ʙʟᴏᴏᴅᴛʜɪʀꜱᴛ'
+    - '&7Aattacking grants 1 stack of'
+    - '<#dc143c>Bloodthirst&7. Once reached 15'
+    - '&7you become <#880808>Bloodthirst &7and'
+    - '&7gain <#800000>10%&f᎐'
+
+Death:
+    name: 'Death'
+    bonuses:
+        '4':
+            ability-1:
+                type: ESSENCE_THEFT
+                mode: KILL_ENTITY
+                cooldown: 2.0
+    lore-tag: 
+    - '&fహ ᴇꜱꜱᴇɴᴄᴇ ᴛʜᴇꜰᴛ'
+    - '&7Slaying an enemy steals its'
+    - '&7essence, healing &c5% max ❤'
+    - '&7and &b10% mana. &8(2s cooldown)'
+
+Reaper:
+    name: 'Reaper'
+    bonuses:
+        '4':
+            ability-1:
+                type: ESSENCE_THEFT_UPGRADED
+                mode: KILL_ENTITY
+                cooldown: 2.0
+    lore-tag: 
+    - '&fహ ᴇꜱꜱᴇɴᴄᴇ ᴛʜᴇꜰᴛ <#9F2B68>&l⟰'
+    - '&7Slaying an enemy steals'
+    - '&7their essence, healing'
+    - '&c10% max ❤ &7and &b20% mana'
+    - '&8(2s cooldown)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Essence'
+    - '&7also grants <#9966cc>+10% ۞Ability'
+    - '&7Damage &7and <#ADD8E6>+5 ☁Speed'
+
+Uranium:
+    name: 'Uranium'
+    bonuses:
+        '1':
+            defense: 10.0
+            weapon-damage: 5.0
+            skill-damage: 5.0
+        '2':
+            defense: 10.0
+            weapon-damage: 5.0
+            skill-damage: 5.0
+        '3':
+            defense: 10.0
+            weapon-damage: 5.0
+            skill-damage: 5.0
+        '4':
+            ability-1:
+                type: Radiation
+                mode: ATTACK
+            defense: 10.0
+            weapon-damage: 5.0
+            skill-damage: 5.0
+        '5':
+            defense: 10.0
+            weapon-damage: 5.0
+            skill-damage: 5.0
+        '6':
+            defense: 10.0
+            weapon-damage: 5.0
+            skill-damage: 5.0
+        '7':
+            defense: 10.0
+            weapon-damage: 5.0
+            skill-damage: 5.0
+    lore-tag: 
+    - '&fヸ ᴍᴀᴛᴄʜɪɴɢ ᴀᴛᴛɪʀᴇꜱ'
+    - '&7For each <#7D8F69>Uranium Equipments&7'
+    - '&7you equip, gain &f+5🛡 Defense'
+    - '&7and &c+5% Damage&7.'
+    - ''
+    - '&fヹ ʀᴀᴅɪᴀᴛɪᴏɴ'
+    - '&7Attacking enemies inflicts it'
+    - '&7with &fヹ&7 which stacks up to &c15'
+    - '&7&ctimes&7, upon which a <#7D8F69>radiation'
+    - '<#7D8F69>burst &7occurs, dealing &c1000'
+    - '&7damage to nearby enemies.'
+
+Nurse:
+    name: 'Nurse'
+    bonuses:
+        '4':
+            ability-1:
+                type: NURTURE
+                mode: ATTACK
+                cooldown: 2.0
+    lore-tag: 
+    - '&f౏ ɴᴜʀᴛᴜʀᴇ'
+    - '&7Attacking pulses a magical'
+    - '&7aura, healing nearby allies'
+    - 'for &c5❤'
+    - '&8 | &f<#AEC6CF>⌚3s &8|'
+
+Dryad:
+    name: 'Dryad'
+    bonuses:
+        '4':
+            ability-1:
+                type: NATURE_FORCE
+                mode: ATTACK
+                cooldown: 3.0
+    lore-tag: 
+    - '&f౐ ɴᴀᴛᴜʀᴇ ꜰᴏʀᴄᴇ'
+    - '&7Attacking &2roots &7enemy while'
+    - '&7&2healing&7 nearby allies for'
+    - '&c2%❤'
+    - '&8 | &f<#AEC6CF>⌚3s &8|'
+
+Assassin:
+    name: 'Assassin'
+    bonuses:
+        '4':
+            ability-1:
+                type: BACKSTAB
+                mode: ATTACK
+                extra: 30.0
+    lore-tag: 
+    - '&f౑ ʙᴀᴄᴋꜱᴛᴀʙ '
+    - '&7Attacks from behind targets'
+    - '&7deals &c30%&7 extra damage.'
+
+Angel:
+    name: 'Angel'
+    bonuses:
+        '4':
+            ability-1:
+                type: DIVINE_INTERVENTION
+                mode: DAMAGED
+                cooldown: 120.0
+    lore-tag: 
+    - '&f౓ ᴅɪᴠɪɴᴇ ɪɴᴛᴇʀᴠᴇɴᴛɪᴏɴ'
+    - '&7Falling below &c40%❤ &7heals you'
+    - '&7for &c10%❤&7, and activates an'
+    - '&7absorbtion shield of &c20%❤&7.'
+    - '&8 | &f<#AEC6CF>⌚120s &8|'
+
+Insanity:
+    name: 'Insanity'
+    bonuses:
+        '4':
+            ability-1:
+                type: BERSERK
+                mode: ATTACK
+                cooldown: 1.0
+    lore-tag: 
+    - '&f౔ ʙᴇʀꜱᴇʀᴋ'
+    - '&7Attacking boosts your &f᎓ &7by'
+    - '&7&c1% &7and &f᎐ &7by &c0.1% &8(stacks)'
+    - '&8 | &f<#AEC6CF>⌚1s &8|'
+
+Nocturnal:
+    name: 'Nocturnal'
+    bonuses:
+        '4':
+            ability-1:
+                type: LORD_OF_THE_NIGHT
+                mode: ATTACK
+    lore-tag: 
+    - '&fౕ ʟᴏʀᴅ ᴏꜰ ᴛʜᴇ ɴɪɢʜᴛ'
+    - '&7Gains permanent &9Night Vision'
+    - '&7You become &cempowered&7 at'
+    - '&9night&7, boosting your damage'
+    - '&7by &c150%&7.'
+
+Blaze:
+    name: 'Blaze'
+    bonuses:
+        '4':
+            ability-1:
+                type: BLAZING
+                mode: TIMER
+                timer: 100.0
+    lore-tag: 
+    - '&fౖ ʙʟᴀᴢɪɴɢ'
+    - '&7You constantly emit a blazing'
+    - '&7aura, dealing &c125&7 skill DMG'
+    - '&7to nearby enemies every &c3s&7.'
+
+FrostyBlaze:
+    name: 'FrostyBlaze'
+    bonuses:
+        '4':
+            ability-1:
+                type: FROSTBURN
+                mode: TIMER
+                timer: 100.0
+    lore-tag: 
+    - '&fౘ ꜰʀᴏꜱᴛʙᴜʀɴ'
+    - '&7You constantly emit a blazing'
+    - '&7aura, dealing &c300&7 skill DMG'
+    - '&7to nearby enemies every &c3s&7,'
+    - '&7while also slowing them and'
+    - '&7applying <#a5f9fa>Brittle&7, increasing'
+    - '&7all damage taken by &c15%&7.'
+
+Werewolf:
+    name: 'Werewolf'
+    bonuses:
+        '4':
+            ability-1:
+                type: HOWL
+                mode: SHIFT_RIGHT_CLICK
+                cooldown: 60.0
+    lore-tag: 
+    - '&f౗ ʜᴏᴡʟ ᎚ &8+ &f᎙'
+    - '&7Increases your and nearby'
+    - '&7players'' &f᎓ + ᎍ &7by &c25%'
+
+Arcane:
+    name: 'Arcane'
+    bonuses:
+        '4':
+            ability-1:
+                type: ARCANIC_ADAPT
+                mode: SHIFT_RIGHT_CLICK
+            ability-2:
+                type: ARCANIC_ADAPT_ON_HIT
+                mode: ATTACK
+                cooldown: 1.0
+            ability-3:
+                type: ARCANIC_ADAPT_ON_DAMAGED
+                mode: DAMAGED_BY_ENTITY
+                cooldown: 5.0
+    lore-tag: 
+    - '&fౙ ᴀʀᴄᴀɴɪᴄ ᴀᴅᴀᴘᴛ ᎚ &8+ &f᎙'
+    - '&7Switches between 3 states,'
+    - '&7each one having different'
+    - '&7effects:'
+    - '&7'
+    - '&7&8[<#B12E21>&lARCANE&8] &7Your skill damage'
+    - '&7is <#b5564c>empowered&7 to deal a &c200&7'
+    - '&7AOE damage.'
+    - '&7'
+    - '&7&8[<#7853A8>&lENSORCEL&8] &7Gains ramping'
+    - '&7&f᎕ <#7853A8>Ability Damage &7by dealing'
+    - '&7damage from abilities.'
+    - '&7'
+    - '&7&8[<#00A36C>&lGUARDING&8] &7Taking damage'
+    - '<#00A36C>knocks back&7 nearby enemies'
+    - '&7and <#00A36C>slows&7 them.'
+
+Damned:
+    name: 'Damned'
+    bonuses:
+        '4':
+            ability-1:
+                type: SOUL_HARVESTER_ON_HIT
+                mode: ATTACK
+            ability-2:
+                type: SOUL_HARVESTER
+                mode: KILL_ENTITY
+    lore-tag: 
+    - '&fౚ ꜱᴏᴜʟ ʜᴀʀᴠᴇꜱᴛᴇʀ '
+    - '&7Killing an enemy harvests'
+    - '&7its <#8fdaff>soul&7. Souls reside within'
+    - '&7you and stack <#1f67ff>indefinitely&7.'
+    - '&7'
+    - '&7Your attacks are modified to'
+    - '&7deal extra damage equals to'
+    - '&7<#8fdaff>0.001% souls&7.'
+    - '&7'
+    - '&7At <#8fdaff>1.000 souls&7, you heal for'
+    - '&7&c5%❤&7 for kills.'
+    - '&7'
+    - '&7At <#8fdaff>10.000 souls&7, you become'
+    - '&7&f᎛ <#eca42c>invulnerable&7 for 3s after'
+    - '&7mob kills.'
+
+Cosmic:
+    name: 'Cosmic'
+    bonuses:
+        '4':
+            ability-1:
+                type: DARK_MATTER
+                mode: KILL_ENTITY
+    lore-tag: 
+    - '&f临 ᴅᴀʀᴋ ᴍᴀᴛᴛᴇʀ'
+    - '&7Damaging an enemy grants'
+    - '&7a stack of &f临 <##9f45b0>Dark Matter&7'
+    - '&7max 100 stacks.'
+    - '&8Used in Cosmic Abilities'
+    - '&8 | &f<#AEC6CF>⌚2s &8|'
+
+Midas:
+    name: 'Midas'
+    bonuses:
+        '4':
+            ability-1:
+                type: GREED
+                mode: ATTACK
+    lore-tag: 
+    - '&f౒ ɢʀᴇᴇᴅ'
+    - '&7Your attack deals increased'
+    - '&7damage equals to &60.01% Gold'
+    - '&7you have.'
+
+
+Lost:
+    name: 'Lost'
+    bonuses:
+        '3':
+            damage-reduction: 5.0
+            weapon-damage: 10.0
+    lore-tag: []

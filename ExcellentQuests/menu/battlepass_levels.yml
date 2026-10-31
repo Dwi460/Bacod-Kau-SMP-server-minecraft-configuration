@@ -1,0 +1,164 @@
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin', 'page_next', 'page_previous', 'quests']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x5
+  Title: <black>Season %season_name% • %battle_pass_type%</black>
+  Auto_Refresh: 1
+  PlaceholderAPI:
+    Enabled: false
+Level:
+  Locked:
+    Material: minecraft:red_stained_glass_pane
+    Display_Name: <red><b>Level %level%</b></red><gray> • </gray><white>Locked</white>
+    Lore: []
+  Claimed:
+    Material: minecraft:lime_stained_glass_pane
+    Display_Name: <green><b>Level %level%</b></green><gray> • </gray><white>Completed</white>
+    Lore: []
+  Upcoming:
+    Material: minecraft:yellow_stained_glass_pane
+    Display_Name: <yellow><b>Level %level%</b></yellow><gray> • </gray><white>In Progress</white>
+    Lore:
+    - ''
+    - '<dark_gray>┃</dark_gray><gray> Level: <white>%battle_pass_level%</white>/<gold>%battle_pass_max_level%</gold></gray>'
+    - '<dark_gray>┃</dark_gray><gray> XP: <white>%battle_pass_xp%</white>/<gold>%battle_pass_xp_max%</gold></gray>'
+Reward:
+  Locked:
+    Material: minecraft:structure_void
+    Display_Name: <dark_aqua><b>Locked Reward</b></dark_aqua>
+    Lore:
+    - '%rewards%'
+    - ''
+    - <gray><dark_aqua>➥</dark_aqua> Complete the <dark_aqua>%level%</dark_aqua> level to unlock!</gray>
+  Premium:
+    Material: minecraft:barrier
+    Display_Name: <red><b>Premium Reward</b></red>
+    Lore:
+    - '%rewards%'
+    - ''
+    - <red>➥ Upgrade to <u>Premium</u> to unlock!</red>
+  Unlocked:
+    Material: minecraft:chest_minecart
+    Display_Name: <gold><b>Reward Available</b></gold>
+    Lore:
+    - '%rewards%'
+    - ''
+    - <gold>→ <u>Click to claim!</u></gold>
+  Claimed:
+    Material: minecraft:minecart
+    Display_Name: <gold><b>Claimed Reward</b></gold>
+    Lore:
+    - '%rewards%'
+    - ''
+    - <green>✔</green> <dark_gray>You have claimed this reward.</dark_gray>
+Timer:
+  Active:
+    Material: minecraft:clock
+    Display_Name: '<yellow><b>Season: </b></yellow><white>%season_name%</white> • <green>Active</green>'
+    Lore:
+    - <gray>Season is running!</gray>
+    - ''
+    - '<yellow>➥ Launched: </yellow> <white>%season_start_date%</white>'
+    - <yellow>⏳ Timeleft:</yellow> <white>%season_timeleft%</white>
+  Ended:
+    Material: minecraft:clock
+    Display_Name: '<yellow><b>Season: </b></yellow><white>%season_name%</white> • <red>Ended</red>'
+    Lore:
+    - <gray>The season is over! Follow us on</gray>
+    - <gray>discord for further event news!</gray>
+    - ''
+    - '<yellow>➥ Launched: </yellow> <white>%season_start_date%</white>'
+    - <yellow>⏳ Finished:</yellow> <white>%season_end_date%</white>
+  Scheduled:
+    Material: minecraft:clock
+    Display_Name: '<yellow><b>Season: </b></yellow><white>%season_name%</white> • <yellow>Scheduled</yellow>'
+    Lore:
+    - <gray>The new season is coming!</gray>
+    - ''
+    - <yellow>➥ Launch Date:</yellow> <white>%season_start_date%</white>
+  Slot: 43
+Slots:
+  Levels: 19,20,21,22,23,24,25
+  DefaultRewards: 10,11,12,13,14,15,16
+  PremiumRewards: 28,29,30,31,32,33,34
+Content:
+  battle_pass:
+    Priority: 10
+    Item:
+      Material: minecraft:anvil
+      Display_Name: <blue>Battle Pass</blue>
+      Lore:
+      - <gray>Complete <blue>Daily Quests</blue> to progress</gray>
+      - <gray>in the <blue>Battle Pass</blue>!</gray>
+      - ' '
+      - <dark_gray>[Stats]</dark_gray>
+      - '<dark_gray>• <gray>Type: </gray><gold>%battle_pass_type%</gold></dark_gray>'
+      - '<dark_gray>• <gray>Level: </gray><gold>%battle_pass_level%</gold></dark_gray>'
+      - '<dark_gray>• <gray>Progress: </gray><gold>%battle_pass_xp%</gold>/<gold>%battle_pass_xp_max%</gold></dark_gray>'
+      Hide_Components: true
+    Slots: '37'
+    Type: 'null'
+  quests:
+    Priority: 10
+    Item:
+      Material: minecraft:knowledge_book
+      Display_Name: <green>Daily Quests</green>
+      Lore:
+      - <green>→ <u>Click to open!</u></green>
+    Slots: '40'
+    Type: quests
+  gray_stained_glass_pane:
+    Priority: -1
+    Item:
+      Material: minecraft:gray_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35
+    Type: 'null'
+  black_stained_glass_pane:
+    Priority: -1
+    Item:
+      Material: minecraft:black_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 0,1,2,3,4,5,6,7,8,36,37,38,39,40,41,42,43,44
+    Type: 'null'
+  page_next:
+    Priority: 10
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <white><b><u>Next Page</u> →</b></white>
+      Lore: []
+    Slots: '26'
+    Type: page_next
+  page_previous:
+    Priority: 10
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <white><b>← <u>Previous Page</u></b></white>
+      Lore: []
+    Slots: '18'
+    Type: page_previous

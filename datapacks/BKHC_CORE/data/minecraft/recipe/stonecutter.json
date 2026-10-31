@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " i ",
+    "###"
+  ],
+  "key": {
+    "i": "iron_ingot",
+    "#": "#recipe_tweaks:stonecutter_blocks"
+  },
+  "result": {
+    "id": "stonecutter"
+  }
+}

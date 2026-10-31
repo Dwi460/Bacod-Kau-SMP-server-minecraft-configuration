@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "group": "sticks",
+  "ingredients": [
+    "#saplings"
+  ],
+  "result": {
+    "id": "stick"
+  }
+}

@@ -1,0 +1,150 @@
+Rewards:
+  ms_cash_low:
+    Variables:
+      amount:
+        Base: 0.0 # Base value.
+        UnitBonus: 0.0 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[150.0, 300.0, 500.0, 750.0, 1500.0, 3000.0, 5000.0, 7500.0, 10000.0]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  ms_cash_medium:
+    Variables:
+      amount:
+        Base: 0.0 # Base value.
+        UnitBonus: 0.0 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[500.0, 750.0, 1000.0, 1500.0, 3000.0, 5000.0, 7500.0, 10000.0, 15000.0]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  ms_cash_high:
+    Variables:
+      amount:
+        Base: 0.0 # Base value.
+        UnitBonus: 0.0 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[1000.0, 1500.0, 2750.0, 4500.0, 7000.0, 10000.0, 15000.0, 20000.0, 25000.0]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  quest_cash_low:
+    Variables:
+      amount:
+        Base: 250.0 # Base value.
+        UnitBonus: 3.5 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  quest_cash_medium:
+    Variables:
+      amount:
+        Base: 500.0 # Base value.
+        UnitBonus: 5.0 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  quest_cash_high:
+    Variables:
+      amount:
+        Base: 1000.0 # Base value.
+        UnitBonus: 7.5 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  bp_cash_low:
+    Variables:
+      amount:
+        Base: 300.0 # Base value.
+        UnitBonus: 0.0 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  bp_cash_medium:
+    Variables:
+      amount:
+        Base: 750.0 # Base value.
+        UnitBonus: 0.0 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  bp_cash_high:
+    Variables:
+      amount:
+        Base: 1500.0 # Base value.
+        UnitBonus: 0.0 # Bonus value per objective unit. (Quests and Milestones only)
+        LevelBonus: '[]' # Bonus value for specific level(s). [LV1, LV2, LV3, ..., LV99] (Milestones and Battle Pass only)
+    Name: $%amount%
+    Commands:
+    - money give %player_name% %amount%
+  bp_gold_ingots:
+    Name: <yellow>8x Gold Ingots</yellow>
+    Commands:
+    - give %player_name% gold_ingot 8
+  bp_diamonds:
+    Name: <aqua>3x Diamonds</aqua>
+    Commands:
+    - give %player_name% diamond 3
+  bp_reward_mid:
+    Name: <green>Mid-tier Supply Cache</green>
+    Commands:
+    - experience add %player_name% 75 points
+    - give %player_name% raw_iron 16
+    - give %player_name% raw_gold 8
+    - give %player_name% diamond 1
+    - give %player_name% golden_apple 2
+  bp_reward_good:
+    Name: <aqua>Improved Supply Cache</aqua>
+    Commands:
+    - experience add %player_name% 150 points
+    - give %player_name% gold_ingot 16
+    - give %player_name% diamond 4
+    - give %player_name% emerald 8
+    - give %player_name% ender_pearl 4
+    - give %player_name% golden_apple 3
+  bp_reward_better:
+    Name: <blue>Advanced Supply Cache</blue>
+    Commands:
+    - experience add %player_name% 250 points
+    - give %player_name% diamond 8
+    - give %player_name% diamond_block 1
+    - give %player_name% emerald 12
+    - give %player_name% blaze_rod 8
+    - give %player_name% golden_apple 4
+  bp_reward_high:
+    Name: <light_purple>High-tier Supply Cache</light_purple>
+    Commands:
+    - experience add %player_name% 400 points
+    - give %player_name% netherite_scrap 1
+    - give %player_name% diamond 12
+    - give %player_name% shulker_shell 1
+    - give %player_name% gold_ingot 16
+    - give %player_name% golden_apple 4
+  bp_reward_elite:
+    Name: <gold>Elite Supply Cache</gold>
+    Commands:
+    - experience add %player_name% 600 points
+    - give %player_name% netherite_ingot 1
+    - give %player_name% diamond 16
+    - give %player_name% shulker_shell 2
+    - give %player_name% emerald 16
+    - give %player_name% golden_apple 6
+  bp_reward_master:
+    Name: <red>Master Supply Cache</red>
+    Commands:
+    - experience add %player_name% 800 points
+    - give %player_name% netherite_ingot 2
+    - give %player_name% diamond 24
+    - give %player_name% shulker_shell 4
+    - give %player_name% totem_of_undying 1
+  bp_reward_final:
+    Name: <dark_purple>Level 105 Grand Cache</dark_purple>
+    Commands:
+    - experience add %player_name% 1500 points
+    - give %player_name% netherite_ingot 4
+    - give %player_name% diamond 32
+    - give %player_name% shulker_shell 4
+    - give %player_name% totem_of_undying 2

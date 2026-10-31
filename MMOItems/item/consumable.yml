@@ -1,0 +1,834 @@
+DERUNATOR:
+  base:
+    material: EMERALD
+    name: 'Derunator'
+    tier: RARE
+    custom-model-data: 1000
+    lore:
+    - '&7A mysterious device from'
+    - '&7an unknown realm, which'
+    - '&7can remove every &3runes&7'
+    - '&7from an item.'
+    random-unsocket: 100.0
+
+SMALL_HEALTH_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1026
+    name: '<#F8C8DC>Small Health Potion'
+    restore-health: 20.0
+    cooldown-reference: health
+    item-cooldown: 60.0
+    max-consume: 3.0
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    tier: COMMON
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʜᴇᴀʟɪɴɢ'
+    - '&7Drinking this heals you and'
+    - '&7puts a &660s&7 cooldown on all'
+    - '&chealth potions&7.'
+
+HEALTH_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1027
+    name: '<#ff817b>Health Potion'
+    restore-health: 40.0
+    cooldown-reference: health
+    item-cooldown: 60.0
+    max-consume: 3.0
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    tier: RARE
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʜᴇᴀʟɪɴɢ'
+    - '&7Drinking this heals you and'
+    - '&7puts a &660s&7 cooldown on all'
+    - '&chealth potions&7.'
+
+LARGE_HEALTH_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1028
+    name: '<#ff5148>Large Health Potion'
+    restore-health: 70.0
+    cooldown-reference: health
+    item-cooldown: 60.0
+    max-consume: 4.0
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    tier: EPIC
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʜᴇᴀʟɪɴɢ'
+    - '&7Drinking this heals you and'
+    - '&7puts a &660s&7 cooldown on all'
+    - '&chealth potions&7.'
+
+SUPREME_HEALTH_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1029
+    name: '<#ff2015>Supreme Health Potion'
+    restore-health: 120.0
+    cooldown-reference: health
+    item-cooldown: 60.0
+    max-consume: 5.0
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    tier: LEGENDARY
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʜᴇᴀʟɪɴɢ'
+    - '&7Drinking this heals you and'
+    - '&7puts a &660s&7 cooldown on all'
+    - '&chealth potions&7.'
+
+
+SMALL_MANA_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1030
+    name: '<#00ffff>Small Mana Potion'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʀᴇᴘʟᴇɴɪꜱʜ'
+    - '&7Drinking this restores mana'
+    - '&7and puts a &660s&7 cooldown on'
+    - '&7all &9mana potions&7.'
+    restore-mana: 100.0
+    item-cooldown: 60.0
+    cooldown-reference: mana
+    max-consume: 3.0
+    tier: COMMON
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+
+MANA_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1031
+    name: '<#00e6e6>Mana Potion'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʀᴇᴘʟᴇɴɪꜱʜ'
+    - '&7Drinking this restores mana'
+    - '&7and puts a &660s&7 cooldown on'
+    - '&7all &9mana potions&7.'
+    restore-mana: 200.0
+    item-cooldown: 60.0
+    cooldown-reference: mana
+    max-consume: 3.0
+    tier: RARE
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+
+LARGE_MANA_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1032
+    name: '<#00cccc>Mana Potion'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʀᴇᴘʟᴇɴɪꜱʜ'
+    - '&7Drinking this restores mana'
+    - '&7and puts a &660s&7 cooldown on'
+    - '&7all &9mana potions&7.'
+    restore-mana: 350.0
+    item-cooldown: 60.0
+    cooldown-reference: mana
+    max-consume: 4.0
+    tier: EPIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+
+SUPREME_MANA_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1033
+    name: '<#00b3b3>Supreme Mana Potion'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʀᴇᴘʟᴇɴɪꜱʜ'
+    - '&7Drinking this restores mana'
+    - '&7and puts a &660s&7 cooldown on'
+    - '&7all &9mana potions&7.'
+    restore-mana: 500.0
+    item-cooldown: 60.0
+    cooldown-reference: mana
+    max-consume: 5.0
+    tier: LEGENDARY
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+
+
+BOTTLED_STRENGTH_I:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1001
+    item-cooldown: 180.0
+    cooldown-reference: strength
+    max-consume: 3.0
+    tier: COMMON
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Strength I'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ꜱᴛʀᴇɴɢᴛʜ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎓ <#FF5733>Weapon Damage&7 by'
+    - '&c5%&7 and puts a cooldown of &63'
+    - '&6minutes&7 on strength elixirs.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% ATTACK_DAMAGE 5% 3600
+        delay: 0.0
+        console: true
+BOTTLED_STRENGTH_II:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1002
+    item-cooldown: 180.0
+    cooldown-reference: strength
+    max-consume: 3.0
+    tier: RARE
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Strength II'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ꜱᴛʀᴇɴɢᴛʜ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎓ <#FF5733>Weapon Damage&7 by'
+    - '&c15%&7 and puts a cooldown of'
+    - '&63 minutes&7 on strength elixirs.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% ATTACK_DAMAGE 15% 3600
+        delay: 0.0
+        console: true
+BOTTLED_STRENGTH_III:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1003
+    item-cooldown: 180.0
+    cooldown-reference: strength
+    max-consume: 3.0
+    tier: EPIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Strength III'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ꜱᴛʀᴇɴɢᴛʜ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎓ <#FF5733>Weapon Damage&7 by'
+    - '&c35%&7 and puts a cooldown of'
+    - '&63 minutes&7 on strength elixirs.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% ATTACK_DAMAGE 35% 3600
+        delay: 0.0
+        console: true
+BOTTLED_STRENGTH_IV:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1004
+    item-cooldown: 180.0
+    cooldown-reference: strength
+    max-consume: 3.0
+    tier: LEGENDARY
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Strength IV'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ꜱᴛʀᴇɴɢᴛʜ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎓ <#FF5733>Weapon Damage&7 by'
+    - '&c50%&7 and puts a cooldown of'
+    - '&63 minutes&7 on strength elixirs.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% ATTACK_DAMAGE 50% 3600
+        delay: 0.0
+        console: true
+BOTTLED_STRENGTH_V:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1005
+    item-cooldown: 180.0
+    cooldown-reference: strength
+    max-consume: 3.0
+    tier: MYTHIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Strength V'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ꜱᴛʀᴇɴɢᴛʜ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎓ <#FF5733>Weapon Damage&7 by'
+    - '&c100%&7 and puts a cooldown of'
+    - '&63 minutes&7 on strength elixirs.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% ATTACK_DAMAGE 100% 3600
+        delay: 0.0
+        console: true
+
+BOTTLED_VAMPIRISM_I:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1006
+    item-cooldown: 180.0
+    cooldown-reference: lifesteal
+    max-consume: 3.0
+    tier: COMMON
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Vamprism <#F0CFCE>I'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʟɪꜰᴇꜱᴛᴇᴀʟ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎐ <#800000>Lifesteal&7, and &f᎖'
+    - '<#702963>Spell Vamp&7 by <#800000>0.1%&7 and <#702963>5%'
+    - '&7respectively and puts a &65'
+    - '&6minutes&7 on lifesteal potions.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% LIFESTEAL 0.1 6000
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% SPELL_VAMPIRISM 5 6000
+        delay: 0.0
+        console: true
+BOTTLED_VAMPIRISM_II:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1007
+    item-cooldown: 180.0
+    cooldown-reference: lifesteal
+    max-consume: 3.0
+    tier: RARE
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Vamprism <#E19F9C>II'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʟɪꜰᴇꜱᴛᴇᴀʟ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎐ <#800000>Lifesteal&7, and &f᎖'
+    - '<#702963>Spell Vamp&7 by <#800000>0.2%&7 and <#702963>7.5%'
+    - '&7respectively and puts a &65'
+    - '&6minutes&7 on lifesteal potions.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% LIFESTEAL 0.1 6000
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% SPELL_VAMPIRISM 5 6000
+        delay: 0.0
+        console: true
+BOTTLED_VAMPIRISM_III:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1008
+    item-cooldown: 180.0
+    cooldown-reference: lifesteal
+    max-consume: 3.0
+    tier: EPIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Vamprism <#C23E39>III'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʟɪꜰᴇꜱᴛᴇᴀʟ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎐ <#800000>Lifesteal&7, and &f᎖'
+    - '<#702963>Spell Vamp&7 by <#800000>0.5%&7 and <#702963>10%'
+    - '&7respectively and puts a &65'
+    - '&6minutes&7 on lifesteal potions.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% LIFESTEAL 0.1 6000
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% SPELL_VAMPIRISM 5 6000
+        delay: 0.0
+        console: true
+BOTTLED_VAMPIRISM_IV:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1009
+    item-cooldown: 180.0
+    cooldown-reference: lifesteal
+    max-consume: 3.0
+    tier: LEGENDARY
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Vamprism <#A92520>IV'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʟɪꜰᴇꜱᴛᴇᴀʟ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎐ <#800000>Lifesteal&7, and &f᎖'
+    - '<#702963>Spell Vamp&7 by <#800000>1%&7 and <#702963>12.5%'
+    - '&7respectively and puts a &65'
+    - '&6minutes&7 on lifesteal potions.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% LIFESTEAL 0.1 6000
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% SPELL_VAMPIRISM 5 6000
+        delay: 0.0
+        console: true
+BOTTLED_VAMPIRISM_V:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1010
+    item-cooldown: 180.0
+    cooldown-reference: lifesteal
+    max-consume: 3.0
+    tier: MYTHIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Vamprism <#6B0805>V'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ʟɪꜰᴇꜱᴛᴇᴀʟ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎐ <#800000>Lifesteal&7, and &f᎖'
+    - '<#702963>Spell Vamp&7 by <#800000>1.5%&7 and <#702963>15%'
+    - '&7respectively and puts a &65'
+    - '&6minutes&7 on lifesteal potions.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% LIFESTEAL 0.1 6000
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% SPELL_VAMPIRISM 5 6000
+        delay: 0.0
+        console: true
+
+BOTTLED_SORCERY_I:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1011
+    item-cooldown: 180.0
+    cooldown-reference: sorcery
+    max-consume: 3.0
+    tier: COMMON
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Sorcery <#D1C2D4>I'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴍᴀɢɪᴄ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎕ <#D1C2D4>Ability Damage&7 by'
+    - '&d25%&7 and puts a cooldown of'
+    - '&63 minutes&7 on sorcery pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% SKILL_DAMAGE 25 3600
+        delay: 0.0
+        console: true
+BOTTLED_SORCERY_II:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1012
+    item-cooldown: 180.0
+    cooldown-reference: sorcery
+    max-consume: 3.0
+    tier: RARE
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Sorcery <#A384AA>II'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴍᴀɢɪᴄ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎕ <#D1C2D4>Ability Damage&7 by'
+    - '&d50%&7 and puts a cooldown of'
+    - '&63 minutes&7 on sorcery pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% SKILL_DAMAGE 50 3600
+        delay: 0.0
+        console: true
+BOTTLED_SORCERY_III:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1013
+    item-cooldown: 180.0
+    cooldown-reference: sorcery
+    max-consume: 3.0
+    tier: EPIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Sorcery <#855B8D>III'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴍᴀɢɪᴄ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎕ <#D1C2D4>Ability Damage&7 by'
+    - '&d100%&7 and puts a cooldown of'
+    - '&63 minutes&7 on sorcery pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% SKILL_DAMAGE 100 3600
+        delay: 0.0
+        console: true
+BOTTLED_SORCERY_IV:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1014
+    item-cooldown: 180.0
+    cooldown-reference: sorcery
+    max-consume: 3.0
+    tier: LEGENDARY
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Sorcery <#6B4274>IV'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴍᴀɢɪᴄ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎕ <#D1C2D4>Ability Damage&7 by'
+    - '&d150%&7 and puts a cooldown of'
+    - '&63 minutes&7 on sorcery pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% SKILL_DAMAGE 150 3600
+        delay: 0.0
+        console: true
+BOTTLED_SORCERY_V:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1015
+    item-cooldown: 180.0
+    cooldown-reference: sorcery
+    max-consume: 3.0
+    tier: MYTHIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Sorcery <#3D1E44>V'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴍᴀɢɪᴄ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &f᎕ <#D1C2D4>Ability Damage&7 by'
+    - '&d250%&7 and puts a cooldown of'
+    - '&63 minutes&7 on sorcery pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% SKILL_DAMAGE 250 3600
+        delay: 0.0
+        console: true
+
+BOTTLED_PRECISION_I:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1016
+    item-cooldown: 180.0
+    cooldown-reference: precision
+    max-consume: 3.0
+    tier: COMMON
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Precision <#C1D9DE>I'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴘʀᴇᴄɪꜱɪᴏɴ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &fᎋ <#FBE7C6>Crit Chance&7 and &fᎌ'
+    - '<#FBE7C6>Crit Damage&7 by <#FBE7C6>5%&7 and <#FBE7C6>10%'
+    - '&7respectively and puts a &63'
+    - '&6minutes&7 cooldown on crit pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_CHANCE 5 3600
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_POWER 10 3600
+        delay: 0.0
+        console: true
+BOTTLED_PRECISION_II:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1017
+    item-cooldown: 180.0
+    cooldown-reference: precision
+    max-consume: 3.0
+    tier: RARE
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Precision <#93BDC6>II'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴘʀᴇᴄɪꜱɪᴏɴ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &fᎋ <#FBE7C6>Crit Chance&7 and &fᎌ'
+    - '<#FBE7C6>Crit Damage&7 by <#FBE7C6>7.5%&7 and <#FBE7C6>15%'
+    - '&7respectively and puts a &63'
+    - '&6minutes&7 cooldown on crit pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_CHANCE 7.5 3600
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_POWER 15 3600
+        delay: 0.0
+        console: true
+BOTTLED_PRECISION_III:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1018
+    item-cooldown: 180.0
+    cooldown-reference: precision
+    max-consume: 3.0
+    tier: EPIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Precision <#6A9AA4>III'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴘʀᴇᴄɪꜱɪᴏɴ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &fᎋ <#FBE7C6>Crit Chance&7 and &fᎌ'
+    - '<#FBE7C6>Crit Damage&7 by <#FBE7C6>10%&7 and <#FBE7C6>25%'
+    - '&7respectively and puts a &63'
+    - '&6minutes&7 cooldown on crit pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_CHANCE 10 3600
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_POWER 25 3600
+        delay: 0.0
+        console: true
+BOTTLED_PRECISION_IV:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1019
+    item-cooldown: 180.0
+    cooldown-reference: precision
+    max-consume: 3.0
+    tier: LEGENDARY
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Precision <#477179>IV'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴘʀᴇᴄɪꜱɪᴏɴ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &fᎋ <#FBE7C6>Crit Chance&7 and &fᎌ'
+    - '<#FBE7C6>Crit Damage&7 by <#FBE7C6>15%&7 and <#FBE7C6>40%'
+    - '&7respectively and puts a &63'
+    - '&6minutes&7 cooldown on crit pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_CHANCE 15 3600
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_POWER 40 3600
+        delay: 0.0
+        console: true
+BOTTLED_PRECISION_V:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1020
+    item-cooldown: 180.0
+    cooldown-reference: precision
+    max-consume: 3.0
+    tier: MYTHIC
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    name: 'Bottled Precision <#284045>V'
+    lore:
+    - '&f 뀓'
+    - ''
+    - '&fｰ ᴘʀᴇᴄɪꜱɪᴏɴ ʙᴏᴏꜱᴛ'
+    - '&7Boosts &fᎋ <#FBE7C6>Crit Chance&7 and &fᎌ'
+    - '<#FBE7C6>Crit Damage&7 by <#FBE7C6>25%&7 and <#FBE7C6>100%'
+    - '&7respectively and puts a &63'
+    - '&6minutes&7 cooldown on crit pot.'
+    commands:
+      cmd0:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_CHANCE 25 3600
+        delay: 0.0
+        console: true
+      cmd1:
+        format: mythiclib statmod %player_name% CRITICAL_STRIKE_POWER 100 3600
+        delay: 0.0
+        console: true
+
+
+GRIMOIRE_OF_THE_DAMNED:
+  base:
+    material: GRAY_DYE
+    name: "<#E7D27C>Grimoire of the Damned"
+    custom-model-data: 1001
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade these'
+    - '&7items, boosting &7&omost&7 of'
+    - '&7its stats by &65%&7, max &f5 times&7.'
+    - ''
+    - '<#E7D27C> Apocalypse Armor'
+    - '&8 (variations)'
+    - '<#E7D27C> The Calamity'
+    - '<#E7D27C> The Cataclysm'
+    - '<#E7D27C> The Catastrophe'
+    - ''
+    - '&7Affected stats: &c🗡 &9☠ &f🛡 &c❤ <#9966cc>۞'
+    - '                    &6🏹 &4🗡'
+    - ''
+    - '&8> Drag & drop <'
+    tier: LEGENDARY
+    unstackable: true
+    upgrade:
+      reference: damned
+
+GRIMOIRE_OF_THE_LOYAL:
+  base:
+    material: GRAY_DYE
+    name: '<#FFC0CB>Grimoire of the Loyal'
+    custom-model-data: 1002
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade these'
+    - '&7items, boosting &7&omost&7 of'
+    - '&7its stats by &d2%&7, max &f5 times&7.'
+    - ''
+    - '<#C3B1E1> Hellfire Armor'
+    - '<#C3B1E1> Warden Armor'
+    - '<#C3B1E1> Apollo Armor'
+    - '<#C3B1E1> Death Armor'
+    - ''
+    - '&7Affected stats: &c🗡 &9☠ &f🛡 &c❤ <#9966cc>۞'
+    - '                    &6🏹 &4🗡'
+    - ''
+    - '&8> Drag & drop <'
+    tier: EPIC
+    unstackable: true
+    upgrade:
+      reference: loyal

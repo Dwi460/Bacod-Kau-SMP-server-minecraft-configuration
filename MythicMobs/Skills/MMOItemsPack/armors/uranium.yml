@@ -1,0 +1,19 @@
+Radiation:
+  Skills:
+  - Aura{auraName=Radiation;duration=200;rd=true;onTick=Radiation-Tick;i=20;maxStacks=15} @target
+  - skill{s=RadiationBurst} @target
+
+Radiation-Tick:
+  Skills:
+  - effect:particles{p=reddust;color=#E0FF66;hS=0.5;vS=1;speed=0;y=1}
+  - effect:particles{particle=smoke_normal;amount=20;hS=0.5;vS=1;speed=0}
+
+RadiationBurst:
+  TargetConditions:
+  - hasaurastacks{n=Radiation;s=>14} true
+  Skills:
+  - auraremove{aura=Radiation;stacks=15}
+  - mmodamage{a=1000;types=MAGIC,SKILL,ON-HIT}
+  - sound{s=entity.blaze.shoot} @self
+  - effect:particles{p=reddust;color=#E0FF66;amount=10;hS=0.5;vS=0.5;speed=0;y=1} @self
+  - effect:particles{particle=smoke_normal;amount=50;hS=0.5;vS=0.5;speed=0} @self

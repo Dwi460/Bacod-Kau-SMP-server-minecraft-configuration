@@ -1,0 +1,6 @@
+Execute:
+  Skills:
+  - setvariable{var=skill.targetphp;type=integer;value="<target.php>"}
+
+  - skill:Execution @target ?variableinrange{var=skill.targetphp;value=<5}
+  - command{c="mythiclib statmod <caster.name> WEAPON_DAMAGE 10 100"} @self ?variableinrange{var=skill.targetphp;value=<5}

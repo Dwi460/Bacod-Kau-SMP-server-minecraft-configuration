@@ -1,0 +1,330 @@
+FRIGID:
+  base:
+    material: STICK
+    custom-model-data: 1001
+    name: '<#FFC0CB>Frigid'
+    lore:
+    - '&fా Frosty Fury &f᎙'
+    - '&7Unleashes a frost wave,'
+    - '<#d3fafb>rooting &7nearby enemies'
+    - '&7and dealing&c 35&7 damage.'
+    - '&8 | &f<#AEC6CF>⌚20s &b✎20 &8|'
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    attack-damage: 20.0
+    cooldown-reduction: 15.0
+    tooltip-style: epic
+    fire-damage-reduction: 100.0
+    movement-speed: 0.01
+    ability:
+      ability1:
+        type: ICE_FURY
+        mode: RIGHT_CLICK
+        mana: 20.0
+        cooldown: 10.0
+
+WITCHCRAFT:
+  base:
+    material: STICK
+    custom-model-data: 1004
+    name: '<#FFC0CB>Witchcraft'
+    lore:
+    - '&f丠 ᴅᴀʀᴋ ꜱᴘɪᴋᴇꜱ &f᎙'
+    - '&7Bombards the targeted area'
+    - '&7with dark spikes, dealing &c100'
+    - '&7damage to targets hit'
+    - '&8 | &f<#AEC6CF>⌚30s &b✎30 &8|'
+    attack-damage: 15.0
+    skill-critical-strike-power: 15.0
+    skill-critical-strike-chance: 5.0
+    cooldown-reduction: 30.0
+    tooltip-style: epic
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: ARCANE_HAIL
+        mode: RIGHT_CLICK
+        mana: 30.0
+        cooldown: 30.0
+        damage: 100.0
+
+
+CONTINUUM:
+  base:
+    material: STICK
+    custom-model-data: 1005
+    name: '<#FFC0CB>Continuum'
+    lore:
+    - '&f両 ꜱᴘᴀᴄᴇᴛɪᴍᴇ ʀɪꜰᴛ &f᎙'
+    - '&7Slashes open a space-time'
+    - '&7rift which &dpulls in&7 nearby'
+    - '&7units.'
+    - '&8 | &f<#AEC6CF>⌚30s &b✎30 &8|'
+    attack-damage: 35.0
+    skill-critical-strike-power: 30.0
+    cooldown-reduction: -10.0
+    tooltip-style: epic
+    movement-speed: 0.01
+    ability:
+      ability1:
+        type: BLACK_HOLE
+        mode: RIGHT_CLICK
+        mana: 30.0
+        cooldown: 30.0
+        duration: 5.0
+
+
+SMITE:
+  base:
+    material: STICK
+    custom-model-data: 1006
+    name: '<#FFC0CB>Smite'
+    lore:
+    - '&f丢 ʜᴇᴀᴠᴇɴʙᴀɴᴇ &f᎙'
+    - '&7Unleashes a holy bolt, which'
+    - '&7deals massive &4500&7 damage'
+    - '&7to first target hit.'
+    - '&8 | &f<#AEC6CF>⌚60s &b✎100 &8|'
+    attack-damage: 25.0
+    skill-critical-strike-power: 35.0
+    skill-critical-strike-chance: 10.0
+    tooltip-style: epic
+    movement-speed: 0.01
+    ability:
+      ability1:
+        type: Holy Missile
+        mode: RIGHT_CLICK
+        mana: 100.0
+        cooldown: 30.0
+        damage: 500.0
+
+
+VOID_WALKER:
+  base:
+    material: STICK
+    custom-model-data: 1007
+    name: '<#FFC0CB>Voidwalker'
+    lore:
+    - '&f丣 ᴠᴏɪᴅ ᴢᴀᴘᴘᴇʀ &f᎙'
+    - '&7Casts a void bolt, bouncing'
+    - '&7off surfaces. It deals &c200'
+    - '&7damage to targets hit'
+    - '&8 | &f<#AEC6CF>⌚60s &b✎100 &8|'
+    attack-damage: 23.0
+    cooldown-reduction: 30.0
+    tooltip-style: epic
+    movement-speed: 0.01
+    ability:
+      ability1:
+        type: VOID_ZAPPER
+        mode: RIGHT_CLICK
+        mana: 100.0
+        cooldown: 30.0
+        damage: 200.0
+
+
+CATACLYSM:
+  base:
+    material: STICK
+    custom-model-data: 1000
+    name: '<#915ace>The Cataclysm'
+    disable-crafting: true
+    tooltip-style: mythic
+    lore:
+    - '&fヷ ᴅᴏᴏᴍꜱᴅᴀʏ &f᎙'
+    - '&bRoot&7 yourself for &b3 secs,'
+    - '&7then unleashes a void blast,'
+    - '&7dealing &c650 &8+ &c100% ❤&7 to'
+    - '&7nearby enemies.'
+    - '&8 | &f<#AEC6CF>⌚100s &b✎150 &8|'
+    revision-id: 2
+    ability:
+      ability1:
+        type: DOOMSDAY
+        mode: RIGHT_CLICK
+        mana: 150.0
+        cooldown: 100.0
+    unstackable: true
+    disable-interaction: true
+    attack-damage: 40.0
+    skill-critical-strike-power: 50.0
+    skill-critical-strike-chance: 100.0
+    range: 15.0
+    upgrade:
+      template: damned
+      reference: damned
+      max: 5
+    gem-sockets:
+    - '&dSorcery'
+    - '&dSorcery'
+    - '&3Time'
+
+SCORPIO:
+  base:
+    material: STICK
+    custom-model-data: 1002
+    movement-speed: 0.03
+    defense: 20
+    skill-damage: 100.0
+    name: '<#915ace>Scorpio'
+    lore:
+    - '&fఖ ᴛᴏxɪᴄ ꜰᴜᴍᴇꜱ &f᎙'
+    - '&7Shoots a barrage of toxic'
+    - '&7fumes, dealing &c35&7 damage to'
+    - '&7hit targets.'
+    - '&8 | &f<#AEC6CF>⌚0s &b✎15 &8|'
+    tooltip-style: mythic
+    ability:
+      ability1:
+        type: ACID_SPRAY
+        mode: RIGHT_CLICK
+        mana: 15.0
+    gem-sockets:
+    - '&dSorcery'
+    - '&dSorcery'
+
+STARCALLER:
+  base:
+    material: STICK
+    custom-model-data: 1003
+    name: '<#915ace>Starcaller'
+    lore:
+    - '&fశ ᴄᴇʟᴇꜱᴛɪᴀʟ ᴀɪᴅ &f᎙'
+    - '&7Calls forth a star to strike'
+    - '&7the target location, dealing'
+    - '<#FDFD96>350❤&7 to hit enemies. Each'
+    - '&7enemies hit heal you &7for <#FDFD96>50❤'
+    - '&8 | &f<#AEC6CF>⌚30s &b✎100 &8|'
+    attack-damage: 37.0
+    cooldown-reduction: 10.0
+    tooltip-style: mythic
+    movement-speed: 0.04
+    ability:
+      ability1:
+        type: CELESTIAL_AID
+        mode: RIGHT_CLICK
+        mana: 300.0
+        cooldown: 60.0
+    gem-sockets:
+    - '&dSorcery'
+
+DISRUPTER:
+  base:
+    material: STICK
+    custom-model-data: 1008
+    name: '<#915ace>Disrupter'
+    lore:
+    - '&f两 ᴜɴꜱᴛᴀʙʟᴇ ꜱᴘʜᴇʀᴇ &f᎙'
+    - '&7Summons an unstable sphere'
+    - '&7at the target location, which'
+    - '&7will explode after a short'
+    - '&7delay, dealing &c250❤'
+    - '&8 | &f<#AEC6CF>⌚30s &b✎50 &8|'
+    attack-damage: 45.0
+    cooldown-reduction: 10.0
+    skill-damage: 50.0
+    weapon-damage: -25.0
+    tooltip-style: mythic
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: OVERLOADED_SPHERE
+        mode: RIGHT_CLICK
+        cooldown: 30.0
+        mana: 50.0
+    gem-sockets:
+    - '&dSorcery'
+
+BLIGHTSPORE:
+  base:
+    material: STICK
+    custom-model-data: 1009
+    name: '<#915ace>Blightspore'
+    lore:
+    - '&f严 ʙʟᴏᴏᴅʙᴜʀꜱᴛ &f᎙'
+    - '&7Consumes &c10% max ❤HP&7 to'
+    - '&7create a blood burst, which'
+    - '&7deals &410x&7 your max &c❤HP&7 as'
+    - '&7AOE damage.'
+    - '&8 | &f<#AEC6CF>⌚5s &8|'
+    attack-damage: 30.0
+    defense: 50.0
+    tooltip-style: mythic
+    movement-speed: 0.05
+    ability:
+      ability1:
+        type: BLOODBURST
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+    gem-sockets:
+    - '&dSorcery'
+    - '&3Time'
+    skill-critical-strike-chance: 15.0
+    skill-critical-strike-power: 50.0
+
+
+VOODOO:
+  base:
+    material: STICK
+    custom-model-data: 1011
+    name: '<#915ace>Voodoo'
+    lore:
+    - '&f丵 ᴅᴀʀᴋ ʀɪᴛᴜᴀʟ &f᎙'
+    - '&7You enter &6⌛ Stasis&7, and then'
+    - '&7cast &5Dark Ritual&7 for &d5s.'
+    - '&7'
+    - '&5Dark Ritual&7: Deals &c125+50%❤'
+    - '&7to nearby enemies per sec.'
+    - '&8 | &f<#AEC6CF>⌚60s &b✎150 &8|'
+    attack-damage: 38.0
+    skill-critical-strike-power: 200.0
+    skill-critical-strike-chance: -10.0
+    tooltip-style: mythic
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: DARK_RITUAL
+        mode: RIGHT_CLICK
+        cooldown: 60.0
+        mana: 150.0
+    gem-sockets:
+    - '&dSorcery'
+    - '&3Time'
+
+
+EVENT_HORIZON:
+  base:
+    material: STICK
+    custom-model-data: 1010
+    attack-damage: 52.0
+    skill-critical-strike-chance: 50.0
+    weapon-damage: -100.0
+    tooltip-style: godlike
+    unbreakable: true
+    name: '<#cb8592>Event Horizon'
+    lore:
+    - '&f並 ᴄᴏʟʟᴀꜱᴘᴇ &f᎙'
+    - '&7Calls forth a star to crash,'
+    - '&7exploding upon contact on'
+    - '&7the ground dealing &c5.000'
+    - '&7damage'
+    - '&8 | &f<#AEC6CF>⌚90s &b✎300 &8|'
+    - ''
+    - '&f丧 ᴘᴜʟꜱᴀʀ &f᎙'
+    - '<#ccd8fc>Replaces &f並 <#ccd8fc>at 100 &f临'
+    - '&7From the sky calls forth the'
+    - '<#44008b>galaxy&7 to fall down, dealing'
+    - '&c25.000&7 damage while also'
+    - '&f᎜ <#a41ca4>stunning &7targets hit for'
+    - '&53s&7.'
+    - '&8 | &f<#AEC6CF>⌚90s &b✎300 &8|'
+    ability:
+      ability1:
+        type: COMET
+        mode: RIGHT_CLICK
+        mana: 300.0
+        cooldown: 90.0
+    gem-sockets:
+    - '&dSorcery'
+    - '&dSorcery'
+    - '&3Time'

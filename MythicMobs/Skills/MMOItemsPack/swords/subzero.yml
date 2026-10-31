@@ -1,0 +1,44 @@
+Frozen_Tomb:
+  Skills:
+  - sound{s=entity.player.hurt_freeze;p=1} @self
+  - onDamaged{auraName=Frozen_Tomb;duration=100;multiplier=0} @self
+  - effect:particlering{particle=redstone;color=#c0d6e4;radius=2;points=32;amount=1;y=0} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#22486d;radius=1.5;points=32;amount=1;y=0} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#5b7a92;radius=1;points=32;amount=1;y=0} @self
+  - delay 2
+  - prison{material=ICE;duration=80;breakable=false} @self
+
+  - delay 5
+  - effect:particlering{particle=block_crack;material=ICE;amount=40;radius=1;p=32} @self
+  - effect:particlering{particle=redstone;color=#5b7a92;radius=1;points=32;amount=1;y=0} @self
+  - sound{s=block.glass.break} @self
+  - mmodamage{amount="250";t=SKILL,MAGIC} @EntitiesNearOrigin{r=1;ignore=players}
+  - skill:Stun{duration=60} @EntitiesNearOrigin{r=1;ignore=players}
+
+  - delay 20
+  - effect:particlering{particle=block_crack;material=ICE;amount=40;radius=2;p=32} @self
+  - effect:particlering{particle=redstone;color=#5b7a92;radius=2;points=32;amount=1;y=0} @self
+  - sound{s=block.glass.break} @self
+  - mmodamage{amount="250";t=SKILL,MAGIC} @EntitiesNearOrigin{r=2;ignore=players}
+  - skill:Stun{duration=60} @EntitiesNearOrigin{r=2;ignore=players}
+
+  - delay 20
+  - effect:particlering{particle=block_crack;material=ICE;amount=40;radius=3;p=32} @self
+  - effect:particlering{particle=redstone;color=#5b7a92;radius=3;points=32;amount=1;y=0} @self
+  - sound{s=block.glass.break} @self
+  - mmodamage{amount="250";t=SKILL,MAGIC} @EntitiesNearOrigin{r=3;ignore=players}
+  - skill:Stun{duration=60} @EntitiesNearOrigin{r=3;ignore=players}
+
+  - delay 20
+  - effect:particlering{particle=block_crack;material=ICE;amount=40;radius=4;p=32} @self
+  - effect:particlering{particle=redstone;color=#5b7a92;radius=4;points=32;amount=1;y=0} @self
+  - sound{s=block.glass.break} @self
+  - mmodamage{amount="250";t=SKILL,MAGIC} @EntitiesNearOrigin{r=4;ignore=players}
+  - skill:Stun{duration=60} @EntitiesNearOrigin{r=4;ignore=players}
+  
+  - delay 15
+  - effect:particle{particle=block_crack;material=ICE;amount=300;hs=1;vs=1;y=0.5} @self
+  - sound{s=block.glass.break} @self
+

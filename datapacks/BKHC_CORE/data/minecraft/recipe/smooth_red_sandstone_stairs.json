@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "smooth_red_sandstone"
+  },
+  "result": {
+    "id": "smooth_red_sandstone_stairs",
+    "count": 4
+  }
+}

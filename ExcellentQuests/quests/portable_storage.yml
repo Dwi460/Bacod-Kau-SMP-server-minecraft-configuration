@@ -1,0 +1,20 @@
+Type: craft_item
+Name: Portable Storage
+Description:
+- <gray>Craft shulkers to get reward!</gray>
+Icon:
+  Material: minecraft:shulker_box
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:shulker_box: 4;8 5.0 20.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

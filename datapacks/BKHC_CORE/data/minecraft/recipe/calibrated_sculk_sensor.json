@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+  "ingredients": [
+		"sculk_sensor",
+		"amethyst_shard",
+		"amethyst_shard",
+		"amethyst_shard"
+  ],
+    "result": {
+        "id": "calibrated_sculk_sensor",
+        "count": 1
+    }
+}

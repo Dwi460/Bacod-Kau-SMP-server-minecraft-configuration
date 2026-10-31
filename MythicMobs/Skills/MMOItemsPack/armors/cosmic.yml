@@ -1,0 +1,6 @@
+Dark_Matter:
+  Skills:
+  - sound{s=entity.mooshroom.convert} @self
+  - setvariable{var=caster.darkmatter;type=INTEGER;value="0";save=true} @self{conditions=[  - variableisset{var=caster.darkmatter} false ]}
+  - variableadd{var=caster.darkmatter;amount=1}
+  - actionmessage{m="<#C3B1E1>+1 ᴅᴀʀᴋ ᴍᴀᴛᴛᴇʀ! &8(<#332155><caster.var.darkmatter>&8)"} @self

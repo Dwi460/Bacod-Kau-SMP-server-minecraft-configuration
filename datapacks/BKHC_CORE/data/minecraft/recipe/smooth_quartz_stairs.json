@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "smooth_quartz"
+  },
+  "result": {
+    "id": "smooth_quartz_stairs",
+    "count": 4
+  }
+}

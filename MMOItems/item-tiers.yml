@@ -1,0 +1,18 @@
+common:
+    name: 'common'
+    tooltip: common
+rare:
+    name: 'rare'
+    tooltip: RARE
+epic:
+    name: 'epic'
+    tooltip: EPIC
+legendary:
+    name: 'legendary'
+    tooltip: LEGENDARY
+mythic:
+    name: 'mythic'
+    tooltip: MYTHIC
+godlike:
+    name: 'godlike'
+    tooltip: GODLIKE

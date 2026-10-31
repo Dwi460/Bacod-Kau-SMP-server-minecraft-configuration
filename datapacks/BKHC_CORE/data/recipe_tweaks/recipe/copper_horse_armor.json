@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  X",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": "copper_ingot"
+  },
+  "result": {
+    "id": "copper_horse_armor"
+  }
+}

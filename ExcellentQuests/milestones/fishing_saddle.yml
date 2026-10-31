@@ -1,0 +1,14 @@
+Type: fish_item
+Category: fishing
+Name: Saddle
+Icon:
+  Material: minecraft:saddle
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:saddle: 1 2 4 8 12 20 30 50 75
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

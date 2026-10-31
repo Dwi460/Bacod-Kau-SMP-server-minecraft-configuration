@@ -1,0 +1,15 @@
+Starmarked:
+  Skills:
+  - onDeath{auraName=Starmarked;od=Starmarked-Death;onTick=Starmarked-Tick;d=200;i=20} 
+
+Starmarked-Tick:
+  Skills:
+  - effect:particles{p=fireworks_spark;amount=2;hS=0.5;vS=1;speed=0;y=1}
+  - effect:particles{particle=smoke_normal;amount=20;hS=0.5;vS=1;speed=0}
+
+Starmarked-Death:
+  Skills:
+  - mmodamage{a=250;types=SKILL,MAGIC;pk=true} @ENO{r=4;ignore=players}
+  - effect:particles{p=hugeexplosion;amount=1;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=end_rod;amount=100;hs=1;vs=1} @origin
+  - sound{s=entity.generic.explode} @origin

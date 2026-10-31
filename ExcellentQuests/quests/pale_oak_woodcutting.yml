@@ -1,0 +1,18 @@
+Type: break_block
+Name: Pale Oak Woodcutting
+Description:
+- <gray>Cut down pale oak trees to gather their logs!</gray>
+Icon:
+  Material: minecraft:pale_oak_log
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:pale_oak_log: 32;64 5.0 5.0
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+CompletionTime: 21600

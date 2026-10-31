@@ -1,0 +1,34 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:cyan_dye_from_nether_sprouts"
+    ]
+  },
+  "criteria": {
+    "has_nether_sprouts": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nether_sprouts"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:cyan_dye_from_nether_sprouts"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_sprouts",
+      "has_the_recipe"
+    ]
+  ]
+}

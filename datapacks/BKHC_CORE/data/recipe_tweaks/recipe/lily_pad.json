@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " # ",
+    "#L#",
+    " # "
+  ],
+  "key": {
+    "L": "lily_pad",
+    "#": "big_dripleaf"
+  },
+  "result": {
+    "id": "lily_pad",
+	"count": 2
+  }
+}

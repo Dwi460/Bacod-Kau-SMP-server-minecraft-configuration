@@ -1,0 +1,36 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "stonecutter"
+    ]
+  },
+  "criteria": {
+    "has_stones": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stone",
+			  "polished_blackstone",
+			  "polished_deepslate"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "stonecutter"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stones",
+      "has_the_recipe"
+    ]
+  ]
+}

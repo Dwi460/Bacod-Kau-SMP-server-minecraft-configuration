@@ -1,0 +1,13 @@
+Frostburn:
+  Skills:
+  - mmodamage{amount="300";types=SKILL,MAGIC} @EntitiesNearOrigin{r=2.5;ignore=players}
+  - potion{type=SLOW;duration=60;level=1} @EntitiesNearOrigin{r=2.5;ignore=players}
+  - onDamaged{auraName=Brittle;duration=200;multiplier=1.15;rd=true} @EntitiesNearOrigin{r=2.5;ignore=players}
+  - effect:particlering{particle=redstone;color=#b9e8ea;radius=1;points=32;amount=2;y=0.2} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#86d6d8;radius=1.5;points=32;amount=2;y=0.2} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#3fd0d4;radius=2;points=32;amount=2;y=0.2} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#20c3d0;radius=2.5;points=32;amount=2;y=0.2} @self
+  - delay 2

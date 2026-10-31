@@ -1,0 +1,18 @@
+Hemmorhage:
+  Skills:
+  - Aura{auraName=Bleed;onTick=Hemmorhage-Tick;d=100;i=20;rd=true;bt=false;mc=true;ma=true;maxStacks=5} @target
+
+Hemmorhage-Tick:
+  Skills:
+  - mmodamage{a=100;types=DOT,ON-HIT;pk=true;ia=true}
+  - effect:particles{particle=block_crack;material=REDSTONE_BLOCK;amount=5;hS=0.5;vS=1;speed=0;y=1}
+
+Justice_Served:
+  TargetConditions:
+  - fieldofview{angle=90} true
+  Skills:
+  - teleport{spreadh=1;spreadv=0} @target
+  - sound{s=entity.enderman.teleport} @self
+
+  - mmodamage{a=1000;types=SKILL,ON-HIT;pk=true;ia=true} @target
+  - skill:Execute @target{conditions=[  - hasaurastacks{n=Bleed;s=5} true ]}

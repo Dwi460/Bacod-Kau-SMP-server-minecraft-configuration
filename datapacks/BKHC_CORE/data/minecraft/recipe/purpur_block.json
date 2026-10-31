@@ -1,0 +1,14 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "FF",
+    "FF"
+  ],
+  "key": {
+    "F": "popped_chorus_fruit"
+  },
+  "result": {
+    "id": "purpur_block"
+  }
+}

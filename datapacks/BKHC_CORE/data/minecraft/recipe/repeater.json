@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": "redstone_torch",
+    "X": "redstone",
+    "I": "#recipe_tweaks:grindstone_slabs"
+  },
+  "result": {
+    "id": "repeater"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#-#",
+    "I I"
+  ],
+  "key": {
+    "I": "stick",
+    "-": "#recipe_tweaks:grindstone_slabs",
+    "#": "#planks"
+  },
+  "result": {
+    "id": "grindstone"
+  }
+}

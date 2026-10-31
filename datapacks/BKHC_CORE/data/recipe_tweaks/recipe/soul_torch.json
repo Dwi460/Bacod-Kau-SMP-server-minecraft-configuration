@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "group": "soul_torch",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "W": "#soul_fire_base_blocks",
+    "#": "torch"
+  },
+  "result": {
+    "id": "soul_torch",
+	"count": 4
+  }
+}

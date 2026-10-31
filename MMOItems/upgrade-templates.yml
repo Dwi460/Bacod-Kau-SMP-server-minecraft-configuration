@@ -1,0 +1,23 @@
+
+# Template ID, only used as reference. This is the
+# text you need to enter in the edition GUI in order
+# to setup item upgrading for a specific item.
+loyal:
+    attack-damage: 2%
+    critical-strike-power: 2%
+    defense: 2%
+    movement_speed: 2%
+    max-health: 2%
+    skill-damage: 2%
+    projectile-damage: 2%
+    weapon-damage: 2%
+
+damned:
+    attack-damage: 5%
+    critical-strike-power: 5%
+    defense: 5%
+    movement_speed: 5%
+    max-health: 5%
+    skill-damage: 5%
+    projectile-damage: 5%
+    weapon-damage: 5%

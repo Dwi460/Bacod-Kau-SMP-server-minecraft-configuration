@@ -1,0 +1,14 @@
+Type: block_loot
+Category: farming
+Name: Poisonous Potato
+Icon:
+  Material: minecraft:poisonous_potato
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:poisonous_potato: 10 25 50 100 200 400 750 1000 2000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

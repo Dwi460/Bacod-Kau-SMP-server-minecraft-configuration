@@ -1,0 +1,5 @@
+Warden_Blessing_Upgraded:
+  Skills:
+  - auraremove{aura=HexFlame} @self
+  - auraremove{aura=BrittleBone} @self
+  - auraremove{aura=Disarmed} @self

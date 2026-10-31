@@ -1,0 +1,6 @@
+Intimidate:
+  Skills:
+  - sound{s=entity.phantom.hurt} @self
+  - effect:particlesphere{particle=villager_angry;amount=10;radius=2} @self
+  - onDamaged{auraName=Weakened;duration=200;multiplier=1.1} @EntitiesNearOrigin{r=4;ignore=players}
+  - potion{type=SLOW;duration=200;level=1;p=false;i=false} @EntitiesNearOrigin{r=4;ignore=players}

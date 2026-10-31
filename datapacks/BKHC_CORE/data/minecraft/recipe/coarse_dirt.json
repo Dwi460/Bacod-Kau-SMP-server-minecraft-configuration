@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+  "dirt",
+  "gravel"
+  ],
+  "result": {
+    "id": "coarse_dirt",
+    "count": 2
+  }
+}

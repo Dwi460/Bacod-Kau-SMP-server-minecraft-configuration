@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "waxed_exposed_chiseled_copper",
+  "key": {
+    "#": "waxed_exposed_cut_copper_slab"
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "waxed_exposed_chiseled_copper"
+  }
+}

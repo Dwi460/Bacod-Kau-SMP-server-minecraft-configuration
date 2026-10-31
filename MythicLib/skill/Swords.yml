@@ -1,0 +1,356 @@
+COBRA_CURSE:
+  name: Cobra Curse
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Cobra_Curse
+
+COSMIC_ALLY:
+  name: Cosmic Ally
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Cosmic_Ally
+
+STELLAR_STRIKE:
+  name: Stellar Strike
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Stellar_Strike
+
+UNDEAD_SLAYER:
+  name: Undead Slayer
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Undead_Slayer
+
+BLOOD_FOR_BLOOD:
+  name: Blood For Blood
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Blood_For_Blood
+
+EXECUTE:
+  name: Execute
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Execute
+
+SUDDEN_STRIKE:
+  name: Sudden Strike
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Sudden_Strike
+
+TREAD:
+  name: Tread
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Tread
+
+INTIMIDATE:
+  name: Intimidate
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Intimidate
+
+MUSCLE_MEMORY:
+  name: Muscle Memory
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Muscle_Memory
+
+RESPITE:
+  name: Respite
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Respite
+
+FROZEN_TOMB:
+  name: Frozen Tomb
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Frozen_Tomb
+
+LEAP_OF_FAITH:
+  name: Leap Of Faith
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Leap_Of_Faith
+
+ULTIMATUM:
+  name: Ultimatum
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Ultimatum
+
+HEMMORHAGE:
+  name: Hemmorhage
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Hemmorhage
+
+JUSTICE_SERVED:
+  name: Justice Served
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Justice_Served
+
+SIMULTANEOUS:
+  name: Simultaneous
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Simultaneous
+
+WITHER_SLAYER:
+  name: Wither Slayer
+  parameters:
+    timer:
+      name: Timer
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+    mana:
+      name: Mana
+      item: 0
+    stamina:
+      name: Stamina
+      item: 0
+    cooldown:
+      name: Cooldown
+      item: 0
+  source: mythicmobs:Wither_Slayer

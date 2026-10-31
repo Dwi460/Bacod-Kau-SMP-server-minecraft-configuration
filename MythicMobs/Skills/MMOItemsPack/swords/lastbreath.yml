@@ -1,0 +1,45 @@
+Ultimatum:
+  TargetConditions:
+  - fieldofview{angle=90} true
+  Skills:
+  - onDamaged{auraName=Frozen_Tomb;duration=100;multiplier=0} @self
+  - skill:Ultimatum-True @target
+
+Ultimatum-True:
+  Skills:
+  - teleport{spreadh=0;spreadv=0} 
+
+  - delay 5
+  - velocity{m=set;x=0;y=1.5;z=0} 
+  - velocity{m=set;x=0;y=1.5;z=0} @self 
+  - delay 5
+  - sound{s=slash_1} @self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oh=Ultimatum-Hit;oP=[ - effect:particles{p=CRIT} ];roll=45} @self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oh=Ultimatum-Hit;oP=[ - effect:particles{p=CRIT} ];roll=135} @self
+
+  - delay 15
+  - velocity{m=set;x=0;y=1;z=0} 
+  - velocity{m=set;x=0;y=1;z=0} @self 
+  - delay 5
+  - sound{s=slash_2} @self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=90;oh=Ultimatum-Hit;oP=[ - effect:particles{p=CRIT} ];roll=0} @self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=90;oh=Ultimatum-Hit;oP=[ - effect:particles{p=CRIT} ];roll=90} @self
+
+  - delay 15
+  - sound{s=slash_1} @self
+  - velocity{m=set;x=0;y=1;z=0} 
+  - velocity{m=set;x=0;y=1;z=0} @self 
+  - slash{y=1.8;w=4;h=2;mpd=true;a=90;oh=Ultimatum-Hit;oP=[ - effect:particles{p=soul_fire_flame} ];roll=90} @self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=90;oh=Ultimatum-Hit;oP=[ - effect:particles{p=flame} ];roll=180} @self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=90;oh=Ultimatum-Hit;oP=[ - effect:particles{p=crit} ];roll=45} @self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=90;oh=Ultimatum-Hit;oP=[ - effect:particles{p=crit_magic} ];roll=-45} @self
+
+  - delay 10
+  - sound{s=slash_3} @self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=90;oP=[ - effect:particles{p=explosion_large} ];roll=90} @self
+  - velocity{m=set;x=0;y=-2.5;z=0} 
+  - velocity{m=set;x=0;y=-2;z=0} @self 
+
+Ultimatum-Hit:
+  Skills:
+  - mmodamage{a="100 * (<stat.CRITICAL_STRIKE_POWER>/100)";types=PHYSICAl,SKILL,ON-HIT;pk=true;ia=true} @target

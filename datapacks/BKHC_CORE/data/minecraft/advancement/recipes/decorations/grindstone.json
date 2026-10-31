@@ -1,0 +1,36 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "grindstone"
+    ]
+  },
+  "criteria": {
+    "has_stone_slabs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stone_slab",
+			  "polished_blackstone_slab",
+			  "polished_deepslate_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "grindstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stone_slabs",
+      "has_the_recipe"
+    ]
+  ]
+}

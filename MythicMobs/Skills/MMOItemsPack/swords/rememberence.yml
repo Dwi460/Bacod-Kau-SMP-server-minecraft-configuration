@@ -1,0 +1,20 @@
+Muscle_Memory:
+  Skills:
+  - setvariable{var=skill.sethp;type=integer;value="<caster.hp>"}
+  - sound{s=block.note_block.pling;p=1} @self
+  - delay 20
+  - sound{s=block.note_block.pling;p=0.75} @self
+  - delay 20
+  - sound{s=block.note_block.pling;p=0.5} @self
+  - delay 20
+  - sound{s=block.note_block.pling;p=0.25} @self
+  - delay 20
+  - sound{s=block.note_block.pling;p=0} @self
+  - delay 20
+  - sound{s=block.beacon.power_select;p=1} @self
+  - sethealth{a=<skill.var.sethp>} @self
+  - effect:particlering{particle=redstone;color=#ee4b2b;radius=1;points=32;amount=1;y=0.2} @self
+  - effect:particlering{particle=redstone;color=#eba698;radius=1;points=32;amount=1;y=0.4} @self
+  - effect:particlering{particle=redstone;color=#ee4b2b;radius=1;points=32;amount=1;y=0.6} @self
+  - effect:particlering{particle=redstone;color=#eba698;radius=1;points=32;amount=1;y=0.8} @self
+  - effect:particlering{particle=redstone;color=#ee4b2b;radius=1;points=32;amount=1;y=1} @self

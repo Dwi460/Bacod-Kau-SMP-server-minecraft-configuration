@@ -1,0 +1,12 @@
+HellWraith:
+  Skills:
+  - delay 10
+  - missile{BulletType=MOB;mob=VEX;ot=HellWraith-Tick;oh=HellWraith-Hit;v=10;i=1;hR=1;vR=1;in=0.75} @ENO{r=15;ignore=players;limit=1;sort=NEAREST}
+HellWraith-Tick:
+  Skills:
+  - effect:particles{p=lava;amount=1;speed=0;hS=1;vS=0} @origin
+  - effect:particles{p=reddust;color=#4A0404;amount=5;speed=0;hS=0.5;vS=0.5} @origin
+  - effect:particles{p=reddust;color=#C41E3A;amount=5;speed=0;hS=0.5;vS=0.5} @origin
+HellWraith-Hit:
+  Skills:
+  - mmodamage{a=150;t=PROJECTILE,SKILL}

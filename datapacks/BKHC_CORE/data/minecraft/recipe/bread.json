@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+	"wheat",
+	"wheat",
+	"wheat"
+  ],
+  "result": {
+    "id": "bread"
+  }
+}

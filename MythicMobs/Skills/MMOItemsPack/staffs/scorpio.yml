@@ -1,0 +1,4 @@
+Acid_Spray:
+  Skills:
+  - effect:particles{p=reddust;color=#E0FF66;amount=1} @Cone{angle=90.0;points=150;range=6;rotation=0;yoffset=1}
+  - mmodamage{a=35;types=MAGIC,SKILL;pk=true;ia=true} @LivingInCone{a=90.0;r=6.0;rot=0;ignore=players}

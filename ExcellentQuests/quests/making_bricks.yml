@@ -1,0 +1,20 @@
+Type: cook_item
+Name: Making Bricks
+Description:
+- <gray>Smelt clay into bricks to get reward!</gray>
+Icon:
+  Material: minecraft:brick
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:clay_ball: 200;250 5.0 0.7 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

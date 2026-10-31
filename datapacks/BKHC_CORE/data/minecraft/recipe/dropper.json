@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "###",
+    "# #",
+    "#R#"
+  ],
+  "key": {
+    "R": "redstone",
+    "#": "#stone_crafting_materials"
+  },
+  "result": {
+    "id": "dropper"
+  }
+}

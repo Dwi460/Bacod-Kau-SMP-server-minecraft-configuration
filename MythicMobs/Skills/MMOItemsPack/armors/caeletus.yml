@@ -1,0 +1,6 @@
+Reposition:
+  Conditions: 
+  - crouching true
+  Skills:
+  - teleport @TargetLocation
+  - sound{s=entity.enderman.teleport} @self

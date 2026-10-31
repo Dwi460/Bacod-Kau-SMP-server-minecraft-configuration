@@ -1,0 +1,16 @@
+Blood_For_Blood:
+  Skills:
+  - command{c="mythiclib statmod <caster.name> WEAPON_DAMAGE 15 100"} @self
+  - mmodamage{amount="<caster.mhp>*0.15";pk=true} @self
+  - sound{s=entity.phantom.hurt } @self
+  - effect:particlering{particle=redstone;color=#5e0000;radius=0.8;points=32;amount=1;y=1.5} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#850000;radius=1;points=32;amount=1;y=1.3} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#ad0000;radius=1.2;points=32;amount=1;y=1.1} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#d40000;radius=1.4;points=32;amount=1;y=0.9} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#fb0000;radius=1.6;points=32;amount=1;y=0.7} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#ff5e5e;radius=1.8;points=32;amount=1;y=0.5} @self

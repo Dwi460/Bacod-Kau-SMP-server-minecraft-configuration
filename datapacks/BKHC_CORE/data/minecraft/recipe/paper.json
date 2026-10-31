@@ -1,0 +1,14 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "group": "paper",
+  "ingredients": [
+		"sugar_cane",
+		"sugar_cane",
+		"sugar_cane"
+  ],
+  "result": {
+    "id": "paper",
+    "count": 3
+  }
+}

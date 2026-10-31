@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "polished_tuff"
+  },
+  "result": {
+    "id": "polished_tuff_stairs",
+    "count": 4
+  }
+}

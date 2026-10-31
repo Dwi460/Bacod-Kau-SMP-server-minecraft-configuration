@@ -1,0 +1,10 @@
+Blazing:
+  Skills:
+  - mmodamage{amount="125 + <stat.defense>*0.1";types=SKILL,MAGIC} @EntitiesNearOrigin{r=2;ignore=players}
+  - delay 2
+  - effect:particlering{particle=redstone;color=#FED0B4;radius=1;points=32;amount=2;y=0.2} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#FDB181;radius=1.5;points=32;amount=2;y=0.2} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#FC721D;radius=2;points=32;amount=2;y=0.2} @self
+  - delay 2

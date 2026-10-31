@@ -1,0 +1,14 @@
+Type: break_block
+Category: lumber
+Name: <lang:"block.minecraft.bamboo_block">
+Icon:
+  Material: minecraft:bamboo_block
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:bamboo_block: 500 1250 2000 3500 5000 7500 10000 12500 15000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

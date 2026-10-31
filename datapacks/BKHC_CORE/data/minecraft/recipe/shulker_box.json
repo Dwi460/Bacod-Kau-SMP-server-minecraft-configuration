@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "category": "decorations",
+  "ingredients": [
+    "shulker_shell",
+	"chest",
+	"shulker_shell"
+  ],
+  "result": {
+    "id": "shulker_box",
+    "count": 1
+  }
+}

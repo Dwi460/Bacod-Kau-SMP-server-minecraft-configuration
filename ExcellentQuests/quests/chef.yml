@@ -1,0 +1,26 @@
+Type: cook_item
+Name: Chef
+Description:
+- <gray>Cook meat to get reward!</gray>
+Icon:
+  Material: minecraft:cooked_beef
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 2
+  List:
+    minecraft:porkchop: 60;80 5.0 2.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:mutton: 60;80 5.0 2.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:chicken: 60;80 5.0 2.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:rabbit: 30;50 5.0 3.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:beef: 80;100 5.0 1.75 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:cod: 50;70 5.0 2.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:salmon: 35;50 5.0 3.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

@@ -1,0 +1,14 @@
+Type: break_block
+Category: mining
+Name: <lang:"block.minecraft.ancient_debris">
+Icon:
+  Material: minecraft:ancient_debris
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:ancient_debris: 1 2 5 10 20 35 50 75 100
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

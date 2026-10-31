@@ -1,0 +1,14 @@
+Type: fish_item
+Category: fishing
+Name: Name Tag
+Icon:
+  Material: minecraft:name_tag
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:name_tag: 1 2 4 8 12 20 30 50 75
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

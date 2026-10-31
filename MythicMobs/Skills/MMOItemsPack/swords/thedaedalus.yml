@@ -1,0 +1,11 @@
+Stellar_Strike:
+  Skills:
+  - onAttack{damageMultiplier=3.0;oH=Stellar_Strike-Hit;Charges=1} @self
+  - effect:particlering{particle=fireworks_spark;amount=50;yOffset=0.5;r=1;p=50} @self
+  - sound{s=entity.ravager.roar} @self
+Stellar_Strike-Hit:
+  Skills:
+  - skill:Stun{duration=100}
+  - effect:particles{p=redstone;color=#F8C8DC;amount=100;hs=0.5;vs=0.5}
+  - effect:particles{p=redstone;color=#FDFD96;amount=100;hs=0.5;vs=0.5}
+  - effect:lightning{l=true}

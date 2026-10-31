@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "big_dripleaf",
+	"big_dripleaf",
+	"big_dripleaf"
+  ],
+  "result": {
+    "id": "small_dripleaf",
+    "count": 6
+  }
+}

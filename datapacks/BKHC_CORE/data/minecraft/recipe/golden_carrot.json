@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": "gold_ingot",
+    "X": "carrot"
+  },
+  "result": {
+    "id": "golden_carrot"
+  }
+}

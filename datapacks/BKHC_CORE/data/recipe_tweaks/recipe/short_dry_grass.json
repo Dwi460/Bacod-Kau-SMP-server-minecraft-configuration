@@ -1,0 +1,10 @@
+{
+  "type": "smelting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.15,
+  "ingredient": "short_grass",
+  "result": {
+    "id": "short_dry_grass"
+  }
+}

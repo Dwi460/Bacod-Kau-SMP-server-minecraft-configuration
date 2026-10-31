@@ -1,0 +1,33 @@
+{
+  "parent": "recipes/root",
+  "criteria": {
+    "has_soul_torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "soul_torch"
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "soul_lantern"
+      },
+      "trigger": "recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soul_torch"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "soul_lantern",
+	  "recipe_tweaks:soul_lantern"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Bacod Kau SMP",
+		"description": "Selamat datang kawan!",
+		"icon": {
+			"id": "barrier"
+		},
+		"background": "block/black_concrete_powder",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "tick"
+		}
+	}
+}

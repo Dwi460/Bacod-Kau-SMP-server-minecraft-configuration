@@ -1,0 +1,8 @@
+{
+  "type": "stonecutting",
+  "ingredient": "prismarine",
+  "result": {
+    "count": 1,
+    "id": "prismarine_bricks"
+  }
+}

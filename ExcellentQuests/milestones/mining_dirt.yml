@@ -1,0 +1,14 @@
+Type: break_block
+Category: excavation
+Name: <lang:"block.minecraft.dirt">
+Icon:
+  Material: minecraft:dirt
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:dirt: 1000 2000 3000 5000 7500 10000 12500 15000 20000 # [LV1] [LV2] [LV3] ... [LV999]
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

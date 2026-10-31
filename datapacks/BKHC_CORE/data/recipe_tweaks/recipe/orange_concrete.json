@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "concrete",
+  "pattern": [
+    "###",
+    "#W#",
+    "###"
+  ],
+  "key": {
+    "W": "water_bucket",
+    "#": "orange_concrete_powder"
+  },
+  "result": {
+    "id": "orange_concrete",
+	"count": 8
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:mud_brick_slab_from_packed_mud_stonecutting",
+	  "recipe_tweaks:mud_brick_stairs_from_packed_mud_stonecutting",
+	  "recipe_tweaks:mud_brick_wall_from_packed_mud_stonecutting",
+	  "recipe_tweaks:mud_bricks_from_packed_mud_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_packed_mud": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "packed_mud"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_slab_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:mud_brick_slab_from_packed_mud_stonecutting"
+      }
+    },
+    "has_the_stairs_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:mud_brick_stairs_from_packed_mud_stonecutting"
+      }
+    },
+    "has_the_bricks_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:mud_bricks_from_packed_mud_stonecutting"
+      }
+    },
+    "has_the_wall_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:mud_brick_wall_from_packed_mud_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_packed_mud",
+      "has_the_slab_recipe",
+	  "has_the_bricks_recipe",
+	  "has_the_stairs_recipe",
+	  "has_the_wall_recipe"
+    ]
+  ]
+}

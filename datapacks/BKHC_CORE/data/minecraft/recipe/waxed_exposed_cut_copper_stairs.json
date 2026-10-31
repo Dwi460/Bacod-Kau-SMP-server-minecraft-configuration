@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "waxed_exposed_cut_copper_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "waxed_exposed_cut_copper"
+  },
+  "result": {
+    "id": "waxed_exposed_cut_copper_stairs",
+    "count": 4
+  }
+}

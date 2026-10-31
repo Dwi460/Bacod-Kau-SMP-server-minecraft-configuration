@@ -1,0 +1,14 @@
+Type: fish_item
+Category: fishing
+Name: <lang:"item.minecraft.cod">
+Icon:
+  Material: minecraft:cod
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:cod: 100 250 500 1000 2000 4000 7500 10000 20000 # [LV1] [LV2] [LV3] ... [LV999]
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

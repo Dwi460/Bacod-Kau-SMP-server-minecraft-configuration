@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  X",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": "gold_ingot"
+  },
+  "result": {
+    "id": "golden_horse_armor"
+  }
+}

@@ -1,0 +1,14 @@
+Firelord_U:
+  Skills:
+  - skill{s=Firelord_U-Activate} @EntitiesInRadius{r=6;ignore=players,animals}
+  - sound{s=entity.blaze.shoot} @self
+  
+Firelord_U-Activate:
+  TargetConditions:
+  - isburning{} true  
+  Skills:
+  - effect:particles{p=redstone;color=#990000;amount=100;hs=0.5;vs=0.5}
+  - effect:particles{p=lava;amount=20;hs=0.5;vs=0.5}
+  - mmodamage{a=200}
+  - stun{d=60;stopai=true}
+  - effect:particleorbital{p=cloud;a=1;points=15;y=1.75;in=2;r=1;ticks=60;oy=1}

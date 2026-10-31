@@ -1,0 +1,159 @@
+############################
+# 
+# ITSMYSTUDIO - Configuration for EssentialsX
+# https://itsmy.studio/discord
+#
+############################
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+#
+# In addition, you can also organize your kits into separate files under the `kits` subdirectory.
+# Essentials will treat all .yml files in the `kits` subdirectory as kits files, and will add any kits from those files along with the kits in `kits.yml`.
+# Any file in the `kits` subdirectory must be formatted in the same way as this file. This allows you to define multiple kits in each file.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Member:
+    delay: 86400
+    items:
+    - ihelmet 1
+    - ichestplate 1
+    - ileggings 1
+    - iboots 1
+    - dsword 1
+    - dpickaxe 1
+    - iaxe 1
+    - ishovel 1
+    - ihoe 1
+    - bread 16
+  I:
+    delay: 86400
+    items:
+    - dhelmet 1
+    - ichestplate 1
+    - ileggings 1
+    - dboots 1
+    - dsword 1
+    - dpickaxe 1
+    - iaxe 1
+    - ishovel 1
+    - ihoe 1
+    - bread 32
+  II:
+    delay: 86400
+    items:
+    - dhelmet 1
+    - dchestplate 1
+    - dleggings 1
+    - dboots 1
+    - dsword 1
+    - dpickaxe 1
+    - iaxe 1
+    - ishovel 1
+    - ihoe 1
+    - bread 32
+  III:
+    delay: 86400
+    items:
+    - dhelmet 1
+    - dchestplate 1
+    - dleggings 1
+    - dboots 1
+    - dsword 1
+    - dpickaxe 1
+    - daxe 1
+    - dshovel 1
+    - dhoe 1
+    - cooked_beef 32
+  IV:
+    delay: 86400
+    items:
+    - dhelmet 1 protection_environmental:1
+    - dchestplate 1
+    - dleggings 1
+    - dboots 1 protection_environmental:1
+    - dsword 1
+    - dpickaxe 1
+    - daxe 1
+    - dshovel 1
+    - dhoe 1
+    - cooked_beef 32
+  V:
+    delay: 86400
+    items:
+    - dhelmet 1 protection_environmental:1
+    - dchestplate 1 protection_environmental:1
+    - dleggings 1 protection_environmental:1
+    - dboots 1 protection_environmental:1
+    - dsword 1
+    - dpickaxe 1
+    - daxe 1
+    - dshovel 1
+    - dhoe 1
+    - cooked_beef 64
+  VIP:
+    delay: 604800
+    items:
+    - dhelmet 1 protection_environmental:2 durability:2
+    - dchestplate 1 protection_environmental:2 durability:2
+    - dleggings 1 protection_environmental:2 durability:2
+    - dboots 1 protection_environmental:2 durability:2 feather_falling:1
+    - dsword 1 damage_all:2 fire_aspect:2 durability:2
+    - dshovel 1 dig_speed:2 durability:2 loot_bonus_blocks:1
+    - dpickaxe 1 dig_speed:2 durability:2 loot_bonus_blocks:1
+    - daxe 1 dig_speed:2 durability:2 loot_bonus_blocks:1
+    - dhoe 1 durability:2
+    - goldenapple 4
+    - enchantedgoldenapple 1
+    - cooked_beef 32
+    - dblock 8
+    - eblock 8
+    - experiencebottle 8
+  VIP+:
+    delay: 604800
+    items:
+    - dhelmet 1 protection_environmental:3 durability:2
+    - dchestplate 1 protection_environmental:3 durability:2
+    - dleggings 1 protection_environmental:3 durability:2
+    - dboots 1 protection_environmental:3 durability:2
+    - dsword 1 damage_all:3 fire_aspect:2 durability:2
+    - dshovel 1 dig_speed:3 durability:2 loot_bonus_blocks:2
+    - dpickaxe 1 dig_speed:3 durability:2 loot_bonus_blocks:2
+    - daxe 1 dig_speed:3 durability:2 loot_bonus_blocks:2
+    - dhoe 1 durability:2
+    - goldenapple 8
+    - enchantedgoldenapple 2
+    - cooked_beef 48
+    - dblock 12
+    - eblock 12
+    - gblock 8
+    - iblock 8
+    - experiencebottle 16
+  MVP:
+    delay: 604800
+    items:
+    - dhelmet 1 protection_environmental:4 durability:3
+    - dchestplate 1 protection_environmental:4 durability:3
+    - dleggings 1 protection_environmental:4 durability:3
+    - dboots 1 protection_environmental:4 durability:3
+    - dsword 1 damage_all:4 fire_aspect:2 durability:3
+    - dshovel 1 dig_speed:4 durability:3 loot_bonus_blocks:3
+    - dpickaxe 1 dig_speed:4 durability:3 loot_bonus_blocks:3
+    - daxe 1 dig_speed:4 durability:3 loot_bonus_blocks:3
+    - dhoe 1 durability:3 
+    - goldenapple 16
+    - enchantedgoldenapple 4
+    - cooked_beef 64
+    - dblock 18
+    - eblock 18
+    - gblock 16
+    - iblock 16
+    - experiencebottle 32

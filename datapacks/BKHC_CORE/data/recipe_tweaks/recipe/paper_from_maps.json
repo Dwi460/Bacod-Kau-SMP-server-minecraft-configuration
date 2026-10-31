@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "group": "paper",
+  "ingredients": [
+  "filled_map"
+  ],
+  "result": {
+    "id": "paper",
+	"count": 8
+  }
+}

@@ -1,0 +1,4 @@
+Berserk:
+  Skills:
+  - command{c="mythiclib tempstat add <caster.name> WEAPON_DAMAGE 1 60"} @self
+  - command{c="mythiclib tempstat add <caster.name> LIFESTEAL 0.1 60"} @self

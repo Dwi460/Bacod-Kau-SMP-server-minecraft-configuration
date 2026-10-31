@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "waxed_copper_golem_statue",
+  "pattern": [
+    "#",
+    "O"
+  ],
+  "key": {
+    "#": "#recipe_tweaks:golem_head",
+    "O": "waxed_copper_block"
+  },
+  "result": {
+    "id": "waxed_copper_golem_statue"
+  }
+}

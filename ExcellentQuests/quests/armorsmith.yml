@@ -1,0 +1,35 @@
+Type: craft_item
+Name: Armorsmith
+Description:
+- <gray>Craft armors to get reward!</gray>
+Icon:
+  Material: minecraft:iron_chestplate
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 4
+  List:
+    minecraft:netherite_helmet: 1;3 5.0 70.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:netherite_chestplate: 1;3 5.0 70.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:netherite_leggings: 1;3 5.0 70.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:netherite_boots: 1;3 5.0 70.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:diamond_helmet: 2;4 5.0 55.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:diamond_chestplate: 2;4 5.0 55.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:diamond_leggings: 2;4 5.0 55.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:diamond_boots: 2;4 5.0 55.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:iron_helmet: 2;6 5.0 35.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:iron_chestplate: 2;6 5.0 35.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:iron_leggings: 2;6 5.0 35.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:iron_boots: 2;6 5.0 35.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:leather_helmet: 3;8 5.0 30.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:leather_chestplate: 3;8 5.0 30.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:leather_leggings: 3;8 5.0 30.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:leather_boots: 3;8 5.0 30.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

@@ -1,0 +1,20 @@
+Howl:
+  Skills:
+  - sound{s=entity.wolf.howl} @self
+  - command{c="mythiclib tempstat add <caster.name> WEAPON_DAMAGE 25 100"} @self
+  - command{c="mythiclib tempstat add <caster.name> DAMAGE_REDUCTION 25 100"} @self
+  - command{c="mythiclib tempstat add <caster.name> WEAPON_DAMAGE 25 100"} @PIR{r=4}
+  - command{c="mythiclib tempstat add <caster.name> DAMAGE_REDUCTION 25 100"} @PIR{r=4}
+  - effect:particlering{particle=redstone;color=#FED0B4;radius=1;points=32;amount=2;y=0.8} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#FDB181;radius=1.5;points=32;amount=2;y=1} @self
+  - delay 1
+  - effect:particlering{particle=redstone;color=#FC721D;radius=2;points=32;amount=2;y=1.2} @self
+  - delay 1
+  - effect:particlering{particle=redstone;color=#FC721D;radius=2.5;points=32;amount=2;y=1.2} @self
+  - delay 1
+  - effect:particlering{particle=redstone;color=#FC721D;radius=3;points=32;amount=2;y=1.2} @self
+  - delay 1
+  - effect:particlering{particle=redstone;color=#FC721D;radius=3.5;points=32;amount=2;y=1.2} @self
+  - delay 1
+  - effect:particlering{particle=redstone;color=#FC721D;radius=4;points=32;amount=2;y=1.2} @self

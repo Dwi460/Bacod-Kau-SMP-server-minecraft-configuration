@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": "purpur_block"
+  },
+  "result": {
+    "id": "purpur_pillar",
+	"count": 2
+  }
+}

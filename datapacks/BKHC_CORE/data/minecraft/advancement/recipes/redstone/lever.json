@@ -1,0 +1,36 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "lever"
+    ]
+  },
+  "criteria": {
+    "has_stones": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cobblestone",
+			  "blackstone",
+			  "cobbled_deepslate"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "lever"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stones",
+      "has_the_recipe"
+    ]
+  ]
+}

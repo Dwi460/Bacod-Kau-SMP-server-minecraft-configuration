@@ -1,0 +1,20 @@
+Type: cook_item
+Name: Making Glass
+Description:
+- <gray>Smelt sand into glass to get reward!</gray>
+Icon:
+  Material: minecraft:glass
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:sand: 150;200 5.0 1.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

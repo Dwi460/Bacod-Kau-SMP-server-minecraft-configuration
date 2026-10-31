@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CCC",
+    "C C",
+    "C C"
+  ],
+  "key": {
+
+    "C": "iron_chain"
+  },
+  "result": {
+    "id": "chainmail_leggings",
+    "components": {
+      "rarity": "common"
+    }
+  }
+}

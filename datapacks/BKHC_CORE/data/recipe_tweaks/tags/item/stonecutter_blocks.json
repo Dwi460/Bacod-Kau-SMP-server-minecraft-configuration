@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "stone",
+    "polished_blackstone",
+	"deepslate",
+	"polished_tuff",
+	"polished_andesite",
+	"polished_diorite",
+	"polished_granite",
+	"smooth_sandstone",
+	"smooth_red_sandstone"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "stained_glass_pane",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "blue_stained_glass"
+  },
+  "result": {
+    "id": "blue_stained_glass_pane",
+    "count": 12
+  }
+}

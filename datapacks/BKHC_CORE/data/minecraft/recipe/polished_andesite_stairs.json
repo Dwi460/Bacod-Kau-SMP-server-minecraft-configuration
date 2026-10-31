@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "polished_andesite"
+  },
+  "result": {
+    "id": "polished_andesite_stairs",
+    "count": 4
+  }
+}

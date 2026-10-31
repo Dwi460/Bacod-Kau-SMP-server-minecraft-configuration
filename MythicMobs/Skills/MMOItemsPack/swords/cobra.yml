@@ -1,0 +1,6 @@
+Cobra_Curse:
+  Skills: 
+  - effect:particleorbital{p=redstone;color=#E0FF66;a=2;points=15;y=1.75;in=2;r=1;rx=1;ticks=160;oy=-0.5} @self
+  - effect:particleorbital{p=redstone;color=#a2c42f;a=2;points=15;y=1.75;in=2;r=1;rz=1;ticks=160;oy=-0.5} @self
+  - mmodamage{a=50;types=MAGIC,SKILL;pk=true;repeat=8;repeatinterval=20} @EIR{r=3;ignore=players}
+  - sound{s=entity.illusioner.cast_spell} @self

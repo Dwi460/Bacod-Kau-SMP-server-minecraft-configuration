@@ -1,0 +1,14 @@
+Type: break_block
+Category: lumber
+Name: <lang:"block.minecraft.spruce_log">
+Icon:
+  Material: minecraft:spruce_log
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:spruce_log: 500 1250 2000 3500 5000 7500 10000 12500 15000 # [LV1] [LV2] [LV3] ... [LV999]
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

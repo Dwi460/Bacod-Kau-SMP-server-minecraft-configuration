@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "group": "dispenser",
+  "key": {
+    "#": "#stone_crafting_materials",
+    "R": "redstone",
+    "X": "bow"
+    },
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dispenser"
+  }
+}

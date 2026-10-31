@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": "iron_nugget",
+    "X": "leather",
+	"S": "string"
+  },
+  "pattern": [
+    "XXX",
+    "S S",
+	"N N"
+  ],
+  "result": {
+    "count": 1,
+    "id": "saddle"
+  }
+}

@@ -1,0 +1,14 @@
+Type: break_block
+Category: mining
+Name: <lang:"block.minecraft.deepslate_lapis_ore">
+Icon:
+  Material: minecraft:deepslate_lapis_ore
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:deepslate_lapis_ore: 100 250 500 1000 2000 4000 7500 10000 20000 # [LV1] [LV2] [LV3] ... [LV999]
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

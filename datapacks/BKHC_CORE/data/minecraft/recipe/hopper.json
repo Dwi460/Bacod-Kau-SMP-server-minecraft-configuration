@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "i i",
+    "i i",
+    " i "
+  ],
+  "key": {
+    "i": "iron_ingot"
+  },
+  "result": {
+    "id": "hopper"
+  }
+}

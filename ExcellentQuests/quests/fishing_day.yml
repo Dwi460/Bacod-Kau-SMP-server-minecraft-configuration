@@ -1,0 +1,23 @@
+Type: fish_item
+Name: Fishing Day
+Description:
+- <gray>Fish fishes to get reward!</gray>
+Icon:
+  Material: minecraft:tropical_fish_bucket
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:cod: 30;45 60.0 3.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:salmon: 20;25 20.0 6.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:pufferfish: 8;15 15.0 10.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:tropical_fish: 3;6 5.0 25.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

@@ -1,0 +1,5 @@
+Undead_Slayer:
+  TargetConditions:
+  - entitytype{t=ZOMBIE,SKELETON,DROWNED,HUSK,PHANTOM,STRAY,WITHER,WITHER_SKELETON} true
+  Skills:
+  - multiplydamage{amount="1 + 0.5"}

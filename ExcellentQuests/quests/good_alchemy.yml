@@ -1,0 +1,28 @@
+Type: brewing
+Name: Good Alchemy
+Description:
+- <gray>Brew potions of good ingredients to get reward!</gray>
+Icon:
+  Material: minecraft:glistering_melon_slice
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 1
+  List:
+    minecraft:glistering_melon_slice: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:magma_cream: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:ghast_tear: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:blaze_powder: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:sugar: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:golden_carrot: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:pufferfish: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:rabbit_foot: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:phantom_membrane: 15;30 5.0 7.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

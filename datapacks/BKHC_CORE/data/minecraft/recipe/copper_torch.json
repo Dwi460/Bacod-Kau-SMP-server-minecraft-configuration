@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "group": "copper_torch",
+  "key": {
+    "#": "stick",
+    "C": "copper_nugget",
+    "X": [
+      "coal",
+      "charcoal"
+    ]
+  },
+  "pattern": [
+    "C",
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "copper_torch"
+  }
+}

@@ -1,0 +1,9 @@
+Necromancy:
+  Skills:
+  - effect:particle{particle=spell_witch;amount=200;hS=0.3;vS=0} @target{yOffset=0}
+  - summon{type=HEX_REVENANT;amount=1;radius=1} @target
+  - sound{s=entity.evoker.cast_spell} @self
+Necromancy-Despawn:
+  Skills:
+  - effect:particle{particle=smoke_normal;amount=500;hS=0.3;vS=0} @self
+  - remove @self

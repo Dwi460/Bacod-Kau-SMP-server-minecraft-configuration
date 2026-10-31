@@ -1,0 +1,34 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:red_dye_from_weeping_vines"
+    ]
+  },
+  "criteria": {
+    "has_weeping_vines": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "weeping_vines"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:red_dye_from_weeping_vines"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_weeping_vines",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,53 @@
+Arcanic_Adapt:
+  Cooldown: 1
+  Skills:
+  - sound{s=item.armor.equip_iron} @self
+  - setvariable{var=caster.arcanic_adapt;type=INTEGER;value="0";save=true} @self{conditions=[  - variableisset{var=caster.arcanic_adapt} false ]}
+
+  - switch{condition=variableEquals{var=caster.arcanic_adapt;value=<case>};cases=
+      case 0=[
+        - sendtitle{title="";subtitle="&cᴀʀᴄᴀɴᴇ&r&8 - &d&l&nᴇɴꜱᴏʀᴄᴇʟ&r&8 - &3ɢᴜᴀʀᴅɪɴɢ";d=20;cooldown=1} @self
+        - variableadd{var=caster.arcanic_adapt;amount=1;cooldown=1} @self
+        - effect:particlering{particle=redstone;color=#804FB3;radius=1;points=32;amount=1;y=0.7} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#804FB3;radius=1;points=32;amount=1;y=0.5} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#804FB3;radius=1;points=32;amount=1;y=0.3} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#804FB3;radius=1;points=32;amount=1;y=0.1} @self
+        ]
+      case 1=[
+        - sendtitle{title="";subtitle="&cᴀʀᴄᴀɴᴇ &8- &dᴇɴꜱᴏʀᴄᴇʟ&8 - &3&l&nɢᴜᴀʀᴅɪɴɢ";d=20;cooldown=1} @self
+        - variableadd{var=caster.arcanic_adapt;amount=1;cooldown=1} @self
+        - effect:particlering{particle=redstone;color=#65c3c4;radius=1;points=32;amount=1;y=0.7} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#65c3c4;radius=1;points=32;amount=1;y=0.5} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#65c3c4;radius=1;points=32;amount=1;y=0.3} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#65c3c4;radius=1;points=32;amount=1;y=0.1} @self
+        ]
+      case 2=[
+        - sendtitle{title="";subtitle="&c&l&nᴀʀᴄᴀɴᴇ&r&8- &dᴇɴꜱᴏʀᴄᴇʟ&8 - &3ɢᴜᴀʀᴅɪɴɢ";d=20;cooldown=1} @self
+        - variablesubtract{var=caster.arcanic_adapt;amount=2;cooldown=1} @self
+        - effect:particlering{particle=redstone;color=#ff4c4c;radius=1;points=32;amount=1;y=0.7} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#ff4c4c;radius=1;points=32;amount=1;y=0.5} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#ff4c4c;radius=1;points=32;amount=1;y=0.3} @self
+        - delay 1
+        - effect:particlering{particle=redstone;color=#ff4c4c;radius=1;points=32;amount=1;y=0.1} @self
+        ]
+    } @self
+
+Arcanic_Adapt-On_Hit:
+  Skills:
+  - mmodamage{amount=200;t=SKILL,ON-HIT;targetisorigin=true} @ENO{r=3} ?variableEquals{var=caster.arcanic_adapt;value="0"}
+  - effect:explosion @target ?variableEquals{var=caster.arcanic_adapt;value="0"}
+
+  - command{c="mythiclib tempstat add <caster.name> SKILL_DAMAGE 5 100"} @self ?variableEquals{var=caster.arcanic_adapt;value="1"}
+
+Arcanic_Adapt-On_Damaged:
+  Skills:
+  - throw{velocity=10;velocityY=3} @EIR{r=3;ignore=players,animals} ?variableEquals{var=caster.arcanic_adapt;value="2"}
+  - sound{s=enchant.thorns.hit} @self ?variableEquals{var=caster.arcanic_adapt;value="2"}

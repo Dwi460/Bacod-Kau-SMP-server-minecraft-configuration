@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "category": "redstone",
+  "group": "waxed_copper_bulb",
+  "ingredients": [
+    "copper_bulb",
+    "honeycomb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "waxed_copper_bulb"
+  }
+}

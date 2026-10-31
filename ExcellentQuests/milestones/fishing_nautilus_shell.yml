@@ -1,0 +1,14 @@
+Type: fish_item
+Category: fishing
+Name: Nautilus Shell
+Icon:
+  Material: minecraft:nautilus_shell
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:nautilus_shell: 1 2 4 8 12 20 30 50 75
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

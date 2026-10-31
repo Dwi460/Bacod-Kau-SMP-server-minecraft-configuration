@@ -1,0 +1,6 @@
+High_Ground:
+  TargetConditions:
+   - distance{d=>15} true
+  Skills:
+  - multiplydamage{amount="1 + 0.15"}
+  - sound{s=entity.experience_orb.pickup} @self

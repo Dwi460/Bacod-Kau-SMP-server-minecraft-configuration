@@ -1,0 +1,14 @@
+Type: fish_item
+Category: fishing
+Name: Water Bottle
+Icon:
+  Material: minecraft:potion
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:potion: 10 25 50 100 200 350 500 750 1000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

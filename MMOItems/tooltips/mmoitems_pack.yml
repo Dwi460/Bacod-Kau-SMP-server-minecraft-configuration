@@ -1,0 +1,65 @@
+common:
+  top:    "&f 뀍 "
+  middle: "&f ㈾ "
+  bottom: "&f 뀎 "
+  center_top:
+    display_name: true
+    span: 141
+    default_char_size: 5
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"
+
+rare:
+  top:    "&f 뀊 "
+  middle: "&f ㈽ "
+  bottom: "&f 뀋 "
+  center_top:
+    display_name: true
+    span: 141
+    default_char_size: 5
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"
+
+epic:
+  top:    "&f 뀇 "
+  middle: "&f ㈼ "
+  bottom: "&f 뀈 "
+  center_top:
+    display_name: true
+    span: 141
+    default_char_size: 5
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"
+
+legendary:
+  top:    "&f 뀄 "
+  middle: "&f ㈻ "
+  bottom: "&f 뀅 "
+  center_top:
+    display_name: true
+    span: 141
+    default_char_size: 5
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"
+
+mythic:
+  top:    "&f 뀀 "
+  middle: "&f ㈺ "
+  bottom: "&f 뀂 "
+  center_top:
+    display_name: true
+    span: 141
+    default_char_size: 5
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"
+
+godlike:
+  top:    "&f 뀐 "
+  middle: "&f ㈹ "
+  bottom: "&f 뀑 "
+  center_top:
+    display_name: true
+    span: 141
+    default_char_size: 5
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"

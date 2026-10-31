@@ -1,0 +1,14 @@
+Type: block_loot
+Category: farming
+Name: Glow Berries
+Icon:
+  Material: minecraft:glow_berries
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:glow_berries: 100 250 500 1000 2000 4000 7500 10000 20000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

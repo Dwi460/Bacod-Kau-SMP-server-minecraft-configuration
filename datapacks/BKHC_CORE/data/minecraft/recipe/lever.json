@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": "#stone_crafting_materials",
+    "X": "stick"
+  },
+  "result": {
+    "id": "lever"
+  }
+}

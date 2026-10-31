@@ -1,0 +1,11 @@
+Soul_Harvester:
+  Skills:
+  - sound{s=entity.mooshroom.convert} @self
+  - setvariable{var=caster.soul;type=INTEGER;value="0";save=true} @self{conditions=[  - variableisset{var=caster.soul} false ]}
+  - variableadd{var=caster.soul;amount=1}
+  - actionmessage{m="<#8fdaff>+1 ꜱᴏᴜʟ! &8(<#1f67ff><caster.var.soul>&8)"} @self
+  - healpercent{m=0.1} @self{conditions=[  - variableInRange{var=caster.soul;value=>1000} true ]}
+  - onDamaged{auraName=soul_invulnerability;duration=60;multiplier=0} @self{conditions=[  - variableInRange{var=caster.soul;value=>10000} true ]}
+Soul_Harvester-On_Hit:
+  Skills:
+  - multiplydamage{amount="1 + <caster.var.soul> * 0.001"}

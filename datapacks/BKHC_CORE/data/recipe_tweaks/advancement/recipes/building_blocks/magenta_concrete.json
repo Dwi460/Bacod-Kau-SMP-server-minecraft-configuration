@@ -1,0 +1,47 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:magenta_concrete"
+    ]
+  },
+  "criteria": {
+    "has_water_bucket": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "water_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "has_magenta_concrete_powder": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magenta_concrete_powder"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:magenta_concrete"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water_bucket",
+      "has_magenta_concrete_powder",
+      "has_the_recipe"
+    ]
+  ]
+}

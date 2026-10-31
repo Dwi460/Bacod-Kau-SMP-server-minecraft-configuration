@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "IXI",
+    "###"
+  ],
+  "key": {
+    "#": "#recipe_tweaks:blast_furnace_blocks",
+    "X": "furnace",
+    "I": "iron_ingot"
+  },
+  "result": {
+    "id": "blast_furnace"
+  }
+}

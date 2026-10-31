@@ -1,0 +1,6 @@
+Focus:
+  Skills:
+  - command{c="mythiclib tempstat add <caster.name> PROJECTILE_DAMAGE 35 100"}
+  - command{c="mythiclib tempstat add <caster.name> DAMAGE_REDUCTION -35 100"}
+  - effect:particlering{particle=villager_angry;amount=50;yOffset=0.8;r=1;p=20} @self
+  - sound{s=entity.ravager.roar} @self

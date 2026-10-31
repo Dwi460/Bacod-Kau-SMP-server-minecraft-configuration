@@ -1,0 +1,17 @@
+MACE:
+  base:
+    material: MACE
+    disable-smelting: true
+    disable-crafting: true
+    disable-smithing: true
+    disable-droping: true
+    required-level: 100.0
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v totem_of_undying - 1.0..|v netherite_block - 1.0..|v enchanted_golden_apple
+            - 4.0..
+          - v spawner - 1.0..|v heavy_core - 1.0..|v player_head - 6.0..
+          - v ender_eye - 64.0..|v breeze_rod - 64.0..|v nether_star - 1.0..
+    repair-type: heavy_core

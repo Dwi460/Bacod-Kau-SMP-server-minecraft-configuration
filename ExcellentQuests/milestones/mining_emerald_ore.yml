@@ -1,0 +1,14 @@
+Type: break_block
+Category: mining
+Name: <lang:"block.minecraft.emerald_ore">
+Icon:
+  Material: minecraft:emerald_ore
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:emerald_ore: 10 25 50 100 250 500 1000 2500 5000
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

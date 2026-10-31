@@ -1,0 +1,41 @@
+condition:
+  mana:
+    positive: '&f 뀁 &a✔ &7#mana# Mana'
+    negative: '&f 뀁 &c✖ &7#mana# Mana'
+  level:
+    positive: '&f 뀁 &a✔ &7Level #level#'
+    negative: '&f 뀁 &c✖ &7Level #level#'
+  stamina:
+    positive: '&f 뀁 &a✔ &7#stamina# Stamina'
+    negative: '&f 뀁 &c✖ &7#stamina# Stamina'
+  permission:
+    positive: '&f 뀁 &a✔ &7#display#'
+    negative: '&f 뀁 &c✖ &7#display#'
+  placeholder:
+    positive: '&f 뀁 &a✔ &7#display#'
+    negative: '&f 뀁 &c✖ &7#display#'
+  class:
+    positive: '&f 뀁 &a✔ &7Required Class: #class#'
+    negative: '&f 뀁 &c✖ &7Required Class: #class#'
+  food:
+    positive: '&f 뀁 &a✔ &7#food# Food'
+    negative: '&f 뀁 &c✖ &7#food# Food'
+  money:
+    positive: '&f 뀁 &a✔ &7$#money#'
+    negative: '&f 뀁 &c✖ &7$#money#'
+ingredient:
+  mmoitem:
+    positive: '&f 뀁 &a✔ &7#amount# &8(view this in preview)'
+    negative: '&f 뀁 &c✖ &7#amount# &8(view this in preview)'
+  vanilla:
+    positive: '&f 뀁 &a✔ &7#amount# #item#'
+    negative: '&f 뀁 &c✖ &7#amount# #item#'
+  nexo:
+    positive: '&8✔ &7#amount# #item#'
+    negative: '&c✖ &7#amount# #item#'
+  mythic:
+    positive: '&a✔ &7#amount# #item#'
+    negative: '&c✖ &7#amount# #item#'
+  itemsadder:
+    positive: '&a✔ &7#amount# #item#'
+    negative: '&c✖ &7#amount# #item#'

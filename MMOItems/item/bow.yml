@@ -1,0 +1,220 @@
+SNIPER_SIGHT:
+  base:
+    material: BOW
+    name: '<#FFC0CB>Sniper''s Sight'
+    attack-damage: 20.0
+    critical-strike-chance: 25.0
+    critical-strike-power: 50.0
+    tier: EPIC
+    lore:
+    - '&f丬 ʜɪɢʜ ɢʀᴏᴜɴᴅ'
+    - '&7Damaging an enemy &610 blocks'
+    - '&7away from you deal a bonus'
+    - '&c+15%&7 damage.'
+    arrow-velocity: 4.0
+    ability:
+      ability1:
+        type: HIGH_GROUND
+        mode: ARROW_HIT
+    custom-model-data: 1007
+
+DIVINETTO:
+  base:
+    material: BOW
+    name: '<#E7D27C>Divenetto'
+    max-durability: 852.0
+    attack-damage: 10.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 30.0
+    tier: LEGENDARY
+    lore:
+    - '&fｰ ꜰᴏᴄᴜꜱ! &8(Left-Click)'
+    - '&7Boosts &6🏹 Projectile Damage'
+    - '&7by &6100%&7 but also increases'
+    - '&7all damage dealt to you by'
+    - '&c35%&7!'
+    - '&8 | &f<#AEC6CF>⌚20s &b✎30 &8|'
+    arrow-velocity: 1.5
+    ability:
+      ability1:
+        type: FOCUS
+        mode: LEFT_CLICK
+        mana: 30.0
+        cooldown: 20.0
+    custom-model-data: 1002
+    crafting:
+      smithing:
+        '1':
+          input: v BOW - 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+
+THE_HUNT:
+  base:
+    material: BOW
+    name: '<#E7D27C>The Hunt'
+    attack-damage: 1.0
+    tier: LEGENDARY
+    lore:
+    - '&f丨 ʜᴜɴᴛᴇʀ''ꜱ ᴍᴀʀᴋ'
+    - '&7Damaging an enemy &6marks'
+    - '&7them as &chunted&7, increasing'
+    - '&7the next attacks''s damage by'
+    - '&c100%&7!'
+    - '&8 | &f<#AEC6CF>⌚2s &8|'
+    arrow-velocity: 4.0
+    ability: 
+      ability1:
+        type: WEAKEN_TARGET
+        mode: ATTACK
+        extra-damage: 3.5
+        duration: 10.0
+    custom-model-data: 1009
+
+STARFLAME:
+  base:
+    material: BOW
+    name: '<#E7D27C>Starflame'
+    attack-damage: 20.0
+    critical-strike-chance: 25.0
+    critical-strike-power: 50.0
+    tier: LEGENDARY
+    lore:
+    - '&f丫 ꜱᴛᴀʀꜰɪʀᴇ ʙᴜʀꜱᴛ'
+    - '&7Damaging enemies inflict them'
+    - '&7with <#ff6961>Starmarked&7. If they die'
+    - '&7while still having the debuff,'
+    - '&7they <#FAC898>explode&7, dealing &c250'
+    - '&7damage to nearby enemies,'
+    - '&7and root them in place.'
+    arrow-velocity: 4.0
+    ability:
+      ability1:
+        type: STARMARKED
+        mode: ARROW_HIT
+    custom-model-data: 1006
+
+
+THE_PREDATOR:
+  base:
+    material: BOW
+    name: '<#915ace>The Predator'
+    attack-damage: 10.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 30.0
+    tier: MYTHIC
+    lore:
+    - '&f丩 ᴘʀᴇᴅᴀᴛᴏʀ''ꜱ ᴍᴀʀᴋ'
+    - '&7Damaging an enemy &6marks'
+    - '&7them as &chunted&7, increasing'
+    - '&7the next attacks''s damage by'
+    - '&c350%&7!'
+    - '&8 | &f<#AEC6CF>⌚2s &8|'
+    arrow-velocity: 4.0
+    ability:
+      ability1:
+        type: WEAKEN_TARGET
+        mode: ATTACK
+        extra-damage: 3.5
+        duration: 10.0
+    custom-model-data: 1005
+
+BRAVERY:
+  base:
+    material: BOW
+    custom-model-data: 1010
+    attack-damage: 24.0
+    critical-strike-chance: 35.0
+    critical-strike-power: 100.0
+    arrow-velocity: 2.0
+    tier: MYTHIC
+    unbreakable: true
+    unstackable: true
+    movement-speed: 0.02
+    lore:
+    - '丳 ᴄʟᴏꜱᴇ ᴄᴀʟʟ'
+    - '&7Damaging enemy less than &c7'
+    - '&7blocks from you deal &c+50%'
+    - '&7damage.'
+    name: '<#915ace>Bravery'
+    ability:
+      ability1:
+        type: CLOSE_CALL
+        mode: ARROW_HIT
+
+END_NEMESIS:
+  base:
+    material: BOW
+    custom-model-data: 1011
+    attack-damage: 24.0
+    critical-strike-chance: 35.0
+    critical-strike-power: 100.0
+    arrow-velocity: 2.0
+    tier: MYTHIC
+    unbreakable: true
+    unstackable: true
+    movement-speed: 0.02
+    lore:
+    - '&6Shortbow: &fShoots instantly!'
+    - ''
+    - '丱 ᴅʀᴀɢᴏɴ ꜱʟᴀʏᴇʀ'
+    - '&7Your attacks against &dEnder'
+    - '&dDragon &7is modified to deal'
+    - '&c+250% &7damage.'
+    name: '<#915ace>End Nemesis'
+    ability: {}
+
+INFERNO:
+  base:
+    material: BOW
+    name: '<#915ace>Inferno'
+    attack-damage: 50.0
+    tier: MYTHIC
+    lore:
+    - '&f中 ʜᴇʟʟ ᴡʀᴀɪᴛʜ'
+    - '&7Shooting with your bow will'
+    - '&7unleash a &4hell wraith&7 which'
+    - '&7homes in on a nearby target'
+    - '&7dealing &c150&7 damage.'
+    ability:
+      ability1:
+        type: HELLWRAITH
+        mode: SHOOT_BOW
+        cooldown: 2.0
+    custom-model-data: 1008
+    mana-cost: 10.0
+    critical-strike-chance: 100.0
+    lifesteal: 1.5
+
+CATASTROPHE:
+  base:
+    material: BOW
+    custom-model-data: 1001
+    attack-damage: 24.0
+    critical-strike-chance: 35.0
+    critical-strike-power: 100.0
+    arrow-velocity: 2.0
+    tier: MYTHIC
+    unbreakable: true
+    unstackable: true
+    movement-speed: 0.02
+    lore:
+    - 'ポ ᴏɴᴇ ᴡɪᴛʜ ᴛʜᴇ ᴠᴏɪᴅ'
+    - '&7Hitting enemies with arrows'
+    - '&7inflicts &fポ <#9469a2>Voidcurse&7, dealing'
+    - '&c35 &7damage per second. When'
+    - '&7they die while still having the'
+    - '&7debuff, they transform into'
+    - '&7a <#98687e>Voidling&7, attacking nearby'
+    - '&7mobs.'
+    name: '<#915ace>The Catastrophe'
+    arrow-particles:
+      particle: SOUL
+      speed: 0.2
+      amount: 2
+    ability:
+      ability1:
+        type: OWTV
+        mode: ARROW_HIT
+    upgrade:
+      template: damned
+      reference: damned
+      max: 5

@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "stone_bricks"
+  },
+  "result": {
+    "id": "stone_brick_stairs",
+    "count": 4
+  }
+}

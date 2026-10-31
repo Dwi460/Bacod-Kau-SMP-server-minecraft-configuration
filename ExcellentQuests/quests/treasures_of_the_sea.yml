@@ -1,0 +1,25 @@
+Type: fish_item
+Name: Treasures of the Sea
+Description:
+- <gray>Fish treasures to get reward!</gray>
+Icon:
+  Material: minecraft:nautilus_shell
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 2
+  List:
+    minecraft:bow: 3;5 15.0 25.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:enchanted_book: 1;5 15.0 35.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:fishing_rod: 2;5 15.0 25.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:name_tag: 2;5 15.0 25.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:nautilus_shell: 2;5 15.0 30.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:saddle: 1;3 15.0 30.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

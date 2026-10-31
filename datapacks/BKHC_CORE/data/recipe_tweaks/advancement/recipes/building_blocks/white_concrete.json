@@ -1,0 +1,47 @@
+{
+  "parent": "recipes/root",
+  "rewards": {
+    "recipes": [
+      "recipe_tweaks:white_concrete"
+    ]
+  },
+  "criteria": {
+    "has_water_bucket": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "water_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "has_white_concrete_powder": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "white_concrete_powder"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "recipe_tweaks:white_concrete"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water_bucket",
+      "has_white_concrete_powder",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,3 @@
+Greed:
+  Skills:
+  - multiplydamage{amount="1 + %vault_eco_balance% * 0.01"}

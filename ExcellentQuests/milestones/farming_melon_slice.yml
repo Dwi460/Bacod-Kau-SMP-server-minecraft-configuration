@@ -1,0 +1,14 @@
+Type: block_loot
+Category: farming
+Name: <lang:"item.minecraft.melon_slice">
+Icon:
+  Material: minecraft:melon_slice
+  Lore: []
+Levels: 9
+Objectives:
+  List:
+    minecraft:melon_slice: 500 1250 2000 3500 5000 7500 10000 12500 15000 # [LV1] [LV2] [LV3] ... [LV999]
+Rewards:
+  Custom:
+  - ms_cash_medium
+Description: []

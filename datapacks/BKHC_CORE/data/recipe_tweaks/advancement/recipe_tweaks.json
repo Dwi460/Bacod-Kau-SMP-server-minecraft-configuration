@@ -1,0 +1,17 @@
+{
+  "display": {
+    "title": "Recipe Tweaks",
+    "description": "Lossless Stair Crafting! And More, I Guess...",
+    "icon": {
+      "id": "crafting_table"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:inkorthe2nd",
+  "criteria": {
+    "trigger": {
+      "trigger": "tick"
+    }
+  }
+}

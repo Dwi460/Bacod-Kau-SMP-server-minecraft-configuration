@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "group": "copper_torch",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "W": "copper_nugget",
+    "#": "torch"
+  },
+  "result": {
+    "id": "copper_torch",
+	"count": 4
+  }
+}

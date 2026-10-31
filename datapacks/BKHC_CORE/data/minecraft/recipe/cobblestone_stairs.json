@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "cobblestone"
+  },
+  "result": {
+    "id": "cobblestone_stairs",
+    "count": 4
+  }
+}

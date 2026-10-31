@@ -1,0 +1,11 @@
+Tradeoff:
+  Skills:
+  - command{c="mythiclib tempstat add <caster.name> ATTACK_DAMAGE 20% 100"}
+  - command{c="mythiclib tempstat add <caster.name> ATTACK_SPEED 20% 100"}
+  - command{c="mythiclib tempstat add <caster.name> CRITICAL_STRIKE_CHANCE 20% 100"}
+  - command{c="mythiclib tempstat add <caster.name> CRITICAL_STRIKE_POWER 20% 100"}
+  - command{c="mythiclib tempstat add <caster.name> SKILL_DAMAGE 20% 100"}
+  - command{c="mythiclib tempstat add <caster.name> PROJECTILE_DAMAGE 20% 100"}
+  - command{c="mythiclib tempstat add <caster.name> DEFENSE -10% 100"}
+  - command{c="mythiclib tempstat add <caster.name> TENACITY -10% 100"}
+  - command{c="mythiclib tempstat add <caster.name> DAMAGE_REDUCTION -10% 100"}

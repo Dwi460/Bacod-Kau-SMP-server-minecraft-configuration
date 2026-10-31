@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": "Halo!",
+		"description": "",
+		"icon": {
+      "id": "player_head",
+      "components": {
+        "profile": {
+          "name": "Bumiputro"
+        }
+      }
+    },
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "tick"
+		}
+	}
+}

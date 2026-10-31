@@ -1,0 +1,27 @@
+Type: break_block
+Name: Deepslate Ores
+Description:
+- <gray>Mine deepslate ores to get reward!</gray>
+Icon:
+  Material: minecraft:deepslate_gold_ore
+  Lore: []
+Objectives:
+  Amount:
+    Min: 1
+    Max: 3
+  List:
+    minecraft:deepslate_coal_ore: 15;30 30.0 5.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:deepslate_iron_ore: 12;24 15.0 5.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:deepslate_copper_ore: 12;24 15.0 5.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:deepslate_gold_ore: 10;20 10.0 6.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:deepslate_redstone_ore: 12;24 10.0 5.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:deepslate_lapis_ore: 12;24 10.0 5.5 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:deepslate_diamond_ore: 7;14 5.0 10.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+    minecraft:deepslate_emerald_ore: 3;9 5.0 15.0 # [MIN];[MAX] [WEIGHT] [UNIT WORTH]
+Rewards:
+  BattlePassXP:
+    Base: 5.0
+    UnitBonus: 1.0
+  Custom:
+  - quest_cash_low
+CompletionTime: 21600

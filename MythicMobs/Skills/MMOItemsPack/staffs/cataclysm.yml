@@ -1,0 +1,27 @@
+Doomsday:
+  Skills:
+  - command{c="mythiclib statmod <caster.name> MOVEMENT_SPEED -100% 50"}
+  - sound{s=block.enchantment_table.use} @targetlocation
+  - delay 10
+  - effect:particlesphere{particle=redstone;color=#D1C2D4;amount=500;radius=3.5} @self
+  - sound{s=block.note_block.bell;p=3} @self
+  - delay 5
+  - effect:particlesphere{particle=redstone;color=#94709C;amount=400;radius=3} @self
+  - sound{s=block.note_block.bell;p=2} @self
+  - delay 5
+  - effect:particlesphere{particle=redstone;color=#6B4274;amount=300;radius=2.5} @self
+  - sound{s=block.note_block.bell;p=1} @self
+  - delay 5
+  - effect:particlesphere{particle=redstone;color=#47234F;amount=200;radius=2} @self
+  - sound{s=block.note_block.bell;p=0} @self
+  - delay 10
+  - effect:particlering{particle=redstone;color=#47234F;radius=1;points=32;amount=1;y=0.5} @self
+  - sound{s=entity.blaze.shoot;p=0} @self
+  - mmodamage{amount="650 + <caster.mhp>*0.1";types=SKILL,MAGIC} @EntitiesNearOrigin{r=5;ignore=players}
+  - delay 2
+  - effect:particlering{particle=redstone;color=#6B4274;radius=2;points=32;amount=1;y=0.5} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#94709C;radius=3;points=32;amount=1;y=0.5} @self
+  - delay 2
+  - effect:particlering{particle=redstone;color=#D1C2D4;radius=4;points=32;amount=1;y=0.5} @self
+  - delay 2

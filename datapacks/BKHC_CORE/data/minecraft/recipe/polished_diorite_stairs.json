@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "polished_diorite"
+  },
+  "result": {
+    "id": "polished_diorite_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,14 @@
+Doomslayer:
+  Skills:
+  - totem{i=4;md=40;onTick=Doomslayer-Tick;onEnd=Doomslayer-Explode;yo=1.5} @target
+Doomslayer-Tick:
+  Skills:
+  - effect:particle{particle=spell_mob;color=#9370DB;amount=1;hS=0;y=0.25} @origin
+  - effect:particle{particle=redstone;color=#9370DB;amount=5;hS=0} @origin
+Doomslayer-Explode:
+  Skills:
+  - effect:particle{particle=reddust;color=#9370DB;amount=200;hS=1;vS=1} @origin
+  - effect:particle{particle=smoke_normal;amount=200;hS=1;vS=1} @origin{yOffset=-0.2}
+  - mmodamage{amount=50;types=SKILL} @EntitiesNearOrigin{r=3;ignore=players}
+  - sound{s=entity.evoker.cast_spell} @origin
+  - potion{type=SLOW;duration=60;level=0} @EntitiesNearOrigin{r=3;ignore=players}

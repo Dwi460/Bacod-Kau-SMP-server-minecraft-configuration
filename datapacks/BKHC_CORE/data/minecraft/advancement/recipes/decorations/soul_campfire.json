@@ -1,0 +1,33 @@
+{
+  "parent": "recipes/root",
+  "criteria": {
+    "has_soul_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#soul_fire_base_blocks"
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "soul_campfire"
+      },
+      "trigger": "recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soul_sand"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "soul_campfire",
+	  "recipe_tweaks:soul_campfire"
+    ]
+  }
+}

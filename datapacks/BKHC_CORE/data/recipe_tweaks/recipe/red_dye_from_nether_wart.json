@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "group": "red_dye",
+  "ingredients": [
+    "nether_wart"
+  ],
+  "result": {
+    "id": "red_dye"
+  }
+}

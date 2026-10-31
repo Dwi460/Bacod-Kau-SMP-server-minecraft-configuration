@@ -1,0 +1,3 @@
+Simultaneous:
+  Skills:
+  - multiplydamage{amount="1 + (<stat.DEFENSE> * 0.1)"}

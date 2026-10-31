@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "R": "redstone",
+    "#": "#recipe_tweaks:detector_rail_pressure_plates",
+    "X": "iron_ingot"
+  },
+  "result": {
+    "id": "detector_rail",
+    "count": 6
+  }
+}

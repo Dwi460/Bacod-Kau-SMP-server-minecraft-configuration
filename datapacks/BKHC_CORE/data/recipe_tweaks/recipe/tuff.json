@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "smooth_basalt",
+	"deepslate"
+  ],
+  "result": {
+    "id": "tuff",
+    "count": 2
+  }
+}

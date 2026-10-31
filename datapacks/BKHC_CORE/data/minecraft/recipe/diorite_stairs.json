@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": "diorite"
+  },
+  "result": {
+    "id": "diorite_stairs",
+    "count": 4
+  }
+}

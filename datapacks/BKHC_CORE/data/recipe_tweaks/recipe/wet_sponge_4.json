@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "wet_sponge",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "W": "water_bucket",
+    "#": "sponge"
+  },
+  "result": {
+    "id": "wet_sponge",
+	"count": 4
+  }
+}

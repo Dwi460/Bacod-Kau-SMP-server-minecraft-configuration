@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "PTP",
+    "PPP"
+  ],
+  "key": {
+    "#": "prismarine_crystals",
+    "P": "prismarine_shard",
+    "T": "trident"
+  },
+  "result": {
+    "id": "trident",
+    "count": 1
+  }
+}

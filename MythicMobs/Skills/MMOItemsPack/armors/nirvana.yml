@@ -1,0 +1,11 @@
+Banish:
+  Skills:
+  - velocity{m=set;x=-2;y=0;z=-2} @EntitiesInRadius{r=2;ignore=players,animals}
+  - sound{s=enchant.thorns.hit} @self
+
+Banish_U:
+  Skills:
+  - potion{type=SLOW;duration=60;level=2} @EntitiesInRadius{r=2;ignore=players,animals}
+  - velocity{m=set;x=-2;y=0;z=-2} @EntitiesInRadius{r=2;ignore=players,animals}
+  - command{c="mythiclib tempstat add <caster.name> MOVEMENT_SPEED 0.1 100"} @self
+  - sound{s=enchant.thorns.hit} @self
